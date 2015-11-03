@@ -1,0 +1,58 @@
+#work {
+	padding: 60px 0;
+	background-color: #333;
+	color: #fff;
+	a {
+		&:link, &:visited {color: @link-hover;}
+		&:active {color: #3a7391;}
+		&:hover {
+			color: #3a7391;
+			text-decoration: none;
+		}
+	}
+	.closeicon {
+		position: relative;
+		top: -40px;
+		margin: -5px 15px -35px 0;
+		cursor: pointer;
+		float: right;
+	}
+	.work-title {
+		font-weight: 400;
+	}
+	.work-description {
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+	.image-controls {
+		display: none;
+		position: relative;
+		bottom: 52px;
+		left: 4px;
+		img {
+			opacity: 0.6;
+			cursor: pointer;
+			&:hover {
+				opacity: 0.75;
+			}
+		}
+	}
+}
+
+.project-img-container {
+	.project-tile {
+		background: #000;
+		position: relative;
+	}
+	a {
+		z-index: 7;
+	}
+	img {
+		margin: 15px auto;
+		cursor: pointer;
+		z-index: 5;
+		@media (max-width: 767px) {
+			margin: 0 auto;
+		}
+	}
+}

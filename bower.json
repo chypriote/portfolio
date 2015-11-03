@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "description": "Portfolio for Nicolas",
+  "main": "index.js",
+  "authors": [
+    "Nicolas"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chypriote/portfolio",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

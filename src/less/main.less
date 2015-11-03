@@ -1,0 +1,56 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import 'normalize.less';
+@import 'bootstrap.less';
+@import 'font-awesome.less';
+
+@import 'variables.less';
+
+@import 'navbar.less';
+@import 'header.less';
+@import 'skills.less';
+@import 'work.less';
+
+@import 'effect.less';
+
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+	&:link, &:visited, &:active {
+		color: @link-color;
+	}
+	&:hover {
+		color: @link-hover;
+		text-decoration: none;
+	}
+}
+
+#content {
+  top: 500px;
+  position: relative;
+}
+
+section {
+	background: @section-bg1;
+  padding: 20px 0;
+  .container {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #52a1cb;}
+  h1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  &:nth-of-type(2n){background: @section-bg2;}
+
+}
+
+.active {
+	color: @link-hover;
+}
+
+.valign {
+	display: table-cell;
+	vertical-align: middle;
+}
