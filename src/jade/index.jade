@@ -1,0 +1,28 @@
+extends layout
+
+block header
+	.valign
+		.container
+			h1 Texte
+			span.small Petit texte
+			ul.social
+				li
+					a.github(href="https://github.com/chypriote")
+						span.valign
+							i.fa.fa-github
+				li
+					a.linkedin(href="https://linkedin.com/chypriote")
+						span.valign
+							i.fa.fa-linkedin
+				li
+					a.email(href="https://github.com/chypriote")
+						span.valign
+							i.fa.fa-envelope
+
+block content
+	section#skills
+		include ./sections/skills.jade
+	section#work
+		include ./sections/work.jade
+	section#projects
+		include ./sections/projects.jade

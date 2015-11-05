@@ -10,6 +10,7 @@ var	plumber = require('gulp-plumber'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache'),
+    jade = require('gulp-jade'),
     runSequence  = require('run-sequence'),
 		browserSync = require('browser-sync');
 
@@ -24,6 +25,13 @@ gulp.task('browser-sync', function() {
 gulp.task('bs-reload', function () {
   brows
   erSync.reload();
+});
+
+gulp.task('jade', function(){
+  gulp.src(['src/jade/index.jade'])
+    .pipe(jade())
+    .pipe(gulp.dest('dist/'))
+    .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('styles', function(){
@@ -69,16 +77,16 @@ gulp.task('html', function(){
 });
 
 gulp.task('build', function(cb) {
-  runSequence(['styles', 'scripts', 'images', 'html']);
+  runSequence(['styles', 'scripts', 'images', 'jade']);
 });
 
 gulp.task('watch', function(){
   gulp.watch("src/less/**/*.less", ['styles']);
   gulp.watch("src/scripts/**/*.js", ['scripts']);
   gulp.watch("src/images/**/*", ['images']);
-  gulp.watch("**/*.html", ['html']);
+  gulp.watch("src/jade/**/*.jade", ['jade']);
 });
 
-gulp.task('default', ['build', 'browser-sync', 'watch'], function(){
+gulp.task('default', ['build', 'watch', 'browser-sync'], function(){
 
 });
