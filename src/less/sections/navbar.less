@@ -1,0 +1,71 @@
+
+.navigation {
+	z-index: 1000;
+	top: 0;
+	background-color: @nav-background;
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0;
+	opacity: 0.95;
+	position: fixed;
+	width: 100%;
+	transition: padding 0.4s linear;
+
+	@media (max-width: 767px) {
+		padding: 5px 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.name {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+		color: #fff;
+	}
+	.surname {
+		font-weight: 100;
+		color: #aaa;
+	}
+	.open-menu {
+		margin-top: 6px;
+		cursor: pointer;
+		font-weight: bold;
+		color: @link-color;
+		font-size: 20px;
+		i {
+			margin-left: 10px;
+		}
+	}
+	ul {
+		list-style-type: none;
+		margin: 10px 0 10px 0;
+		li {
+			display: inline;
+			margin-left: 40px;
+			text-transform: uppercase;
+			@media (min-width: 768px) and (max-width: 992px) {margin-left:30px;}
+		}
+		a {
+			transition: all 0.2s ease;
+		}
+	}
+}
+
+.navigation-slim {
+	padding: 0;
+}
+
+.mobile-menu {
+	z-index: 999;
+	margin: 40px 0 0;
+	ul {
+		margin: 0;
+		display: none;
+		padding: 10px 0 0;
+		li {
+			margin: 0;
+			display: block;
+			padding: 10px;
+			border-top: 1px solid #ddd;
+		}
+	}
+}

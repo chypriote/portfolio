@@ -1,42 +1,30 @@
+- var projects = [[{"name":"Boutique de la Comédie Française","img":"comedie-francaise.jpg","link":"http://www.boutique-comedie-francaise.fr","subtitle":"Maintenance et évolution","description":"Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.","git":"","skills":["html5","css3","jquery","php","mysql","bootstrap"]},{"name":"Observatoire des Territoires","img":"datar.jpg","subtitle":"Maintenance et évolution","description":"Dans le cadre de mon stage à Minit-L, évolution majeure: passage de l'intégralité du site en responsive. Modifications en back office ainsi qu'en front.","link":"http://www.datar.gouv.fr/observatoire-des-territoires","git":"","skills":["html5","css3","jquery","php","mysql","drupal"]}],[{"name":"Les Talens Lyriques","img":"ltl.jpg","subtitle":"Nouvelle version du site","description":"Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.","link":"http://www.lestalenslyriques.com","git":"","skills":["html5","css3","jquery","php","drupal","mysql","foundation"]},{"name":"Hugues Laurent","img":"hugues.jpg","subtitle":"Maintenance et évolution","link":"http://www.hugueslaurent.fr","description":"Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.","git":"","skills":["html5","css3","jquery","php","wordpress","bootstrap"]}],[{"name":"Challenge Wars","img":"challengewars.jpg","subtitle":"Réalisation du site","description":"Dans le cadre du PFA à Epitech, création from-scratch d'un site déstiné aux joueurs de League of Legends. Design, création de l'API, front-end et back-end du site. Le site consomme l'API Riot (League of Legends) pour afficher des données mises à jour automatiquement.","link":"http://challengewars.byethost12.com/","git":"https://github.com/chypriote/ChallengeWars","skills":["html5","css3","jquery","php","mysql","bootstrap"]},{"name":"PonyShop","img":"ponyshop.jpg","subtitle":"Réalisation du site","description":"Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.","link":"","git":"https://github.com/chypriote/PonyShop","skills":["html5","css3","jquery","java","mysql","bootstrap"]}],[{"name":"42sh - Minishell","img":"mysh.jpg","subtitle":"Codage d'un shell","description":"Projet de fin de 1ere année Epitech en C. Création d'un Shell UNIX complet, gestion de l'environnement, historique, auto-complétion, pipes...","link":"","git":"","skills":["c","linux"]},{"name":"Bomberman","img":"bomberman.jpg","subtitle":"Recréation du jeu","description":"Projet de fin de 2e année Epitech en C++. Recréation du jeu BomberMan en groupe. Gestion de la logique de jeu et de l'IA.","link":"","git":"","skills":["cplusplus","linux"]}],[{"name":"Promenade à Versailles","img":"hermes.jpg","subtitle":"Réalisation du site","description":"Dans le cadre de mon stage à Minit-L, création de site vitrine Hermes & Chateau de Versailles pour une opération commerciale de mai à décembre 2015.","link":"http://www.promenadeaversailles.chateauversailles.fr","git":"","skills":["html5","css3","javascript","php","bootstrap"]},{"name":"EpiAndroid","img":"epiandroid.jpg","subtitle":"Application android","description":"Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.","link":"","git":"https://github.com/chypriote/EpiAndroid","skills":["java","android"]}],[{"name":"Easy Elo Boost v2","img":"easyboost.jpg","subtitle":"Réalisation du site","link":"http://www.chypriote.net/projects/EasyElov3","description":"Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.","git":"","skills":["html5","css3","php","bootstrap","jquery","mysql"]},{"name":"Easy Elo Boost","img":"easyelo.jpg","subtitle":"Réalisation du site","link":"http://www.chypriote.net/projects/EasyElov1","description":"Première version du site proposant des services aux joueurs sur League of Legends. Créé from scratch, site statique, calcul des prix.","git":"","skills":["html5","css3","php"]}],[{"name":"MyElo","img":"myelo.jpg","subtitle":"Réalisation du site","description":"Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.","link":"http://www.chypriote.net/projects/myelo","git":"https://github.com/chypriote/myelo","skills":["html5","css3","jquery","bootsrap","php","mysql","bootstrap"]},{"name":"Team Seriouslee","img":"seriouslee.jpg","subtitle":"Réalisation du site","description":"Site vitrine pour l'équipe sur League of Legends 'Team SeriousLee'. Stockage des résultats et vidéos en base de données MySQL, mise à jour manuelle.","link":"http://www.chypriote.net/projects/seriouslee","git":"https://github.com/chypriote/Team-Seriouslee","skills":["html5","css3","php","mysql"]}]];
+
 .container
 	.row
-		h1.text-center Projects
-		.col-sm-6.col-md-4.project-img-container
-			.ih-item
-				a(href="#")
-					.img
-						img.img-responsive(src="assets/images/projects/hermes.jpg")
-					.info
-						h3 Hermes
-						p Réalisation du site
-		.col-sm-6.col-md-4.project-img-container
-			.ih-item
-				a(href="#")
-					.img
-						img.img-responsive(src="assets/images/projects/bomberman.jpg")
-					.info
-						h3 Bomberman
-						p Réalisation du site
-		.col-sm-6.col-md-4.project-img-container
-			.ih-item
-				a(href="#")
-					.img
-						img.img-responsive(src="assets/images/projects/easyelo.jpg")
-					.info
-						h3 Easy Elo
-						p Réalisation du site
-		.col-sm-6.col-md-4.project-img-container
-			.ih-item
-				a(href="#")
-					.img
-						img.img-responsive(src="assets/images/projects/hugues.jpg")
-					.info
-						h3 Hugues Laurent
-						p Réalisation du site
-		.col-sm-6.col-md-4.project-img-container
-			.ih-item
-				a(href="#")
-					.img
-						img.img-responsive(src="assets/images/projects/challengewars.jpg")
-					.info
-						h3 Challenge Wars
+		h1.text-center Projets
+		.project-slider
+			each row in projects
+				.slide
+					each project in row
+						.col-xs-12.project-img-container
+							.ih-item(
+										data-title="#{project.name}",
+										data-img="assets/images/projects/" + project.img,
+										data-subtitle="#{project.subtitle}",
+										data-description="#{project.description}",
+										data-link="#{project.link}",
+										data-git="#{project.git}"
+							)
+								a(href="#work")
+									.img
+										img.img-responsive(src="assets/images/projects/" + project.img)
+									.info
+										.title #{project.name}
+										p #{project.subtitle}
+										.hidden.project-skills
+											each skill in project.skills
+												if skill != "less"
+													i(class= 'devicon-' + skill + '-plain' title=skill)
+												else
+													i(class= 'devicon-' + skill + '-plain-wordmark' title=skill)

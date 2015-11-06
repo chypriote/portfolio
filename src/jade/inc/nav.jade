@@ -1,15 +1,16 @@
-- var nav = [{title:'Accueil', url:'#home'}, {title:'Compétences', url:'#skills'},{title:'Projets', url:'#portfolio'}];
+- var nav = [{title:'Accueil',url:'#home'},{title:'Formation',url:'#education'},{title:'Compétences',url:'#skills'},{title:'Projets',url:'#projects'}];
 
 nav.navigation
 	.container
 		.row
 			.col-xs-12
 				.pull-left
-					a(href="#header")
-						span.name Text
-							span.surname te
+					a(href="#home")
+						span.name nicolas
+							span.surname temenides
 				.pull-right
-					img.visible-xs.open-menu(src="assets/images/open-menu.png" alt="Open menu")
+					.visible-xs.open-menu MENU
+						i.fa.fa-bars
 				.pull-right
 					ul.hidden-xs
 						each link in nav
@@ -18,4 +19,3 @@ nav.navigation
 					ul
 						each link in nav
 							li: a(href="#{link.url}") #{link.title}
-						

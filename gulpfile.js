@@ -11,6 +11,7 @@ var	plumber = require('gulp-plumber'),
     imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache'),
     jade = require('gulp-jade'),
+    data = require('gulp-data'),
     runSequence  = require('run-sequence'),
 		browserSync = require('browser-sync');
 
@@ -23,13 +24,12 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('bs-reload', function () {
-  brows
-  erSync.reload();
+  browserSync.reload();
 });
 
 gulp.task('jade', function(){
   gulp.src(['src/jade/index.jade'])
-    .pipe(jade())
+    .pipe(jade({pretty:true}))
     .pipe(gulp.dest('dist/'))
     .pipe(browserSync.reload({stream:true}))
 });
@@ -61,6 +61,10 @@ gulp.task('scripts', function(){
     .pipe(uglify())
     .pipe(gulp.dest('dist/assets/js/'))
     .pipe(browserSync.reload({stream:true}))
+});
+
+gulp.task('clear-cache', function (done) {
+  return cache.clearAll(done);
 });
 
 gulp.task('images', function(){

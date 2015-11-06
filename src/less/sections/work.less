@@ -1,0 +1,87 @@
+#work {
+	padding: 60px 0;
+	background-color: #333;
+	color: #fff;
+	display: none;
+	a {
+		&:link, &:visited {color: @link-hover;}
+		&:active {color: #3a7391;}
+		&:hover {
+			color: #3a7391;
+			text-decoration: none;
+		}
+	}
+	.closeicon {
+		position: relative;
+		top: -5px;
+		margin: -5px 15px -35px 0;
+		cursor: pointer;
+		float: right;
+		z-index: 50;
+	}
+	.work-title {
+		font-weight: 900;
+		margin: 20px 0 10px;
+		font-size: 1.7em;
+	}
+	.work-description {
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+	.work-skills {
+		font-size: 2.7em;
+		i {margin-right: 8px;}
+	}
+	.work-links {
+		a {
+			border: 1px solid #D5D5D5;
+			color: @link-color;
+			display: inline-block;
+			margin: 0.3em;
+			padding: 1em 0px;
+			width: 45%;
+			text-decoration: none;
+			text-align: center;
+			font-size: 0.9em;
+			&:hover {
+				background: #FFF none repeat scroll 0% 0%;
+				border-color: #CCC;
+				color: @link-hover;
+			}
+			i {
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+.project-img-container {
+	.project-tile {
+		background: #000;
+		position: relative;
+	}
+	a {
+		z-index: 7;
+	}
+	img {
+		margin: 15px auto;
+		cursor: pointer;
+		z-index: 5;
+		@media (max-width: 767px) {
+			margin: 0 auto;
+		}
+	}
+}
+
+.project-slider {
+	margin-top: 40px;
+}
+.project-next {
+	margin-top: 15px;
+	font-size: 1.4em;
+	text-align: right;
+	position: absolute;
+	top: -45px;
+	right: 20px; 
+	cursor: pointer;
+}

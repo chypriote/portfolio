@@ -3,8 +3,8 @@ extends layout
 block header
 	.valign
 		.container
-			h1 Texte
-			span.small Petit texte
+			h1 Nicolas Temenides
+			span.small Développeur Web & Software
 			ul.social
 				li
 					a.github(href="https://github.com/chypriote")
@@ -20,6 +20,8 @@ block header
 							i.fa.fa-envelope
 
 block content
+	section#education
+		include ./sections/education.jade
 	section#skills
 		include ./sections/skills.jade
 	section#work
