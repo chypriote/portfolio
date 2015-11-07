@@ -22,6 +22,7 @@
 			font-size: 1.4em;
 			font-weight: 700;
 			display: inline-block;
+	    	@media (max-width: 767px) {font-size: 1.2em;}
 		}
 		.study-text {
 	    width: 80%;
@@ -34,6 +35,10 @@
 				margin: 0 0 5px 0;
 				padding: 3px 0 0;
 				font-weight: 700;
+				@media (max-width: 767px) {padding: 0;font-size: 1.2em;margin:0;}
+	    }
+	    .study-desc {
+	    	@media (max-width: 767px) {font-size: 0.9em;}
 	    }
 		}
 		&::before {
@@ -59,16 +64,24 @@
 	.job-title {
 		font-size: 1.5em;
 		font-weight: 700;
+		@media (max-width: 767px) {font-size: 1.3em;}
 	}
 	.job-subtitle {
 		font-size: 0.9em;
 		color: #aaa;
 		margin: -5px 0 5px;
+		@media (max-width: 767px) {font-size: 0.8em;}
+	}
+	.job-desc {
+		@media (max-width: 767px) {font-size: 0.9em;}
 	}
 	.job-logo {
 		position: absolute;
 		top: 5px;
 		right: 5px;
-		img {max-height: 40px;}
+		img {
+			max-height: 40px;
+			@media (max-width: 767px) {max-width: 70px;}
+		}
 	}
 }

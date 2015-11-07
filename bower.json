@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "devicon": "*"
+    "devicon": "*",
+    "slick-carousel": "~1.5.8"
   }
 }
