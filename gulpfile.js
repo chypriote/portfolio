@@ -15,7 +15,7 @@ var	plumber = require('gulp-plumber'),
     runSequence  = require('run-sequence'),
 		browserSync = require('browser-sync');
 
-gulp.task('browser-sync', function() {
+gulp.task('serve', function() {
   browserSync({
     server: {
        baseDir: "./dist"
@@ -23,7 +23,7 @@ gulp.task('browser-sync', function() {
   });
 });
 
-gulp.task('bs-reload', function () {
+gulp.task('reload', function () {
   browserSync.reload();
 });
 
@@ -56,7 +56,6 @@ gulp.task('scripts', function(){
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(concat('main.js'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
     .pipe(gulp.dest('dist/assets/js/'))
@@ -80,14 +79,8 @@ gulp.task('fonts', function(){
     .pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('html', function(){
-  gulp.src('src/**/*.html')
-    .pipe(gulp.dest('dist/'))
-    .pipe(browserSync.reload({stream:true}));
-});
-
 gulp.task('build', function(cb) {
-  runSequence(['styles', 'scripts', 'fonts', 'images', 'jade']);
+  runSequence(['clear-cache', 'styles', 'scripts', 'fonts', 'images', 'jade']);
 });
 
 gulp.task('watch', function(){
@@ -97,6 +90,6 @@ gulp.task('watch', function(){
   gulp.watch("src/jade/**/*.jade", ['jade']);
 });
 
-gulp.task('default', ['build', 'watch', 'browser-sync'], function(){
+gulp.task('default', ['build', 'watch', 'serve'], function(){
 
 });
