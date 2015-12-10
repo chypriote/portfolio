@@ -1,4 +1,4 @@
-//TODO ajouter SemanticUI, browserify, jekyll, mongodb, travis, karma, heroku, firebase, ruby, python
+//TODO ajouter jekyll, heroku, firebase, ruby, python
 [
 	{
 		"name": "Langages de programation",
@@ -72,6 +72,13 @@
 				"shortlink": "foundation.zurb.com",
 				"level": 4
 			},
+			{ "name": "Semantic UI",
+				"image": "semanticui.png",
+				"description": "Framework front-end responsive et sémantique",
+				"link": "http://semantic-ui.com/",
+				"shortlink": "semantic-ui.com",
+				"level": 3
+			},
 			{ "name": "Smarty",
 				"image": "smarty.png",
 				"description": "Moteur de template PHP",
@@ -103,19 +110,26 @@
 				"shortlink": "mysql.com",
 				"level": 3
 			},
-			{ "name": "nodeJS",
-				"image": "nodejs.png",
-				"description": "Environnement JS back-end",
-				"link": "https://nodejs.org/",
-				"shortlink": "nodejs.org",
-				"level": 1
-			},
 			{ "name": "ExpressJS",
 				"image": "express.png",
 				"description": "Framework pour applications web",
 				"link": "http://expressjs.com/",
 				"shortlink": "expressjs.com",
 				"level": 2
+			},
+			{ "name": "MongoDB",
+				"image": "mongodb.png",
+				"description": "Base de données NoSQL",
+				"link": "https://www.mongodb.org/",
+				"shortlink": "mongodb.org",
+				"level": 2
+			},
+			{ "name": "nodeJS",
+				"image": "nodejs.png",
+				"description": "Environnement JS back-end",
+				"link": "https://nodejs.org/",
+				"shortlink": "nodejs.org",
+				"level": 1
 			},
 			{ "name": "Symfony",
 				"image": "symfony.png",
@@ -202,6 +216,27 @@
 				"link": "http://yeoman.io/",
 				"shortlink": "yeoman.io",
 				"level": 3
+			},
+			{ "name": "Travis-CI",
+				"image": "travis.jpg",
+				"description": "Intégration continue et tests de régression",
+				"link": "https://travis-ci.org/",
+				"shortlink": "travis-ci.org",
+				"level": 3
+			},
+			{ "name": "Browserify",
+				"image": "browserify.png",
+				"description": "Module and dependencies bundler",
+				"link": "http://browserify.org/",
+				"shortlink": "browserify.org",
+				"level": 1
+			},
+			{ "name": "KarmaJS",
+				"image": "karma.png",
+				"description": "Framework d'automatisation de tests JavaScript",
+				"link": "http://karma-runner.github.io/",
+				"shortlink": "karma-runner.github.io",
+				"level": 2
 			}
 		]
 	}
