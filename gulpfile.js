@@ -19,7 +19,8 @@ gulp.task('serve', function() {
   browserSync({
     server: {
        baseDir: "./dist"
-    }
+    },
+    online: false
   });
 });
 
