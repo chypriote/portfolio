@@ -56,7 +56,7 @@
 				"description": "Applications web dynamiques",
 				"link": "https://angularjs.org/",
 				"shortlink": "angularjs.org",
-				"level": 3
+				"level": 4
 			},
 			{ "name": "Bootstrap",
 				"image": "bootstrap.png",
@@ -115,7 +115,13 @@
 				"description": "Framework pour applications web",
 				"link": "http://expressjs.com/",
 				"shortlink": "expressjs.com",
-				"level": 2
+				"level": 3
+			},
+			{ "name": "PostgreSQL",
+				"image": "postgresql.svg",
+				"link": "http://www.postgresql.org/",
+				"shortlink": "postgresql.org",
+				"level": 3
 			},
 			{ "name": "MongoDB",
 				"image": "mongodb.png",

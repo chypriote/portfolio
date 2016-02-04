@@ -1,6 +1,6 @@
 {
 	"nav" : [
-		{"title":"Accueil", "url":"#home"}, 
+		{"title":"Accueil", "url":"#home"},
 		{"title":"Formation", "url":"#education"},
 		{"title":"Experiences", "url":"#experience"},
 		{"title":"Compétences", "url":"#skills"},

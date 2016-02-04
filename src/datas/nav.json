@@ -1,8 +1,8 @@
 [
-	{title:'Accueil', url:'#home'}, 
-	{title:'Formation', url:'#education'},
-	{title:'Experiences', url:'#experience'},
-	{title:'Compétences', url:'#skills'},
-	{title:'Projets', url:'#portfolio'},
-	{title:'Contact', url:'#contact'}
+	{"title":"Accueil", "url":"#home"},
+	{"title":"Formation", "url":"#education"},
+	{"title":"Experiences", "url":"#experience"},
+	{"title":"Compétences", "url":"#skills"},
+	{"title":"Projets", "url":"#portfolio"},
+	{"title":"Contact", "url":"#contact"}
 ]
