@@ -123,6 +123,13 @@
 				"shortlink": "postgresql.org",
 				"level": 3
 			},
+			{ "name": "Slim",
+				"image": "slimphp.png",
+				"description": "Micro framework PHP",
+				"link": "http://www.slimframework.com/",
+				"shortlink": "slimframework.com",
+				"level": 3
+			},
 			{ "name": "MongoDB",
 				"image": "mongodb.png",
 				"description": "Base de données NoSQL",

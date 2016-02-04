@@ -128,5 +128,14 @@
 		"link": "",
 		"git": "https://github.com/chypriote/Fuzeria",
 		"skills": ["html5", "css3", "javascript", "php", "mysql", "less", "jquery", "bootstrap"]
+	},
+	{
+		"name": "ChypRiotE Videos",
+		"img": "videowp.jpg",
+		"subtitle": "Réalisation du site",
+		"description": "Création d'un site sous Wordpress pour indexer mes vidéos de League of Legends postées sur youtube.",
+		"link": "http://video.chypriote.me",
+		"git": "https://github.com/chypriote/wp-video",
+		"skills": ["html5", "css3", "javascript", "php", "mysql", "wordpress", "jquery", "bootstrap"]
 	}]
 ]
