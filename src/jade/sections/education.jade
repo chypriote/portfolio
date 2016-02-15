@@ -1,14 +1,13 @@
 .container
-	.row
-		h1.text-center Formation
+	h1 Formation
 	.row
 		.col-sm-5.col-md-4.col-lg-3
 			h2 Etudes
-			ul.study.clearfix
+			.studies.clearfix
 				each study in studies
-					li
-						.study-time.pull-left #{study.time}
-						.study-text.pull-right
+					.study
+						.study-time #{study.time}
+						.study-text
 							.study-title #{study.title}
 							.study-desc #{study.text}
 		.col-sm-7.col-md-8

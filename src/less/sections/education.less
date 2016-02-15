@@ -1,39 +1,44 @@
-#education ul {
+#education {
+	h1 {text-align: center;}
+	.row {
+		display: flex;
+		& > div {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}
+.studies {
 	background: #fff;
 	box-shadow: 0 0 3px #ccc;
-	list-style: none;
-	margin: 0;
-}
-.study {
 	padding: 20px 0 10px;
 	position: relative;
-	&:hover {box-shadow: 0 0 10px #acacac;}
-	li {
-		width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	.study {
 		z-index: 2;
-		position: relative;
-		float: left;
+		padding: .5em .2em;
 	}
 	.study-time {
-		width: 20%;
 		color: #000;
 		background: #fff;
-		padding: 5px 10px 0;
-		font-size: 1.4em;
+		padding: 0 10px;
+		font-size: 1.3em;
 		font-weight: 700;
 		display: inline-block;
+		width: 20%;
+		vertical-align: top;
 			@media (max-width: 767px) {font-size: 1.2em;}
 	}
 	.study-text {
-		width: 80%;
-		display: inline-block;
 		margin-bottom: 20px;
 		position: relative;
-		padding: 5px 10px 0 10px;
+		display: inline-block;
+		width: 79%;
+		padding: 0 5px;
 		.study-title {
-			font-size: 1.4em;
-			margin: 0 0 5px 0;
-			padding: 3px 0 0;
+			font-size: 1.3em;
 			font-weight: 700;
 			@media (max-width: 767px) {padding: 0;font-size: 1.2em;margin:0;}
 		}
