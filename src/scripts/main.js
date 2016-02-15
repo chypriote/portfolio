@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	//Empeche le click random dans les skills
 	$('.skills-description a').bind('click', function(e){e.preventDefault();});
-	$('.skills li').click(function(){
+	$('.skill').click(function(){
 		$(this).toggleClass('rectangle');
 		$(this).find('a').unbind('click');
 	});

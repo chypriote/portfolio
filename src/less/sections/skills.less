@@ -1,9 +1,9 @@
 .skills {
 	list-style-type: none;
-	li {
+	display: flex;
+	flex-wrap: wrap;
+	.skill {
 		position: relative;
-    float: left;
-    display: inline-block;
 		width: 120px;
 		height: 120px;
 		margin: 5px;
@@ -18,7 +18,7 @@
   	}
 		> span {
   		display: block;
-  		transition: margin .5s;
+  		transition: all .5s;
   		&.devicon {
 	  		text-align: center;
 	  		font-size: 7em;
@@ -29,7 +29,7 @@
   			-webkit-filter: grayscale(1);
   			img {width: 100%;}
   		}
-		}	
+		}
 		&.rectangle {
   		box-shadow: 0 0 10px #acacac;
   		width: 250px;
@@ -44,17 +44,21 @@
 		}
 	}
 	.skills-description {
+		display: flex;
+		flex-direction: column;
 		opacity: 0;
 		position: absolute;
 		top: 0;
-		left: 0;
+		padding: 15px 15px 5px;
 		width: 100%;
 		height: 100%;
-		padding: 15px;
 		.skills-title {
   		margin: 0;
 			font-size: 1.5em;
 			font-weight: 600;
+		}
+		.skills-footer {
+			display: flex;
 		}
 		.link {
 		 font-size: 0.9em;
@@ -63,13 +67,14 @@
 		}
 		p {
 			font-size: 1em;
-			line-height: 1.1em;
+			line-height: 1.2em;
 			margin: 0;
+			flex-grow: 1;
 		}
 		.skills-level {
-			position: absolute;
-			bottom: 5px;
 			font-size: 0.8em;
+			flex-grow: 1;
+			span {padding-right: .4em;}
 			i {margin-right: 2px;color:#000;}
 		}
 	}

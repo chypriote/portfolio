@@ -322,6 +322,13 @@
 					"link": "http://jade-lang.com/",
 					"shortlink": "jade-lang.com",
 					"level": 4
+				},
+				{ "name": "TypeScript",
+					"image": "typescript.png",
+					"description": "Superset Javascript",
+					"link": "http://www.typescriptlang.org/",
+					"shortlink": "typescriptlang.org",
+					"level": 1
 				}
 			]
 		},
@@ -478,7 +485,7 @@
 					"image": "karma.png",
 					"description": "Framework d'automatisation de tests JavaScript",
 					"link": "http://karma-runner.github.io/",
-					"shortlink": "karma-runner.github.io",
+					"shortlink": "karma-runner.gh.io",
 					"level": 2
 				}
 			]
