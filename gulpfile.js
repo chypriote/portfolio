@@ -1,18 +1,7 @@
 var gulp = require('gulp');
+var g = require('gulp-load-plugins')();
 
-var	plumber = require('gulp-plumber'),
-    rename = require('gulp-rename'),
-    changed = require('gulp-changed');
-		less = require('gulp-less');
-		autoprefixer = require('gulp-autoprefixer');
-		minifycss = require('gulp-cssnano');
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    imagemin = require('gulp-imagemin'),
-    cache = require('gulp-cache'),
-    jade = require('gulp-jade'),
-    data = require('gulp-data'),
-    runSequence  = require('run-sequence'),
+var	runSequence  = require('run-sequence'),
 		browserSync = require('browser-sync');
 
 gulp.task('serve', function() {
@@ -30,46 +19,46 @@ gulp.task('reload', function () {
 
 gulp.task('jade', function(){
   gulp.src(['src/jade/index.jade'])
-    .pipe(jade({pretty:true}))
+    .pipe(g.jade({pretty:true}))
     .pipe(gulp.dest('dist/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('styles', function(){
   gulp.src(['src/less/main.less'])
-    .pipe(plumber({
+    .pipe(g.plumber({
       errorHandler: function (error) {
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(less())
-    .pipe(autoprefixer('last 2 versions'))
-    .pipe(rename({suffix: '.min'}))
-    .pipe(minifycss())
+    .pipe(g.less())
+    .pipe(g.autoprefixer('last 2 versions'))
+    .pipe(g.rename({suffix: '.min'}))
+    .pipe(g.cssnano())
     .pipe(gulp.dest('dist/assets/css/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('scripts', function(){
   return gulp.src('src/scripts/**/*.js')
-    .pipe(plumber({
+    .pipe(g.plumber({
       errorHandler: function (error) {
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(rename({suffix: '.min'}))
-    .pipe(uglify())
+    .pipe(g.rename({suffix: '.min'}))
+    .pipe(g.uglify())
     .pipe(gulp.dest('dist/assets/js/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('clear-cache', function (done) {
-  return cache.clearAll(done);
+  return g.cache.clearAll(done);
 });
 
 gulp.task('images', function(){
   gulp.src('src/images/**/*')
-    .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
+    .pipe(g.cache(g.imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('dist/assets/images/'))
     .pipe(browserSync.reload({stream:true}));
 });
