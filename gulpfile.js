@@ -19,6 +19,9 @@ gulp.task('reload', function () {
 
 gulp.task('jade', function(){
   gulp.src(['src/jade/index.jade'])
+    .pipe(g.data(function(file){
+      return require('./src/jade/datas.json')
+    }))
     .pipe(g.jade({pretty:true}))
     .pipe(gulp.dest('dist/'))
     .pipe(browserSync.reload({stream:true}))

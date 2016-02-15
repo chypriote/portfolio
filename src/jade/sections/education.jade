@@ -1,6 +1,3 @@
-- var studies = [{"title":"Beijing Jiatong University","subtitle":"2015 - 2016","time":"2016","text":"Master Degree: Software Engineering","icon":"fa-plane","color":"danger",},{"title":"EPITECH Paris","subtitle":"2013 - 2015","time":"2015","text":"Quatrième année","icon":"fa-laptop","color":"success",},{"title":"HEI Lille","time":"2012","text":"Deux années de classe préparatoire ingénieure, option Physique-Chimie","icon":"fa-university","color":"warning",},{"title":"Baccalauréat general","time":"2010","text":"Série scientifique, option SVT, spécialité Physique-Chimie, Mention Assez Bien","icon":"fa-graduation-cap","color":"primary",},{"title":"Brevet des collèges","time":"2006","text":"Mention Assez Bien","icon":"fa-graduation-cap","color":"info",},{"title":"Né à Belfort (90)","time":"1992","text":"17 Avril","icon":"fa-graduation-cap",}];
-- var jobs = [{"title":"Minit-L","time":"2015","subtitle":"Avril 2015 - Juillet 2015","text":"Maintenance et développement de sites web","icon":"fa-drupal","logo":"minitl.png",},{"title":"MEGA International","time":"2014","subtitle":"Octobre 2014 - Mars 2015","text":"Détournement de requêtes AJAX vers un traitement local afin de faire fonctionner une page Web dans un navigateur IE intégré à une application Win32.","icon":"fa-cog","logo":"mega.gif",},{"title":"PSA Peugeot Citroën","time":"2014","subtitle":"Novembre - Décembre 2013","text":"Développement d’un site intranet en PHP afin de réaliser des gains sur le délai de traitement des mises à jour applicatives, et de permettre leur historisation.","icon":"fa-keyboard-o","logo":"psa.png",},{"title":"F4","time":"2013","subtitle":"Février 2013","text":"Constitution d’une base de données pour le site web F4-Map.","icon":"fa-database",},{"title":"PSA Peugeot Citroën","time":"2012","subtitle":"Juillet 2012","logo":"psa.png","text":"Production DMCT sur ligne C3/DS3.","icon":"fa-car",},{"title":"SNCF","time":"2011","subtitle":"Juillet 2011","logo":"sncf.png","text":"Diverses opérations de maintenance et de réparation sur les pantographes.","icon":"fa-train",}];
-
 .container
 	.row
 		h1.text-center Formation
@@ -23,7 +20,7 @@
 						.job-subtitle #{job.subtitle}
 						.job-desc #{job.text}
 						.job-logo
-							if job.logo 
+							if job.logo
 								img(src="/assets/images/logo/" + job.logo)
 							else
 								i.fa(class= job.icon)
