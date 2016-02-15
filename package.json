@@ -28,7 +28,7 @@
     "gulp-imagemin": "*",
     "gulp-jade": "^1.1.0",
     "gulp-less": "3.0.5",
-    "gulp-plumber": "1.0.1",
+    "gulp-plumber": "1.1.0",
     "gulp-rename": "1.2.2",
     "gulp-uglify": "*",
     "run-sequence": "*"
