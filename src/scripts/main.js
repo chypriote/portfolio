@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('header').height($(window).height());
-	$('#content').attr('style', 'top:' + $(window).height() + 'px');
+	// $('header').height($(window).height());
+	// $('#content').attr('style', 'top:' + $(window).height() + 'px');
 
 	$('.open-menu').click(function(){
 		$('.mobile-menu ul').slideToggle('slow');

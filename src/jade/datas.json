@@ -3,7 +3,7 @@
 		{"title":"Accueil", "url":"#home"},
 		{"title":"Formation", "url":"#education"},
 		{"title":"Compétences", "url":"#skills"},
-		{"title":"Projets", "url":"#portfolio"}
+		{"title":"Projets", "url":"#projects"}
 	],
 	"studies": [
 		{	"title":"Beijing Jiatong University",
