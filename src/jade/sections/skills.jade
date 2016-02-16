@@ -3,27 +3,56 @@
 		h1.text-center Compétences
 		each category in skills
 			h2.text-left #{category.name}
-			.skills
-				each skill in category.values
-					.skill
-						if skill.icon
-							span.devicon
-								i(class="devicon-" + skill.icon + "-plain" + (skill.nowood ? '' : "-wordmark"))
-						else if skill.image
-							span.image
-								img.img-responsive(src="assets/images/skills/" + skill.image)
-						else
-							span.text #{skill.name}
-						.skills-description
-							.skills-title #{skill.name}
-							p #{skill.description}
-							.skills-footer
-								.skills-level
-									span Niveau:
-									- for (var i = 0; i < skill.level; i++)
-										i.fa.fa-square
-									- for (var i; i < 5; i++)
-										i.fa.fa-square-o
-								if skill.link
-									a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
+			if category.subs
+				.skills
+					each subcat in category.subs
+						.subcategory
+							h3 #{subcat.name}
+							.skills
+								each skill in subcat.values
+									.skill
+										if skill.icon
+											span.devicon
+												i(class="devicon-" + skill.icon + "-plain" + (skill.nowood ? '' : "-wordmark"))
+										else if skill.image
+											span.image
+												img.img-responsive(src="assets/images/skills/" + skill.image)
+										else
+											span.text #{skill.name}
+										.skills-description
+											.skills-title #{skill.name}
+											p #{skill.description}
+											.skills-footer
+												.skills-level
+													span Niveau:
+													- for (var i = 0; i < skill.level; i++)
+														i.fa.fa-square
+													- for (var i; i < 5; i++)
+														i.fa.fa-square-o
+												if skill.link
+													a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
+			else
+				.skills
+					each skill in category.values
+						.skill
+							if skill.icon
+								span.devicon
+									i(class="devicon-" + skill.icon + "-plain" + (skill.nowood ? '' : "-wordmark"))
+							else if skill.image
+								span.image
+									img.img-responsive(src="assets/images/skills/" + skill.image)
+							else
+								span.text #{skill.name}
+							.skills-description
+								.skills-title #{skill.name}
+								p #{skill.description}
+								.skills-footer
+									.skills-level
+										span Niveau:
+										- for (var i = 0; i < skill.level; i++)
+											i.fa.fa-square
+										- for (var i; i < 5; i++)
+											i.fa.fa-square-o
+									if skill.link
+										a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
 			.clearfix

@@ -253,82 +253,114 @@
 		},
 		{
 			"name": "Web - Front-end",
-			"values": [
-				{ "name": "HTML",
-					"image": "html5.jpg",
-					"level": 5
+			"subs": [
+				{
+					"name": "Langages",
+					"values": [
+						{ "name": "HTML",
+							"image": "html5.jpg",
+							"level": 5
+						},
+						{ "name": "CSS",
+							"image": "css3.jpg",
+							"level": 5
+						},
+						{ "name": "JavaScript",
+							"image": "javascript.png",
+							"link": "https://www.javascript.com/",
+							"shortlink": "javascript.com",
+							"level": 5
+						},
+						{ "name": "TypeScript",
+							"image": "typescript.png",
+							"description": "Superset Javascript",
+							"link": "http://www.typescriptlang.org/",
+							"shortlink": "typescriptlang.org",
+							"level": 1
+						}
+					]
 				},
-				{ "name": "CSS",
-					"image": "css3.jpg",
-					"level": 5
+				{
+					"name": "Frameworks CSS",
+					"values": [
+						{ "name": "Bootstrap",
+							"image": "bootstrap.png",
+							"description": "Framework front-end responsive",
+							"link": "http://getbootstrap.com/",
+							"shortlink": "getbootstrap.com",
+							"level": 5
+						},
+						{ "name": "Foundation",
+							"image": "foundation.png",
+							"description": "Framework front-end responsive",
+							"link": "http://foundation.zurb.com/",
+							"shortlink": "foundation.zurb.com",
+							"level": 4
+						},
+						{ "name": "Semantic UI",
+							"image": "semanticui.png",
+							"description": "Framework front-end responsive et sémantique",
+							"link": "http://semantic-ui.com/",
+							"shortlink": "semantic-ui.com",
+							"level": 3
+						}
+					]
 				},
-				{ "name": "JavaScript",
-					"image": "javascript.png",
-					"link": "https://www.javascript.com/",
-					"shortlink": "javascript.com",
-					"level": 5
+				{
+					"name": "Frameworks/Librairies JavaScript",
+					"values": [
+						{ "name": "jQuery",
+							"image": "jquery.jpg",
+							"link": "http://jquery.com/",
+							"shortlink": "jquery.com",
+							"level": 5
+						},
+						{ "name": "AngularJS",
+							"image": "angular.png",
+							"description": "Applications web dynamiques",
+							"link": "https://angularjs.org/",
+							"shortlink": "angularjs.org",
+							"level": 4
+						}
+					]
 				},
-				{ "name": "jQuery",
-					"image": "jquery.jpg",
-					"link": "http://jquery.com/",
-					"shortlink": "jquery.com",
-					"level": 5
+				{
+					"name": "Préprocesseurs CSS",
+					"values": [
+						{ "name": "less",
+							"image": "less.png",
+							"description": "Préprocesseur CSS",
+							"link": "http://lesscss.org/",
+							"shortlink": "lesscss.org",
+							"level": 4
+						},
+						{ "name": "Sass",
+							"image": "sass.png",
+							"description": "Préprocesseur CSS",
+							"link": "http://sass-lang.com/",
+							"shortlink": "sass-lang.com",
+							"level": 4
+						}
+					]
 				},
-				{ "name": "less",
-					"image": "less.png",
-					"description": "Préprocesseur CSS",
-					"link": "http://lesscss.org/",
-					"shortlink": "lesscss.org",
-					"level": 4
-				},
-				{ "name": "AngularJS",
-					"image": "angular.png",
-					"description": "Applications web dynamiques",
-					"link": "https://angularjs.org/",
-					"shortlink": "angularjs.org",
-					"level": 4
-				},
-				{ "name": "Bootstrap",
-					"image": "bootstrap.png",
-					"description": "Framework front-end responsive",
-					"link": "http://getbootstrap.com/",
-					"shortlink": "getbootstrap.com",
-					"level": 5
-				},
-				{ "name": "Foundation",
-					"image": "foundation.png",
-					"description": "Framework front-end responsive",
-					"link": "http://foundation.zurb.com/",
-					"shortlink": "foundation.zurb.com",
-					"level": 4
-				},
-				{ "name": "Semantic UI",
-					"image": "semanticui.png",
-					"description": "Framework front-end responsive et sémantique",
-					"link": "http://semantic-ui.com/",
-					"shortlink": "semantic-ui.com",
-					"level": 3
-				},
-				{ "name": "Smarty",
-					"image": "smarty.png",
-					"description": "Moteur de template PHP",
-					"link": "http://www.smarty.net/",
-					"shortlink": "smarty.net",
-					"level": 3
-				},
-				{ "name": "Jade",
-					"image": "jade.png",
-					"description": "Moteur de template HTML Template",
-					"link": "http://jade-lang.com/",
-					"shortlink": "jade-lang.com",
-					"level": 4
-				},
-				{ "name": "TypeScript",
-					"image": "typescript.png",
-					"description": "Superset Javascript",
-					"link": "http://www.typescriptlang.org/",
-					"shortlink": "typescriptlang.org",
-					"level": 1
+				{
+					"name": "Autres",
+					"values": [
+						{ "name": "Smarty",
+							"image": "smarty.png",
+							"description": "Moteur de template PHP",
+							"link": "http://www.smarty.net/",
+							"shortlink": "smarty.net",
+							"level": 3
+						},
+						{ "name": "Jade",
+							"image": "jade.png",
+							"description": "Moteur de template HTML Template",
+							"link": "http://jade-lang.com/",
+							"shortlink": "jade-lang.com",
+							"level": 4
+						}
+					]
 				}
 			]
 		},
@@ -366,6 +398,13 @@
 					"link": "http://www.slimframework.com/",
 					"shortlink": "slimframework.com",
 					"level": 3
+				},
+				{ "name": "Jekyll",
+					"image": "jekyll.png",
+					"description": "Generateur de sites statiques",
+					"link": "http://jekyllrb.com/",
+					"shortlink": "jekyllrb.com",
+					"level": 4
 				},
 				{ "name": "MongoDB",
 					"image": "mongodb.png",

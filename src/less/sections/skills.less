@@ -2,6 +2,9 @@
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
+	&.has-subs {
+		flex-direction: column;
+	}
 	.skill {
 		position: relative;
 		width: 120px;
@@ -76,6 +79,28 @@
 			flex-grow: 1;
 			span {padding-right: .4em;}
 			i {margin-right: 2px;color:#000;}
+		}
+	}
+	.subcategory {
+		display: flex;
+		flex-direction: column;
+		width: 48%;
+		padding: 0 15px;
+		h3 {
+			font-size: 16px;
+			margin: 5px 0;
+			color: #aaa;
+		}
+		.skill {
+			font-size: 12px;
+			width: 90px;
+			height: 90px;
+			.skills-description {
+				padding: 10px 10px 3px;
+			}
+			&.rectangle {
+				width: 200px;
+			}
 		}
 	}
 }
