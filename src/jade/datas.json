@@ -271,6 +271,12 @@
 							"shortlink": "javascript.com",
 							"level": 5
 						},
+						{ "name": "CoffeeScript",
+							"image": "coffeescript.png",
+							"link": "http://coffeescript.org/",
+							"shortlink": "coffeescript.org",
+							"level": 2
+						},
 						{ "name": "TypeScript",
 							"image": "typescript.png",
 							"description": "Superset Javascript",
@@ -303,11 +309,32 @@
 							"link": "http://semantic-ui.com/",
 							"shortlink": "semantic-ui.com",
 							"level": 3
+						},
+						{ "name": "Bulma",
+							"image": "bulma.png",
+							"description": "Framework basé sur Flexbox",
+							"link": "http://bulma.io/",
+							"shortlink": "bulma.io",
+							"level": 3
+						},
+						{ "name": "Blaze",
+							"image": "blazecss.png",
+							"description": "Framework CSS modulaire",
+							"link": "http://blazecss.com/",
+							"shortlink": "blazecss.com",
+							"level": 2
+						},
+						{ "name": "Milligram",
+							"image": "milligram.png",
+							"description": "Framework CSS minimaliste",
+							"link": "http://milligram.github.io/",
+							"shortlink": "milligram.gh.io",
+							"level": 2
 						}
 					]
 				},
 				{
-					"name": "Frameworks/Librairies JavaScript",
+					"name": "Frameworks/Librairies",
 					"values": [
 						{ "name": "jQuery",
 							"image": "jquery.jpg",
@@ -321,6 +348,13 @@
 							"link": "https://angularjs.org/",
 							"shortlink": "angularjs.org",
 							"level": 4
+						},
+						{ "name": "Vue.js",
+							"image": "vue.png",
+							"description": "Composants réactifs pour interfaces Web",
+							"link": "http://vuejs.org/",
+							"shortlink": "vuejs.org",
+							"level": 1
 						}
 					]
 				},
@@ -344,7 +378,7 @@
 					]
 				},
 				{
-					"name": "Autres",
+					"name": "Moteurs de templates",
 					"values": [
 						{ "name": "Smarty",
 							"image": "smarty.png",
@@ -366,166 +400,184 @@
 		},
 		{
 			"name": "Web - Back-end",
-			"values": [
-				{ "name": "PHP",
-					"image": "php.jpg",
-					"link": "https://www.php.net/",
-					"shortlink": "php.net",
-					"level": 5
+			"subs": [
+				{
+					"name": "Langage",
+					"values": [
+						{ "name": "PHP",
+							"image": "php.jpg",
+							"link": "https://www.php.net/",
+							"shortlink": "php.net",
+							"level": 5
+						},
+						{ "name": "nodeJS",
+							"image": "nodejs.png",
+							"description": "Environnement JS back-end",
+							"link": "https://nodejs.org/",
+							"shortlink": "nodejs.org",
+							"level": 2
+						}
+					]
 				},
-				{ "name": "MySQL",
-					"image": "mysql.png",
-					"link": "https://www.mysql.com/",
-					"shortlink": "mysql.com",
-					"level": 3
+				{
+					"name": "Base de données",
+					"values": [
+						{ "name": "MySQL",
+							"image": "mysql.png",
+							"link": "https://www.mysql.com/",
+							"shortlink": "mysql.com",
+							"level": 4
+						},
+						{ "name": "MongoDB",
+							"image": "mongodb.png",
+							"description": "Base de données NoSQL",
+							"link": "https://www.mongodb.org/",
+							"shortlink": "mongodb.org",
+							"level": 3
+						},
+						{ "name": "PostgreSQL",
+							"image": "postgresql.svg",
+							"link": "http://www.postgresql.org/",
+							"shortlink": "postgresql.org",
+							"level": 2
+						}
+					]
 				},
-				{ "name": "ExpressJS",
-					"image": "express.png",
-					"description": "Framework pour applications web",
-					"link": "http://expressjs.com/",
-					"shortlink": "expressjs.com",
-					"level": 3
+				{
+					"name": "Framework",
+					"values": [
+						{ "name": "ExpressJS",
+							"image": "express.png",
+							"description": "Framework pour applications web",
+							"link": "http://expressjs.com/",
+							"shortlink": "expressjs.com",
+							"level": 3
+						},
+						{ "name": "Slim",
+							"image": "slimphp.png",
+							"description": "Micro framework PHP",
+							"link": "http://www.slimframework.com/",
+							"shortlink": "slimframework.com",
+							"level": 3
+						},
+						{ "name": "Symfony",
+							"image": "symfony.png",
+							"description": "Framework PHP",
+							"link": "https://symfony.com/",
+							"shortlink": "symfony.com",
+							"level": 1
+						}
+					]
 				},
-				{ "name": "PostgreSQL",
-					"image": "postgresql.svg",
-					"link": "http://www.postgresql.org/",
-					"shortlink": "postgresql.org",
-					"level": 3
-				},
-				{ "name": "Slim",
-					"image": "slimphp.png",
-					"description": "Micro framework PHP",
-					"link": "http://www.slimframework.com/",
-					"shortlink": "slimframework.com",
-					"level": 3
-				},
-				{ "name": "Jekyll",
-					"image": "jekyll.png",
-					"description": "Generateur de sites statiques",
-					"link": "http://jekyllrb.com/",
-					"shortlink": "jekyllrb.com",
-					"level": 4
-				},
-				{ "name": "MongoDB",
-					"image": "mongodb.png",
-					"description": "Base de données NoSQL",
-					"link": "https://www.mongodb.org/",
-					"shortlink": "mongodb.org",
-					"level": 2
-				},
-				{ "name": "nodeJS",
-					"image": "nodejs.png",
-					"description": "Environnement JS back-end",
-					"link": "https://nodejs.org/",
-					"shortlink": "nodejs.org",
-					"level": 1
-				},
-				{ "name": "Symfony",
-					"image": "symfony.png",
-					"description": "Framework PHP",
-					"link": "https://symfony.com/",
-					"shortlink": "symfony.com",
-					"level": 1
-				}
-			]
-		},
-		{
-			"name": "Web - Content Management System",
-			"values": [
-				{ "name": "Drupal",
-					"image": "drupal.jpg",
-					"description": "CMS open source",
-					"link": "https://www.drupal.org/",
-					"shortlink": "drupal.org",
-					"level": 4
-				},
-				{ "name": "Wordpress",
-					"image": "wordpress.png",
-					"description": "CMS open source",
-					"link": "https://wordpress.com/",
-					"shortlink": "wordpress.com",
-					"level": 3
-				},
-				{ "name": "Prestashop",
-					"image": "prestashop.jpg",
-					"description": "CMS pour e-shop",
-					"link": "https://www.prestashop.com/",
-					"shortlink": "prestashop.com",
-					"level": 4
+				{
+					"name": "Content Management System",
+					"values": [
+						{ "name": "Drupal",
+							"image": "drupal.jpg",
+							"description": "CMS open source",
+							"link": "https://www.drupal.org/",
+							"shortlink": "drupal.org",
+							"level": 4
+						},
+						{ "name": "Wordpress",
+							"image": "wordpress.png",
+							"description": "CMS open source",
+							"link": "https://wordpress.com/",
+							"shortlink": "wordpress.com",
+							"level": 4
+						},
+						{ "name": "Prestashop",
+							"image": "prestashop.jpg",
+							"description": "CMS pour e-shop",
+							"link": "https://www.prestashop.com/",
+							"shortlink": "prestashop.com",
+							"level": 4
+						},
+						{ "name": "Jekyll",
+							"image": "jekyll.png",
+							"description": "Generateur de sites statiques",
+							"link": "http://jekyllrb.com/",
+							"shortlink": "jekyllrb.com",
+							"level": 4
+						}
+					]
 				}
 			]
 		},
 		{
 			"name": "Outils",
-			"values": [
-				{ "name": "Git",
-					"image": "git.png",
-					"description": "Version Control System",
-					"link": "https://git-scm.com/",
-					"shortlink": "git-scm.com",
-					"level": 4
+			"subs": [
+				{
+					"name": "Task-runners/Bundlers",
+					"values": [
+						{ "name": "Gulp",
+							"image": "gulp.png",
+							"description": "Streaming build system",
+							"link": "http://gulpjs.com/",
+							"shortlink": "gulpjs.com",
+							"level": 4
+						},
+						{ "name": "Browserify",
+							"image": "browserify.png",
+							"description": "Module and dependencies bundler",
+							"link": "http://browserify.org/",
+							"shortlink": "browserify.org",
+							"level": 3
+						},
+						{ "name": "Grunt",
+							"image": "grunt.png",
+							"description": "JS task runner",
+							"link": "http://gruntjs.com/",
+							"shortlink": "gruntjs.com",
+							"level": 3
+						},
+						{ "name": "Webpack",
+							"image": "webpack.png",
+							"description": "Module bundler",
+							"link": "https://webpack.github.io/",
+							"shortlink": "webpack.gh.io",
+							"level": 2
+						}
+					]
 				},
-				{ "name": "Bower",
-					"image": "bower.png",
-					"description": "Front-end package manager",
-					"link": "http://bower.io/",
-					"shortlink": "bower.io",
-					"level": 5
-				},
-				{ "name": "Grunt",
-					"image": "grunt.png",
-					"description": "JS task runner",
-					"link": "http://gruntjs.com/",
-					"shortlink": "gruntjs.com",
-					"level": 2
-				},
-				{ "name": "Gulp",
-					"image": "gulp.png",
-					"description": "Streaming build system",
-					"link": "http://gulpjs.com/",
-					"shortlink": "gulpjs.com",
-					"level": 4
-				},
-				{ "name": "Photoshop",
-					"image": "photoshop.png",
-					"link": "http://www.photoshop.com/",
-					"shortlink": "photoshop.com",
-					"level": 1
-				},
-				{ "name": "Vagrant",
-					"image": "vagrant.png",
-					"description": "Environnements de développement",
-					"link": "https://www.vagrantup.com/",
-					"shortlink": "vagrantup.com",
-					"level": 2
-				},
-				{ "name": "Yeoman",
-					"image": "yeoman.png",
-					"description": "Echafaudage de projets",
-					"link": "http://yeoman.io/",
-					"shortlink": "yeoman.io",
-					"level": 3
-				},
-				{ "name": "Travis-CI",
-					"image": "travis.jpg",
-					"description": "Intégration continue et tests de régression",
-					"link": "https://travis-ci.org/",
-					"shortlink": "travis-ci.org",
-					"level": 3
-				},
-				{ "name": "Browserify",
-					"image": "browserify.png",
-					"description": "Module and dependencies bundler",
-					"link": "http://browserify.org/",
-					"shortlink": "browserify.org",
-					"level": 1
-				},
-				{ "name": "KarmaJS",
-					"image": "karma.png",
-					"description": "Framework d'automatisation de tests JavaScript",
-					"link": "http://karma-runner.github.io/",
-					"shortlink": "karma-runner.gh.io",
-					"level": 2
+				{
+					"name": "Autres",
+					"values": [
+						{ "name": "Git",
+							"image": "git.png",
+							"description": "Version Control System",
+							"link": "https://git-scm.com/",
+							"shortlink": "git-scm.com",
+							"level": 4
+						},
+						{ "name": "Travis-CI",
+							"image": "travis.jpg",
+							"description": "Intégration continue et tests de régression",
+							"link": "https://travis-ci.org/",
+							"shortlink": "travis-ci.org",
+							"level": 3
+						},
+						{ "name": "Vagrant",
+							"image": "vagrant.png",
+							"description": "Environnements de développement",
+							"link": "https://www.vagrantup.com/",
+							"shortlink": "vagrantup.com",
+							"level": 2
+						},
+						{ "name": "KarmaJS",
+							"image": "karma.png",
+							"description": "Framework d'automatisation de tests JavaScript",
+							"link": "http://karma-runner.github.io/",
+							"shortlink": "karma-runner.gh.io",
+							"level": 3
+						},
+						{ "name": "Photoshop",
+							"image": "photoshop.png",
+							"link": "http://www.photoshop.com/",
+							"shortlink": "photoshop.com",
+							"level": 1
+						}
+					]
 				}
 			]
 		}

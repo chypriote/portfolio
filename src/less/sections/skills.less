@@ -2,9 +2,8 @@
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
-	&.has-subs {
-		flex-direction: column;
-	}
+	h2 {width: 100%;}
+	&.has-subs {flex-direction: column;}
 	.skill {
 		position: relative;
 		width: 120px;
@@ -24,7 +23,7 @@
   		transition: all .5s;
   		&.devicon {
 	  		text-align: center;
-	  		font-size: 7em;
+	  		font-size: 6em;
 	  		@media (max-width: 767px) {font-size: 4em;}
   		}
   		&.image {
@@ -84,13 +83,13 @@
 	.subcategory {
 		display: flex;
 		flex-direction: column;
-		width: 48%;
-		padding: 0 15px;
+		padding: 0;
 		h3 {
 			font-size: 16px;
 			margin: 5px 0;
 			color: #aaa;
 		}
+		.skills {margin-bottom: .5em;}
 		.skill {
 			font-size: 12px;
 			width: 90px;
@@ -103,4 +102,8 @@
 			}
 		}
 	}
+}
+.skill-hide {
+	cursor: pointer;
+	float: right;
 }

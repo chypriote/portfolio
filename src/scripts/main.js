@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	// $('header').height($(window).height());
-	// $('#content').attr('style', 'top:' + $(window).height() + 'px');
-
 	$('.open-menu').click(function(){
 		$('.mobile-menu ul').slideToggle('slow');
 	});
@@ -53,7 +50,7 @@ $(document).ready(function() {
 
 	//Sticky header
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){  
+		if ($(this).scrollTop() > 1){
     	$('.navigation').addClass("navigation-slim");
   	} else{
     	$('.navigation').removeClass("navigation-slim");
@@ -72,5 +69,10 @@ $(document).ready(function() {
 	      }
 	    }
 	  });
+	});
+
+	//Masquer skills
+	$('.skill-hide').click(function(){
+		$('.not-yet').toggle();
 	});
 });
