@@ -1,18 +1,56 @@
 .container
 	h1 Formation
 	.row
-		.col-sm-5.col-md-4.col-lg-3
+		.col-sm-5.col-md-4
 			h2 Etudes
-			.studies.clearfix
+			.studies.card
 				each study in studies
 					.study
 						.study-time #{study.time}
 						.study-text
 							.study-title #{study.title}
 							.study-desc #{study.text}
+			h2 Langues
+			.langues.card
+				.langue
+					span.flag-icon.flag-icon-fr
+					.langue-name Français
+					.langue-level
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+				.langue
+					span.flag-icon.flag-icon-gb
+					.langue-name Anglais
+					.langue-level
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+				.langue
+					span.flag-icon.flag-icon-de
+					.langue-name Allemand
+					.langue-level
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle
+						i.fa.fa-circle-o
+						i.fa.fa-circle-o
+				.langue
+					span.flag-icon.flag-icon-cn
+					.langue-name Chinois
+					.langue-level
+						i.fa.fa-circle-o
+						i.fa.fa-circle-o
+						i.fa.fa-circle-o
+						i.fa.fa-circle-o
+						i.fa.fa-circle-o
 		.col-sm-7.col-md-8
 			h2 Expériences professionelles
-			.jobs.clearfix
+			.jobs.card
 				each job in jobs
 					.job
 						.job-header
@@ -24,10 +62,3 @@
 									i.fa(class= job.icon)
 						.job-subtitle #{job.subtitle}
 						.job-desc #{job.text}
-		//- .col-sm-12.col-md-1.col-lg-2
-		//- 	h2 Langues
-		//- 	ul
-		//- 		li Chinois
-		//- 		li Anglais
-		//- 		li Francais
-		//- 		li Allemang

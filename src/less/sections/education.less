@@ -1,58 +1,50 @@
 #education {
-	h1 {text-align: center;}
 	.row {
 		display: flex;
 		& > div {
 			display: flex;
 			flex-direction: column;
 		}
+		.card {
+			background: #fff;
+			box-shadow: 0 0 3px #ccc;
+			padding: 0 1em .5em;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+		}
 	}
 }
 .studies {
-	background: #fff;
-	box-shadow: 0 0 3px #ccc;
-	padding: 20px 0 10px;
-	position: relative;
-	display: flex;
-	flex-direction: column;
 	flex-grow: 1;
 	.study {
 		z-index: 2;
-		padding: .5em .2em;
+		padding: .5em 0;
 		display: flex;
 	}
 	.study-time {
 		color: #000;
 		background: #fff;
-		padding: 0 10px;
 		font-size: 1.3em;
 		font-weight: 700;
 		display: table;
-		width: 20%;
 		vertical-align: top;
-			@media (max-width: 767px) {font-size: 1.2em;}
 	}
 	.study-text {
-		margin-bottom: 20px;
-		position: relative;
-		display: inline-block;
-		width: 79%;
-		padding: 0 5px;
+		margin-bottom: 1em;
+		flex-grow: 1;
+		padding: 0 1em;
 		.study-title {
 			font-size: 1.3em;
 			font-weight: 700;
-			@media (max-width: 767px) {padding: 0;font-size: 1.2em;margin:0;}
-		}
-		.study-desc {
-			@media (max-width: 767px) {font-size: 0.9em;}
 		}
 	}
 	&::before {
 		width: 5px;
 		height: 100%;
 		position: absolute;
-		left: 30px;
 		top: 5px;
+		left: 2.3em;
 		content: ' ';
 		display: block;
 		background: #ec7263;
@@ -61,11 +53,9 @@
 }
 
 .jobs {
-	background: #fff;
-	padding: 20px;
-	box-shadow: 0 0 3px #ccc;
+	flex-grow: 1;
 	.job {
-		padding: 10px 0;
+		padding: .5em 0;
 		&:not(:last-of-type){border-bottom: 1px solid #ddd;}
 	}
 	.job-header {
@@ -85,15 +75,28 @@
 				max-width: 100%;
 				@media (max-width: 767px) {max-width: 70px;}
 			}
-	}
+		}
 	}
 	.job-subtitle {
 		font-size: 0.9em;
 		color: #aaa;
-		margin: -5px 0 5px;
-		@media (max-width: 767px) {font-size: 0.8em;}
+		margin: -.5em 0 .5em;
 	}
-	.job-desc {
-		@media (max-width: 767px) {font-size: 0.9em;}
+}
+
+.langues {
+	.langue {
+		padding: .5em 0;
+		display: flex;
+		align-items: center;
+	}
+	.flag-icon {margin-right: .5em;font-size: 1.4em;}
+	.langue-level i {
+		padding: 0 .1em;
+	}
+	.langue-name {
+		font-size: 1.5em;
+		font-weight: 700;
+		flex-grow: 1;
 	}
 }

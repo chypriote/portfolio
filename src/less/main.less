@@ -1,8 +1,5 @@
 
 @import 'vendors/bootstrap.less';
-@import 'vendors/slick.less';
-//@import 'vendors/font-awesome.less';
-// @import 'vendors/devicon.less';
 @import 'vendors/effect.less';
 
 @import 'variables.less';
@@ -18,20 +15,18 @@
 	top: 100vh;
 	position: relative;
 	padding-top: 0;
+	h1 {text-align: center;}
+	section {
+		background: @section-bg1;
+		padding-top: 41px;
+		min-height: 100vh;
+		border-bottom: 1px solid #ddd;
+		&:nth-of-type(2){background: @section-bg2;}
+		&#projects .container {border-bottom: none;}
+		&#skills .row {margin: 0;}
+	}
 }
 
-section {
-	background: @section-bg1;
-	padding-top: 41px;
-	min-height: 100vh;
-	border-bottom: 1px solid #ddd;
-	.container {
-		padding-bottom: 15px;
-	}
-	&:nth-of-type(2){background: @section-bg2;}
-	&#projects .container {border-bottom: none;}
-	&#skills .row {margin: 0;}
-}
 
 .active {color: @link-hover;}
 

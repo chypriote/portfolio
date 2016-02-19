@@ -31,17 +31,6 @@
 			"text":"Série scientifique, option SVT, spécialité Physique-Chimie, Mention Assez Bien",
 			"icon": "fa-graduation-cap",
 			"color": "primary"
-		},
-		{	"title":"Brevet des collèges",
-			"time":"2006",
-			"text":"Mention Assez Bien",
-			"icon": "fa-graduation-cap",
-			"color": "info"
-		},
-		{	"title":"Né à Belfort (90)",
-			"time":"1992",
-			"text":"17 Avril",
-			"icon": "fa-graduation-cap"
 		}
 	],
 	"jobs": [
