@@ -2,6 +2,28 @@ $(document).ready(function() {
 	$('.open-menu').click(function(){
 		$('.mobile-menu ul').slideToggle('slow');
 	});
+	//Sticky header
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 1){
+	    	$('.navigation').addClass("navigation-slim");
+	  	} else{
+	    	$('.navigation').removeClass("navigation-slim");
+	  	}
+		});
+		$(function() {
+		  $('nav a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
 
 	//Empeche le click random dans les skills
 	$('.skills-description a').bind('click', function(e){e.preventDefault();});
@@ -46,29 +68,6 @@ $(document).ready(function() {
 				settings: {slidesToShow: 1}
 			}
 		]
-	});
-
-	//Sticky header
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){
-    	$('.navigation').addClass("navigation-slim");
-  	} else{
-    	$('.navigation').removeClass("navigation-slim");
-  	}
-	});
-	$(function() {
-	  $('nav a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
 	});
 
 	//Masquer skills
