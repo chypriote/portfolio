@@ -1,17 +1,13 @@
 nav.navigation
-	.container-fluid
-		.pull-left
-			a(href="#home")
-				span.name nicolas
-					span.surname temenides
-		.pull-right
-			.visible-xs.open-menu MENU
-				i.fa.fa-bars
-		.pull-right
-			ul.hidden-xs
-				each link in nav
-					li: a(href="#{link.url}") #{link.title}
-		.mobile-menu
-			ul
-				each link in nav
-					li: a(href="#{link.url}") #{link.title}
+	.logo
+		a(href="#home")
+			span.name nicolas
+				span.surname temenides
+	.menu
+		each link in nav
+			a(href="#{link.url}") #{link.title}
+		a.mobile.open-menu MENU
+			i.fa.fa-bars
+	.menu.mobile
+		each link in nav
+			a(href="#{link.url}") #{link.title}
