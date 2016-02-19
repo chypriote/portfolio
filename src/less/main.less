@@ -1,15 +1,16 @@
 
-@import 'vendors/bootstrap.less';
-@import 'vendors/effect.less';
+@import 'vendors/bootstrap';
+@import 'vendors/effect';
 
-@import 'variables.less';
-@import	'typography.less';
+@import 'variables';
+@import	'typography';
 
-@import 'sections/navbar.less';
-@import 'sections/header.less';
-@import 'sections/education.less';
-@import 'sections/skills.less';
-@import 'sections/work.less';
+@import 'sections/navbar';
+@import 'sections/header';
+@import 'sections/education';
+@import 'sections/skills';
+@import 'sections/work';
+@import 'sections/hexagon';
 
 #content {
 	top: 100vh;
@@ -21,7 +22,7 @@
 		padding-top: 41px;
 		min-height: 100vh;
 		border-bottom: 1px solid #ddd;
-		&:nth-of-type(2){background: @section-bg2;}
+		&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
 		&#projects .container {border-bottom: none;}
 		&#skills .row {margin: 0;}
 	}

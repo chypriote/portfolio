@@ -261,10 +261,11 @@
 							"level": 5
 						},
 						{ "name": "CoffeeScript",
-							"image": "coffeescript.png",
+							"image": "coffeescript.svg",
 							"link": "http://coffeescript.org/",
 							"shortlink": "coffeescript.org",
-							"level": 2
+							"level": 2,
+							"size": "big"
 						},
 						{ "name": "TypeScript",
 							"image": "typescript.png",
@@ -462,11 +463,12 @@
 					"name": "Content Management System",
 					"values": [
 						{ "name": "Drupal",
-							"image": "drupal.jpg",
+							"image": "drupal.svg",
 							"description": "CMS open source",
 							"link": "https://www.drupal.org/",
 							"shortlink": "drupal.org",
-							"level": 4
+							"level": 4,
+							"size": "big"
 						},
 						{ "name": "Wordpress",
 							"image": "wordpress.png",
@@ -569,6 +571,402 @@
 					]
 				}
 			]
+		}
+	],
+	"hex": [
+		{
+			"name": "C",
+			"image": "coriginal.svg",
+			"description": "nope",
+			"level": 4,
+			"category": "software",
+			"subcategory": "langage",
+			"size": "big"
+		},
+		{
+			"name": "C++",
+			"image": "cplusplus.svg",
+			"description": "nope",
+			"level": 3,
+			"category": "software",
+			"subcategory": "langage",
+			"size": "big"
+		},
+		{
+			"name": "Java",
+			"image": "java.svg",
+			"description": "nope",
+			"level": 2,
+			"category": "software",
+			"subcategory": "langage",
+			"size": "big"
+		},
+		{
+			"name": "C#",
+			"image": "csharp.svg",
+			"description": "nope",
+			"level": 1,
+			"category": "software",
+			"subcategory": "langage",
+			"size": "bigger"
+		},
+		{
+			"name": "HTML",
+			"image": "html5.svg",
+			"description": "nope",
+			"level": 5,
+			"category": "frontend",
+			"subcategory": "langage",
+			"size": "bigger"
+		},
+		{
+			"name": "CSS",
+			"image": "css3.svg",
+			"description": "nope",
+			"level": 5,
+			"category": "frontend",
+			"subcategory": "langage",
+			"size": "bigger"
+		},
+		{
+			"name": "JavaScript",
+			"image": "javascript.svg",
+			"description": "nope",
+			"link": "https://www.javascript.com/",
+			"shortlink": "javascript.com",
+			"level": 5,
+			"category": "frontend",
+			"subcategory": "langage",
+			"size": "bigger"
+		},
+		{
+			"name": "CoffeeScript",
+			"image": "coffeescript.png",
+			"description": "nope",
+			"link": "http://coffeescript.org/",
+			"shortlink": "coffeescript.org",
+			"level": 2,
+			"category": "frontend",
+			"subcategory": "langage",
+			"size": "big"
+		},
+		{
+			"name": "TypeScript",
+			"image": "typescript.svg",
+			"description": "Superset Javascript",
+			"link": "http://www.typescriptlang.org/",
+			"shortlink": "typescriptlang.org",
+			"level": 1,
+			"category": "frontend",
+			"subcategory": "langage",
+			"size": "big"
+		},
+		{
+			"name": "Bootstrap",
+			"image": "bootstrap.svg",
+			"description": "Framework front-end responsive",
+			"link": "http://getbootstrap.com/",
+			"shortlink": "getbootstrap.com",
+			"level": 5,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "Foundation",
+			"image": "foundation.svg",
+			"description": "Framework front-end responsive",
+			"link": "http://foundation.zurb.com/",
+			"shortlink": "foundation.zurb.com",
+			"level": 4,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "Semantic UI",
+			"image": "semanticui.png",
+			"description": "Framework front-end responsive et sémantique",
+			"link": "http://semantic-ui.com/",
+			"shortlink": "semantic-ui.com",
+			"level": 3,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "Bulma",
+			"image": "bulma.png",
+			"description": "Framework basé sur Flexbox",
+			"link": "http://bulma.io/",
+			"shortlink": "bulma.io",
+			"level": 3,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "Blaze",
+			"image": "blazecss.png",
+			"description": "Framework CSS modulaire",
+			"link": "http://blazecss.com/",
+			"shortlink": "blazecss.com",
+			"level": 2,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "Milligram",
+			"image": "milligram.png",
+			"description": "Framework CSS minimaliste",
+			"link": "http://milligram.github.io/",
+			"shortlink": "milligram.gh.io",
+			"level": 2,
+			"category": "frontend",
+			"subcategory": "framework css"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery.svg",
+			"description": "nope",
+			"link": "http://jquery.com/",
+			"shortlink": "jquery.com",
+			"level": 5,
+			"category": "frontend",
+			"subcategory": "framework js"
+		},
+		{
+			"name": "AngularJS",
+			"image": "angular.svg",
+			"description": "Applications web dynamiques",
+			"link": "https://angularjs.org/",
+			"shortlink": "angularjs.org",
+			"level": 4,
+			"category": "frontend",
+			"subcategory": "framework js",
+			"size": "big"
+		},
+		{
+			"name": "Vue.js",
+			"image": "vue.svg",
+			"description": "Composants réactifs pour interfaces Web",
+			"link": "http://vuejs.org/",
+			"shortlink": "vuejs.org",
+			"level": 1,
+			"category": "frontend",
+			"subcategory": "framework js"
+		},
+		{
+			"name": "less",
+			"image": "less.svg",
+			"description": "Préprocesseur CSS",
+			"link": "http://lesscss.org/",
+			"shortlink": "lesscss.org",
+			"level": 4,
+			"category": "frontend",
+			"subcategory": "préprocesseur css",
+			"size": "big"
+		},
+		{
+			"name": "Sass",
+			"image": "sass.svg",
+			"description": "Préprocesseur CSS",
+			"link": "http://sass-lang.com/",
+			"shortlink": "sass-lang.com",
+			"level": 4,
+			"category": "frontend",
+			"subcategory": "préprocesseur css",
+			"size": "big"
+		},
+		{
+			"name": "Smarty",
+			"image": "smarty.png",
+			"description": "Moteur de template PHP",
+			"link": "http://www.smarty.net/",
+			"shortlink": "smarty.net",
+			"level": 3
+		},
+		{
+			"name": "Jade",
+			"image": "jade.png",
+			"description": "Moteur de template HTML Template",
+			"link": "http://jade-lang.com/",
+			"shortlink": "jade-lang.com",
+			"level": 4
+		},
+		{
+			"name": "PHP",
+			"image": "php.svg",
+			"description": "nope",
+			"link": "https://www.php.net/",
+			"shortlink": "php.net",
+			"level": 5,
+			"size": "big"
+		},
+		{
+			"name": "nodeJS",
+			"image": "nodejs.svg",
+			"description": "Environnement JS back-end",
+			"link": "https://nodejs.org/",
+			"shortlink": "nodejs.org",
+			"level": 2,
+			"size": "bigger"
+		},
+		{
+			"name": "MySQL",
+			"image": "mysql.svg",
+			"description": "nope",
+			"link": "https://www.mysql.com/",
+			"shortlink": "mysql.com",
+			"level": 4,
+			"size": "big"
+		},
+		{
+			"name": "MongoDB",
+			"image": "mongodb.svg",
+			"description": "Base de données NoSQL",
+			"link": "https://www.mongodb.org/",
+			"shortlink": "mongodb.org",
+			"level": 3
+		},
+		{
+			"name": "PostgreSQL",
+			"image": "postgresql.svg",
+			"description": "nope",
+			"link": "http://www.postgresql.org/",
+			"shortlink": "postgresql.org",
+			"level": 2
+		},
+		{
+			"name": "ExpressJS",
+			"image": "express.svg",
+			"description": "Framework pour applications web",
+			"link": "http://expressjs.com/",
+			"shortlink": "expressjs.com",
+			"level": 3,
+			"size": "big"
+		},
+		{
+			"name": "Slim",
+			"image": "slimphp.png",
+			"description": "Micro framework PHP",
+			"link": "http://www.slimframework.com/",
+			"shortlink": "slimframework.com",
+			"level": 3
+		},
+		{
+			"name": "Symfony",
+			"image": "symfony.svg",
+			"description": "Framework PHP",
+			"link": "https://symfony.com/",
+			"shortlink": "symfony.com",
+			"level": 1
+		},
+		{
+			"name": "Drupal",
+			"image": "drupal.svg",
+			"description": "CMS open source",
+			"link": "https://www.drupal.org/",
+			"shortlink": "drupal.org",
+			"level": 4
+		},
+		{
+			"name": "Wordpress",
+			"image": "wordpress.svg",
+			"description": "CMS open source",
+			"link": "https://wordpress.com/",
+			"shortlink": "wordpress.com",
+			"level": 4
+		},
+		{
+			"name": "Prestashop",
+			"image": "prestashop.svg",
+			"description": "CMS pour e-shop",
+			"link": "https://www.prestashop.com/",
+			"shortlink": "prestashop.com",
+			"level": 4
+		},
+		{
+			"name": "Jekyll",
+			"image": "jekyll.png",
+			"description": "Generateur de sites statiques",
+			"link": "http://jekyllrb.com/",
+			"shortlink": "jekyllrb.com",
+			"level": 4,
+			"size": "big"
+		},
+		{
+			"name": "Gulp",
+			"image": "gulp.svg",
+			"description": "Streaming build system",
+			"link": "http://gulpjs.com/",
+			"shortlink": "gulpjs.com",
+			"level": 4,
+			"size": "big"
+		},
+		{
+			"name": "Browserify",
+			"image": "browserify.svg",
+			"description": "Module and dependencies bundler",
+			"link": "http://browserify.org/",
+			"shortlink": "browserify.org",
+			"level": 3,
+			"size": "big"
+		},
+		{
+			"name": "Grunt",
+			"image": "grunt.svg",
+			"description": "JS task runner",
+			"link": "http://gruntjs.com/",
+			"shortlink": "gruntjs.com",
+			"level": 3
+		},
+		{
+			"name": "Webpack",
+			"image": "webpack.svg",
+			"description": "Module bundler",
+			"link": "https://webpack.github.io/",
+			"shortlink": "webpack.gh.io",
+			"level": 2,
+			"size": "big"
+		},
+		{
+			"name": "Git",
+			"image": "git.svg",
+			"description": "Version Control System",
+			"link": "https://git-scm.com/",
+			"shortlink": "git-scm.com",
+			"level": 4,
+			"size": "big"
+		},
+		{
+			"name": "Travis-CI",
+			"image": "travis.svg",
+			"description": "Intégration continue et tests de régression",
+			"link": "https://travis-ci.org/",
+			"shortlink": "travis-ci.org",
+			"level": 3,
+			"size": "bigger"
+		},
+		{
+			"name": "Vagrant",
+			"image": "vagrant.svg",
+			"description": "Environnements de développement",
+			"link": "https://www.vagrantup.com/",
+			"shortlink": "vagrantup.com",
+			"level": 2
+		},
+		{
+			"name": "KarmaJS",
+			"image": "karma.png",
+			"description": "Automatisation des tests JavaScript",
+			"link": "http://karma-runner.github.io/",
+			"shortlink": "karma-runner.gh.io",
+			"level": 3
+		},
+		{
+			"name": "Photoshop",
+			"image": "photoshop.svg",
+			"description": "nope",
+			"link": "http://www.photoshop.com/",
+			"shortlink": "photoshop.com",
+			"level": 1
 		}
 	]
 }

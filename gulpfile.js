@@ -52,7 +52,7 @@ gulp.task('scripts', function(){
     .pipe(g.rename({suffix: '.min'}))
     .pipe(g.uglify())
     .pipe(gulp.dest('dist/assets/js/'))
-    .pipe(browserSync.reload({stream:true}))
+    .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('clear-cache', function (done) {
@@ -66,14 +66,16 @@ gulp.task('images', function(){
     .pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('fonts', function(){
+gulp.task('copy', function(){
   gulp.src('src/fonts/*')
-    .pipe(gulp.dest('dist/assets/fonts'))
+    .pipe(gulp.dest('dist/assets/fonts'));
+  gulp.src('src/flags/*')
+    .pipe(gulp.dest('dist/assets/flags'))
     .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('build', function(cb) {
-  runSequence(['clear-cache', 'styles', 'scripts', 'fonts', 'images', 'jade']);
+  runSequence(['clear-cache', 'styles', 'scripts', 'copy', 'images', 'jade']);
 });
 
 gulp.task('watch', function(){
