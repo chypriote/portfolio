@@ -650,7 +650,7 @@
             },
             {
               "name": "Jekyll",
-              "image": "jekyll.svg",
+              "image": "jekyll.png",
               "description": "Generateur de sites statiques",
               "link": "http://jekyllrb.com/",
               "shortlink": "jekyllrb.com",

@@ -7,7 +7,7 @@ var	runSequence  = require('run-sequence'),
 gulp.task('serve', function() {
   browserSync({
     server: {
-       baseDir: "./dist"
+       baseDir: "./public"
     },
     online: false
   });
@@ -23,7 +23,7 @@ gulp.task('jade', function(){
       return require('./src/jade/datas.json')
     }))
     .pipe(g.jade({pretty:true}))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('public/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
@@ -38,7 +38,7 @@ gulp.task('styles', function(){
     .pipe(g.autoprefixer('last 2 versions'))
     .pipe(g.rename({suffix: '.min'}))
     .pipe(g.cssnano())
-    .pipe(gulp.dest('dist/assets/css/'))
+    .pipe(gulp.dest('public/assets/css/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
@@ -51,7 +51,7 @@ gulp.task('scripts', function(){
     }}))
     .pipe(g.rename({suffix: '.min'}))
     .pipe(g.uglify())
-    .pipe(gulp.dest('dist/assets/js/'))
+    .pipe(gulp.dest('public/assets/js/'))
     .pipe(browserSync.reload({stream:true}));
 });
 
@@ -62,15 +62,15 @@ gulp.task('clear-cache', function (done) {
 gulp.task('images', function(){
   gulp.src('src/images/**/*')
     .pipe(g.imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('dist/assets/images'))
+    .pipe(gulp.dest('public/assets/images'))
     .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('copy', function(){
   gulp.src('src/fonts/*')
-    .pipe(gulp.dest('dist/assets/fonts'));
+    .pipe(gulp.dest('public/assets/fonts'));
   gulp.src('src/flags/*')
-    .pipe(gulp.dest('dist/assets/flags'))
+    .pipe(gulp.dest('public/assets/flags'))
     .pipe(browserSync.reload({stream:true}));
 });
 
