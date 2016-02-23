@@ -1,750 +1,750 @@
 {
-  "nav": [
-    {
-      "title": "Accueil",
-      "url": "#home"
-    },
-    {
-      "title": "Formation",
-      "url": "#education"
-    },
-    {
-      "title": "Compétences",
-      "url": "#skills"
-    },
-    {
-      "title": "Projets",
-      "url": "#projects"
-    }
-  ],
-  "studies": [
-    {
-      "title": "Beijing Jiatong University",
-      "subtitle": "2015 - 2016",
-      "time": "2016",
-      "text": "Master Degree: Software Engineering",
-      "icon": "fa-plane",
-      "color": "danger"
-    },
-    {
-      "title": "EPITECH Paris",
-      "subtitle": "2013 - 2015",
-      "time": "2015",
-      "text": "Quatrième année",
-      "icon": "fa-laptop",
-      "color": "success"
-    },
-    {
-      "title": "HEI Lille",
-      "time": "2012",
-      "text": "Deux années de classe préparatoire ingénieure, option Physique-Chimie",
-      "icon": "fa-university",
-      "color": "warning"
-    },
-    {
-      "title": "Baccalauréat general",
-      "time": "2010",
-      "text": "Série scientifique, option SVT, spécialité Physique-Chimie, Mention Assez Bien",
-      "icon": "fa-graduation-cap",
-      "color": "primary"
-    }
-  ],
-  "jobs": [
-    {
-      "title": "Minit-L",
-      "time": "2015",
-      "subtitle": "Avril 2015 - Juillet 2015",
-      "text": "Maintenance et développement de sites web",
-      "icon": "fa-drupal",
-      "logo": "minitl.png"
-    },
-    {
-      "title": "MEGA International",
-      "time": "2014",
-      "subtitle": "Octobre 2014 - Mars 2015",
-      "text": "Détournement de requêtes AJAX vers un traitement local afin de faire fonctionner une page Web dans un navigateur IE intégré à une application Win32.",
-      "icon": "fa-cog",
-      "logo": "mega.gif"
-    },
-    {
-      "title": "PSA Peugeot Citroën",
-      "time": "2014",
-      "subtitle": "Novembre - Décembre 2013",
-      "text": "Développement d’un site intranet en PHP afin de réaliser des gains sur le délai de traitement des mises à jour applicatives, et de permettre leur historisation.",
-      "icon": "fa-keyboard-o",
-      "logo": "psa.png"
-    },
-    {
-      "title": "F4",
-      "time": "2013",
-      "subtitle": "Février 2013",
-      "text": "Constitution d’une base de données pour le site web F4-Map.",
-      "logo": "f4.png"
-    },
-    {
-      "title": "PSA Peugeot Citroën",
-      "time": "2012",
-      "subtitle": "Juillet 2012",
-      "logo": "psa.png",
-      "text": "Production DMCT sur ligne C3/DS3.",
-      "icon": "fa-car"
-    },
-    {
-      "title": "SNCF",
-      "time": "2011",
-      "subtitle": "Juillet 2011",
-      "logo": "sncf.png",
-      "text": "Diverses opérations de maintenance et de réparation sur les pantographes.",
-      "icon": "fa-train"
-    }
-  ],
-  "projects": [
-    [
-      {
-        "name": "Boutique de la Comédie Française",
-        "img": "comedie-francaise.jpg",
-        "link": "http://www.boutique-comedie-francaise.fr",
-        "subtitle": "Maintenance et évolution",
-        "description": "Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "php",
-          "mysql",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "Observatoire des Territoires",
-        "img": "datar.jpg",
-        "subtitle": "Maintenance et évolution",
-        "description": "Dans le cadre de mon stage à Minit-L, évolution majeure: passage de l'intégralité du site en responsive. Modifications en back office ainsi qu'en front.",
-        "link": "http://www.datar.gouv.fr/observatoire-des-territoires",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "php",
-          "mysql",
-          "drupal"
-        ]
-      },
-      {
-        "name": "MyElo",
-        "img": "myelo.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.",
-        "link": "http://www.chypriote.net/projects/myelo",
-        "git": "https://github.com/chypriote/myelo",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "bootsrap",
-          "php",
-          "mysql",
-          "bootstrap"
-        ]
-      }
-    ],
-    [
-      {
-        "name": "Les Talens Lyriques",
-        "img": "ltl.jpg",
-        "subtitle": "Nouvelle version du site",
-        "description": "Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.",
-        "link": "http://www.lestalenslyriques.com",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "php",
-          "drupal",
-          "mysql",
-          "foundation"
-        ]
-      },
-      {
-        "name": "Hugues Laurent",
-        "img": "hugues.jpg",
-        "subtitle": "Maintenance et évolution",
-        "link": "http://www.hugueslaurent.fr",
-        "description": "Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "php",
-          "wordpress",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "Easy Elo Boost",
-        "img": "easyelo.jpg",
-        "subtitle": "Réalisation du site",
-        "link": "http://www.chypriote.net/projects/EasyElov1",
-        "description": "Première version du site proposant des services aux joueurs sur League of Legends. Créé from scratch, site statique, calcul des prix.",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "php"
-        ]
-      }
-    ],
-    [
-      {
-        "name": "Challenge Wars",
-        "img": "challengewars.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Dans le cadre du PFA à Epitech, création from-scratch d'un site déstiné aux joueurs de League of Legends. Design, création de l'API, front-end et back-end du site. Le site consomme l'API Riot (League of Legends) pour afficher des données mises à jour automatiquement.",
-        "link": "http://challengewars.byethost12.com/",
-        "git": "https://github.com/chypriote/ChallengeWars",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "php",
-          "mysql",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "PonyShop",
-        "img": "ponyshop.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.",
-        "link": "",
-        "git": "https://github.com/chypriote/PonyShop",
-        "skills": [
-          "html5",
-          "css3",
-          "jquery",
-          "java",
-          "mysql",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "Easy Elo Boost v2",
-        "img": "easyboost.jpg",
-        "subtitle": "Réalisation du site",
-        "link": "http://www.chypriote.net/projects/EasyElov3",
-        "description": "Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "php",
-          "bootstrap",
-          "jquery",
-          "mysql"
-        ]
-      }
-    ],
-    [
-      {
-        "name": "42sh - Minishell",
-        "img": "mysh.jpg",
-        "subtitle": "Codage d'un shell",
-        "description": "Projet de fin de 1ere année Epitech en C. Création d'un Shell UNIX complet, gestion de l'environnement, historique, auto-complétion, pipes...",
-        "link": "",
-        "git": "",
-        "skills": [
-          "c",
-          "linux"
-        ]
-      },
-      {
-        "name": "Bomberman",
-        "img": "bomberman.jpg",
-        "subtitle": "Recréation du jeu",
-        "description": "Projet de fin de 2e année Epitech en C++. Recréation du jeu BomberMan en groupe. Gestion de la logique de jeu et de l'IA.",
-        "link": "",
-        "git": "",
-        "skills": [
-          "cplusplus",
-          "linux"
-        ]
-      },
-      {
-        "name": "EpiAndroid",
-        "img": "epiandroid.jpg",
-        "subtitle": "Application android",
-        "description": "Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.",
-        "link": "",
-        "git": "https://github.com/chypriote/EpiAndroid",
-        "skills": [
-          "java",
-          "android"
-        ]
-      }
-    ],
-    [
-      {
-        "name": "Promenade à Versailles",
-        "img": "hermes.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Dans le cadre de mon stage à Minit-L, création de site vitrine Hermes & Chateau de Versailles pour une opération commerciale de mai à décembre 2015.",
-        "link": "http://www.promenadeaversailles.chateauversailles.fr",
-        "git": "",
-        "skills": [
-          "html5",
-          "css3",
-          "javascript",
-          "php",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "Fuzeria",
-        "img": "fuzeria.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Réalisation du site web du serveur \"Fuzeria\" sur le jeu Minecraft. Le site utilise un CMS fait maison, permettant la création de news, un classement des membres, ainsi que l'affichage de données du serveur en temps réel, et une boutique liée au jeu.",
-        "link": "",
-        "git": "https://github.com/chypriote/Fuzeria",
-        "skills": [
-          "html5",
-          "css3",
-          "javascript",
-          "php",
-          "mysql",
-          "less",
-          "jquery",
-          "bootstrap"
-        ]
-      },
-      {
-        "name": "ChypRiotE Videos",
-        "img": "videowp.jpg",
-        "subtitle": "Réalisation du site",
-        "description": "Création d'un site sous Wordpress pour indexer mes vidéos de League of Legends postées sur youtube.",
-        "link": "http://video.chypriote.me",
-        "git": "https://github.com/chypriote/wp-video",
-        "skills": [
-          "html5",
-          "css3",
-          "javascript",
-          "php",
-          "mysql",
-          "wordpress",
-          "jquery",
-          "bootstrap"
-        ]
-      }
-    ]
-  ],
-  "skills": [
-    {
-      "name": "Langages de programation",
-      "values": [
-        {
-          "name": "C",
-          "image": "coriginal.svg",
-          "description": "nope",
-          "level": 4
-        },
-        {
-          "name": "C++",
-          "image": "cplusplus.svg",
-          "description": "nope",
-          "level": 3
-        },
-        {
-          "name": "Java",
-          "image": "java.svg",
-          "description": "nope",
-          "level": 2
-        },
-        {
-          "name": "C#",
-          "image": "csharp.svg",
-          "description": "nope",
-          "level": 1
-        }
-      ]
-    },
-    {
-      "name": "Web - Front-end",
-      "subs": [
-        {
-          "name": "Langages",
-          "values": [
-            {
-              "name": "HTML",
-              "image": "html5.svg",
-              "description": "nope",
-              "level": 5
-            },
-            {
-              "name": "CSS",
-              "image": "css3.svg",
-              "description": "nope",
-              "level": 5
-            },
-            {
-              "name": "JavaScript",
-              "image": "javascript.svg",
-              "description": "nope",
-              "link": "https://www.javascript.com/",
-              "shortlink": "javascript.com",
-              "level": 5
-            },
-            {
-              "name": "CoffeeScript",
-              "image": "coffeescript.svg",
-              "description": "nope",
-              "link": "http://coffeescript.org/",
-              "shortlink": "coffeescript.org",
-              "level": 2,
-              "size": "big"
-            },
-            {
-              "name": "TypeScript",
-              "image": "typescript.svg",
-              "description": "Superset Javascript",
-              "link": "http://www.typescriptlang.org/",
-              "shortlink": "typescriptlang.org",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "name": "Frameworks CSS",
-          "values": [
-            {
-              "name": "Bootstrap",
-              "image": "bootstrap.svg",
-              "description": "Framework front-end responsive",
-              "link": "http://getbootstrap.com/",
-              "shortlink": "getbootstrap.com",
-              "level": 5
-            },
-            {
-              "name": "Foundation",
-              "image": "foundation.svg",
-              "description": "Framework front-end responsive",
-              "link": "http://foundation.zurb.com/",
-              "shortlink": "foundation.zurb.com",
-              "level": 4
-            },
-            {
-              "name": "Semantic UI",
-              "image": "semanticui.png",
-              "description": "Framework front-end responsive et sémantique",
-              "link": "http://semantic-ui.com/",
-              "shortlink": "semantic-ui.com",
-              "level": 3
-            },
-            {
-              "name": "Bulma",
-              "image": "bulma.png",
-              "description": "Framework basé sur Flexbox",
-              "link": "http://bulma.io/",
-              "shortlink": "bulma.io",
-              "level": 3
-            },
-            {
-              "name": "Blaze",
-              "image": "blazecss.png",
-              "description": "Framework CSS modulaire",
-              "link": "http://blazecss.com/",
-              "shortlink": "blazecss.com",
-              "level": 2
-            },
-            {
-              "name": "Milligram",
-              "image": "milligram.png",
-              "description": "Framework CSS minimaliste",
-              "link": "http://milligram.github.io/",
-              "shortlink": "milligram.gh.io",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "name": "Frameworks/Librairies",
-          "values": [
-            {
-              "name": "jQuery",
-              "image": "jquery.svg",
-              "link": "http://jquery.com/",
-              "shortlink": "jquery.com",
-              "level": 5
-            },
-            {
-              "name": "AngularJS",
-              "image": "angular.svg",
-              "description": "Applications web dynamiques",
-              "link": "https://angularjs.org/",
-              "shortlink": "angularjs.org",
-              "level": 4
-            },
-            {
-              "name": "Vue.js",
-              "image": "vue.svg",
-              "description": "Composants réactifs pour interfaces Web",
-              "link": "http://vuejs.org/",
-              "shortlink": "vuejs.org",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "name": "Préprocesseurs CSS",
-          "values": [
-            {
-              "name": "less",
-              "image": "less.svg",
-              "description": "Préprocesseur CSS",
-              "link": "http://lesscss.org/",
-              "shortlink": "lesscss.org",
-              "level": 4
-            },
-            {
-              "name": "Sass",
-              "image": "sass.svg",
-              "description": "Préprocesseur CSS",
-              "link": "http://sass-lang.com/",
-              "shortlink": "sass-lang.com",
-              "level": 4
-            }
-          ]
-        },
-        {
-          "name": "Moteurs de templates",
-          "values": [
-            {
-              "name": "Smarty",
-              "image": "smarty.png",
-              "description": "Moteur de template PHP",
-              "link": "http://www.smarty.net/",
-              "shortlink": "smarty.net",
-              "level": 3
-            },
-            {
-              "name": "Jade",
-              "image": "jade.png",
-              "description": "Moteur de template HTML Template",
-              "link": "http://jade-lang.com/",
-              "shortlink": "jade-lang.com",
-              "level": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Web - Back-end",
-      "subs": [
-        {
-          "name": "Langage",
-          "values": [
-            {
-              "name": "PHP",
-              "image": "php.svg",
-              "description": "nope",
-              "link": "https://www.php.net/",
-              "shortlink": "php.net",
-              "level": 5
-            },
-            {
-              "name": "nodeJS",
-              "image": "nodejs.svg",
-              "description": "Environnement JS back-end",
-              "link": "https://nodejs.org/",
-              "shortlink": "nodejs.org",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "name": "Base de données",
-          "values": [
-            {
-              "name": "MySQL",
-              "image": "mysql.svg",
-              "link": "https://www.mysql.com/",
-              "shortlink": "mysql.com",
-              "level": 4
-            },
-            {
-              "name": "MongoDB",
-              "image": "mongodb.svg",
-              "description": "Base de données NoSQL",
-              "link": "https://www.mongodb.org/",
-              "shortlink": "mongodb.org",
-              "level": 3
-            },
-            {
-              "name": "PostgreSQL",
-              "image": "postgresql.svg",
-              "link": "http://www.postgresql.org/",
-              "shortlink": "postgresql.org",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "name": "Framework",
-          "values": [
-            {
-              "name": "ExpressJS",
-              "image": "express.svg",
-              "description": "Framework pour applications web",
-              "link": "http://expressjs.com/",
-              "shortlink": "expressjs.com",
-              "level": 3
-            },
-            {
-              "name": "Slim",
-              "image": "slimphp.png",
-              "description": "Micro framework PHP",
-              "link": "http://www.slimframework.com/",
-              "shortlink": "slimframework.com",
-              "level": 3
-            },
-            {
-              "name": "Symfony",
-              "image": "symfony.svg",
-              "description": "Framework PHP",
-              "link": "https://symfony.com/",
-              "shortlink": "symfony.com",
-              "level": 1
-            }
-          ]
-        },
-        {
-          "name": "Content Management System",
-          "values": [
-            {
-              "name": "Drupal",
-              "image": "drupal.svg",
-              "description": "CMS open source",
-              "link": "https://www.drupal.org/",
-              "shortlink": "drupal.org",
-              "level": 4,
-              "size": "big"
-            },
-            {
-              "name": "Wordpress",
-              "image": "wordpress.svg",
-              "description": "CMS open source",
-              "link": "https://wordpress.com/",
-              "shortlink": "wordpress.com",
-              "level": 4
-            },
-            {
-              "name": "Prestashop",
-              "image": "prestashop.svg",
-              "description": "CMS pour e-shop",
-              "link": "https://www.prestashop.com/",
-              "shortlink": "prestashop.com",
-              "level": 4
-            },
-            {
-              "name": "Jekyll",
-              "image": "jekyll.png",
-              "description": "Generateur de sites statiques",
-              "link": "http://jekyllrb.com/",
-              "shortlink": "jekyllrb.com",
-              "level": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Outils",
-      "subs": [
-        {
-          "name": "Task-runners/Bundlers",
-          "values": [
-            {
-              "name": "Gulp",
-              "image": "gulp.svg",
-              "description": "Streaming build system",
-              "link": "http://gulpjs.com/",
-              "shortlink": "gulpjs.com",
-              "level": 4
-            },
-            {
-              "name": "Browserify",
-              "image": "browserify.svg",
-              "description": "Module and dependencies bundler",
-              "link": "http://browserify.org/",
-              "shortlink": "browserify.org",
-              "level": 3
-            },
-            {
-              "name": "Grunt",
-              "image": "grunt.svg",
-              "description": "JS task runner",
-              "link": "http://gruntjs.com/",
-              "shortlink": "gruntjs.com",
-              "level": 3
-            },
-            {
-              "name": "Webpack",
-              "image": "webpack.svg",
-              "description": "Module bundler",
-              "link": "https://webpack.github.io/",
-              "shortlink": "webpack.gh.io",
-              "level": 2
-            }
-          ]
-        },
-        {
-          "name": "Autres",
-          "values": [
-            {
-              "name": "Git",
-              "image": "git.svg",
-              "description": "Version Control System",
-              "link": "https://git-scm.com/",
-              "shortlink": "git-scm.com",
-              "level": 4
-            },
-            {
-              "name": "Travis-CI",
-              "image": "travis.svg",
-              "description": "Intégration continue et tests de régression",
-              "link": "https://travis-ci.org/",
-              "shortlink": "travis-ci.org",
-              "level": 3
-            },
-            {
-              "name": "Vagrant",
-              "image": "vagrant.svg",
-              "description": "Environnements de développement",
-              "link": "https://www.vagrantup.com/",
-              "shortlink": "vagrantup.com",
-              "level": 2
-            },
-            {
-              "name": "KarmaJS",
-              "image": "karma.png",
-              "description": "Framework d'automatisation de tests JavaScript",
-              "link": "http://karma-runner.github.io/",
-              "shortlink": "karma-runner.gh.io",
-              "level": 3
-            },
-            {
-              "name": "Photoshop",
-              "image": "photoshop.svg",
-              "link": "http://www.photoshop.com/",
-              "shortlink": "photoshop.com",
-              "level": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"nav": [
+		{
+			"title": "Accueil",
+			"url": "#home"
+		},
+		{
+			"title": "Formation",
+			"url": "#education"
+		},
+		{
+			"title": "Compétences",
+			"url": "#skills"
+		},
+		{
+			"title": "Projets",
+			"url": "#projects"
+		}
+	],
+	"studies": [
+		{
+			"title": "Beijing Jiatong University",
+			"subtitle": "2015 - 2016",
+			"time": "2016",
+			"text": "Master Degree: Software Engineering",
+			"icon": "fa-plane",
+			"color": "danger"
+		},
+		{
+			"title": "EPITECH Paris",
+			"subtitle": "2013 - 2015",
+			"time": "2015",
+			"text": "Quatrième année",
+			"icon": "fa-laptop",
+			"color": "success"
+		},
+		{
+			"title": "HEI Lille",
+			"time": "2012",
+			"text": "Deux années de classe préparatoire ingénieure, option Physique-Chimie",
+			"icon": "fa-university",
+			"color": "warning"
+		},
+		{
+			"title": "Baccalauréat general",
+			"time": "2010",
+			"text": "Série scientifique, option SVT, spécialité Physique-Chimie, Mention Assez Bien",
+			"icon": "fa-graduation-cap",
+			"color": "primary"
+		}
+	],
+	"jobs": [
+		{
+			"title": "Minit-L",
+			"time": "2015",
+			"subtitle": "Avril 2015 - Juillet 2015",
+			"text": "Maintenance et développement de sites web",
+			"icon": "fa-drupal",
+			"logo": "minitl.png"
+		},
+		{
+			"title": "MEGA International",
+			"time": "2014",
+			"subtitle": "Octobre 2014 - Mars 2015",
+			"text": "Détournement de requêtes AJAX vers un traitement local afin de faire fonctionner une page Web dans un navigateur IE intégré à une application Win32.",
+			"icon": "fa-cog",
+			"logo": "mega.gif"
+		},
+		{
+			"title": "PSA Peugeot Citroën",
+			"time": "2014",
+			"subtitle": "Novembre - Décembre 2013",
+			"text": "Développement d’un site intranet en PHP afin de réaliser des gains sur le délai de traitement des mises à jour applicatives, et de permettre leur historisation.",
+			"icon": "fa-keyboard-o",
+			"logo": "psa.png"
+		},
+		{
+			"title": "F4",
+			"time": "2013",
+			"subtitle": "Février 2013",
+			"text": "Constitution d’une base de données pour le site web F4-Map.",
+			"logo": "f4.png"
+		},
+		{
+			"title": "PSA Peugeot Citroën",
+			"time": "2012",
+			"subtitle": "Juillet 2012",
+			"logo": "psa.png",
+			"text": "Production DMCT sur ligne C3/DS3.",
+			"icon": "fa-car"
+		},
+		{
+			"title": "SNCF",
+			"time": "2011",
+			"subtitle": "Juillet 2011",
+			"logo": "sncf.png",
+			"text": "Diverses opérations de maintenance et de réparation sur les pantographes.",
+			"icon": "fa-train"
+		}
+	],
+	"projects": [
+		[
+			{
+				"name": "Boutique de la Comédie Française",
+				"img": "comedie-francaise.jpg",
+				"link": "http://www.boutique-comedie-francaise.fr",
+				"subtitle": "Maintenance et évolution",
+				"description": "Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"php",
+					"mysql",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "Observatoire des Territoires",
+				"img": "datar.jpg",
+				"subtitle": "Maintenance et évolution",
+				"description": "Dans le cadre de mon stage à Minit-L, évolution majeure: passage de l'intégralité du site en responsive. Modifications en back office ainsi qu'en front.",
+				"link": "http://www.datar.gouv.fr/observatoire-des-territoires",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"php",
+					"mysql",
+					"drupal"
+				]
+			},
+			{
+				"name": "MyElo",
+				"img": "myelo.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.",
+				"link": "http://www.chypriote.net/projects/myelo",
+				"git": "https://github.com/chypriote/myelo",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"bootsrap",
+					"php",
+					"mysql",
+					"bootstrap"
+				]
+			}
+		],
+		[
+			{
+				"name": "Les Talens Lyriques",
+				"img": "ltl.jpg",
+				"subtitle": "Nouvelle version du site",
+				"description": "Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.",
+				"link": "http://www.lestalenslyriques.com",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"php",
+					"drupal",
+					"mysql",
+					"foundation"
+				]
+			},
+			{
+				"name": "Hugues Laurent",
+				"img": "hugues.jpg",
+				"subtitle": "Maintenance et évolution",
+				"link": "http://www.hugueslaurent.fr",
+				"description": "Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"php",
+					"wordpress",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "Easy Elo Boost",
+				"img": "easyelo.jpg",
+				"subtitle": "Réalisation du site",
+				"link": "http://www.chypriote.net/projects/EasyElov1",
+				"description": "Première version du site proposant des services aux joueurs sur League of Legends. Créé from scratch, site statique, calcul des prix.",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"php"
+				]
+			}
+		],
+		[
+			{
+				"name": "Challenge Wars",
+				"img": "challengewars.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Dans le cadre du PFA à Epitech, création from-scratch d'un site déstiné aux joueurs de League of Legends. Design, création de l'API, front-end et back-end du site. Le site consomme l'API Riot (League of Legends) pour afficher des données mises à jour automatiquement.",
+				"link": "http://challengewars.byethost12.com/",
+				"git": "https://github.com/chypriote/ChallengeWars",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"php",
+					"mysql",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "PonyShop",
+				"img": "ponyshop.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.",
+				"link": "",
+				"git": "https://github.com/chypriote/PonyShop",
+				"skills": [
+					"html5",
+					"css3",
+					"jquery",
+					"java",
+					"mysql",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "Easy Elo Boost v2",
+				"img": "easyboost.jpg",
+				"subtitle": "Réalisation du site",
+				"link": "http://www.chypriote.net/projects/EasyElov3",
+				"description": "Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"php",
+					"bootstrap",
+					"jquery",
+					"mysql"
+				]
+			}
+		],
+		[
+			{
+				"name": "42sh - Minishell",
+				"img": "mysh.jpg",
+				"subtitle": "Codage d'un shell",
+				"description": "Projet de fin de 1ere année Epitech en C. Création d'un Shell UNIX complet, gestion de l'environnement, historique, auto-complétion, pipes...",
+				"link": "",
+				"git": "",
+				"skills": [
+					"c",
+					"linux"
+				]
+			},
+			{
+				"name": "Bomberman",
+				"img": "bomberman.jpg",
+				"subtitle": "Recréation du jeu",
+				"description": "Projet de fin de 2e année Epitech en C++. Recréation du jeu BomberMan en groupe. Gestion de la logique de jeu et de l'IA.",
+				"link": "",
+				"git": "",
+				"skills": [
+					"cplusplus",
+					"linux"
+				]
+			},
+			{
+				"name": "EpiAndroid",
+				"img": "epiandroid.jpg",
+				"subtitle": "Application android",
+				"description": "Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.",
+				"link": "",
+				"git": "https://github.com/chypriote/EpiAndroid",
+				"skills": [
+					"java",
+					"android"
+				]
+			}
+		],
+		[
+			{
+				"name": "Promenade à Versailles",
+				"img": "hermes.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Dans le cadre de mon stage à Minit-L, création de site vitrine Hermes & Chateau de Versailles pour une opération commerciale de mai à décembre 2015.",
+				"link": "http://www.promenadeaversailles.chateauversailles.fr",
+				"git": "",
+				"skills": [
+					"html5",
+					"css3",
+					"javascript",
+					"php",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "Fuzeria",
+				"img": "fuzeria.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Réalisation du site web du serveur \"Fuzeria\" sur le jeu Minecraft. Le site utilise un CMS fait maison, permettant la création de news, un classement des membres, ainsi que l'affichage de données du serveur en temps réel, et une boutique liée au jeu.",
+				"link": "",
+				"git": "https://github.com/chypriote/Fuzeria",
+				"skills": [
+					"html5",
+					"css3",
+					"javascript",
+					"php",
+					"mysql",
+					"less",
+					"jquery",
+					"bootstrap"
+				]
+			},
+			{
+				"name": "ChypRiotE Videos",
+				"img": "videowp.jpg",
+				"subtitle": "Réalisation du site",
+				"description": "Création d'un site sous Wordpress pour indexer mes vidéos de League of Legends postées sur youtube.",
+				"link": "http://video.chypriote.me",
+				"git": "https://github.com/chypriote/wp-video",
+				"skills": [
+					"html5",
+					"css3",
+					"javascript",
+					"php",
+					"mysql",
+					"wordpress",
+					"jquery",
+					"bootstrap"
+				]
+			}
+		]
+	],
+	"skills": [
+		{
+			"name": "Langages de programation",
+			"values": [
+				{
+					"name": "C",
+					"image": "coriginal.svg",
+					"description": "",
+					"level": 4
+				},
+				{
+					"name": "C++",
+					"image": "cplusplus.svg",
+					"description": "",
+					"level": 3
+				},
+				{
+					"name": "Java",
+					"image": "java.svg",
+					"description": "",
+					"level": 2
+				},
+				{
+					"name": "C#",
+					"image": "csharp.svg",
+					"description": "",
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Web - Front-end",
+			"subs": [
+				{
+					"name": "Langages",
+					"values": [
+						{
+							"name": "HTML5",
+							"image": "html5.svg",
+							"description": "",
+							"level": 5
+						},
+						{
+							"name": "CSS3",
+							"image": "css3.svg",
+							"description": "",
+							"level": 5
+						},
+						{
+							"name": "JavaScript",
+							"image": "javascript.svg",
+							"description": "",
+							"link": "https://www.javascript.com/",
+							"shortlink": "javascript.com",
+							"level": 5
+						},
+						{
+							"name": "CoffeeScript",
+							"image": "coffeescript.svg",
+							"description": "Language compilé en JavaScript",
+							"link": "http://coffeescript.org/",
+							"shortlink": "coffeescript.org",
+							"level": 2
+						},
+						{
+							"name": "TypeScript",
+							"image": "typescript.svg",
+							"description": "Superset Javascript",
+							"link": "http://www.typescriptlang.org/",
+							"shortlink": "typescriptlang.org",
+							"level": 1
+						}
+					]
+				},
+				{
+					"name": "Frameworks CSS",
+					"values": [
+						{
+							"name": "Bootstrap",
+							"image": "bootstrap.svg",
+							"description": "Framework CSS complet et responsive",
+							"link": "http://getbootstrap.com/",
+							"shortlink": "getbootstrap.com",
+							"level": 5
+						},
+						{
+							"name": "Foundation",
+							"image": "foundation.svg",
+							"description": "Framework CSS complet et responsive",
+							"link": "http://foundation.zurb.com/",
+							"shortlink": "foundation.zurb.com",
+							"level": 4
+						},
+						{
+							"name": "Semantic UI",
+							"image": "semanticui.png",
+							"description": "Framework CSS responsive et sémantique",
+							"link": "http://semantic-ui.com/",
+							"shortlink": "semantic-ui.com",
+							"level": 3
+						},
+						{
+							"name": "Bulma",
+							"image": "bulma.png",
+							"description": "Framework CSS basé sur Flexbox",
+							"link": "http://bulma.io/",
+							"shortlink": "bulma.io",
+							"level": 3
+						},
+						{
+							"name": "Blaze",
+							"image": "blazecss.png",
+							"description": "Framework CSS modulaire",
+							"link": "http://blazecss.com/",
+							"shortlink": "blazecss.com",
+							"level": 2
+						},
+						{
+							"name": "Milligram",
+							"image": "milligram.png",
+							"description": "Framework CSS minimaliste",
+							"link": "http://milligram.github.io/",
+							"shortlink": "milligram.gh.io",
+							"level": 2
+						}
+					]
+				},
+				{
+					"name": "Frameworks/Librairies",
+					"values": [
+						{
+							"name": "jQuery",
+							"image": "jquery.svg",
+							"description": "",
+							"link": "http://jquery.com/",
+							"shortlink": "jquery.com",
+							"level": 5
+						},
+						{
+							"name": "AngularJS",
+							"image": "angular.svg",
+							"description": "Applications web dynamiques",
+							"link": "https://angularjs.org/",
+							"shortlink": "angularjs.org",
+							"level": 4
+						},
+						{
+							"name": "Vue.js",
+							"image": "vue.svg",
+							"description": "Composants réactifs pour interfaces Web",
+							"link": "http://vuejs.org/",
+							"shortlink": "vuejs.org",
+							"level": 1
+						}
+					]
+				},
+				{
+					"name": "Préprocesseurs CSS",
+					"values": [
+						{
+							"name": "less",
+							"image": "less.svg",
+							"description": "Préprocesseur CSS",
+							"link": "http://lesscss.org/",
+							"shortlink": "lesscss.org",
+							"level": 4
+						},
+						{
+							"name": "Sass",
+							"image": "sass.svg",
+							"description": "Préprocesseur CSS",
+							"link": "http://sass-lang.com/",
+							"shortlink": "sass-lang.com",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Moteurs de templates",
+					"values": [
+						{
+							"name": "Smarty",
+							"image": "smarty.png",
+							"description": "Moteur de template PHP",
+							"link": "http://www.smarty.net/",
+							"shortlink": "smarty.net",
+							"level": 3
+						},
+						{
+							"name": "Jade",
+							"image": "jade.svg",
+							"description": "Moteur de template HTML Template",
+							"link": "http://jade-lang.com/",
+							"shortlink": "jade-lang.com",
+							"level": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Web - Back-end",
+			"subs": [
+				{
+					"name": "Langage",
+					"values": [
+						{
+							"name": "PHP",
+							"image": "php.svg",
+							"description": "nope",
+							"link": "https://www.php.net/",
+							"shortlink": "php.net",
+							"level": 5
+						},
+						{
+							"name": "nodeJS",
+							"image": "nodejs.svg",
+							"description": "Environnement JS back-end",
+							"link": "https://nodejs.org/",
+							"shortlink": "nodejs.org",
+							"level": 2
+						}
+					]
+				},
+				{
+					"name": "Base de données",
+					"values": [
+						{
+							"name": "MySQL",
+							"image": "mysql.svg",
+							"link": "https://www.mysql.com/",
+							"shortlink": "mysql.com",
+							"level": 4
+						},
+						{
+							"name": "MongoDB",
+							"image": "mongodb.svg",
+							"description": "Base de données NoSQL",
+							"link": "https://www.mongodb.org/",
+							"shortlink": "mongodb.org",
+							"level": 3
+						},
+						{
+							"name": "PostgreSQL",
+							"image": "postgresql.svg",
+							"link": "http://www.postgresql.org/",
+							"shortlink": "postgresql.org",
+							"level": 2
+						}
+					]
+				},
+				{
+					"name": "Framework",
+					"values": [
+						{
+							"name": "ExpressJS",
+							"image": "express.svg",
+							"description": "Framework pour applications web",
+							"link": "http://expressjs.com/",
+							"shortlink": "expressjs.com",
+							"level": 3
+						},
+						{
+							"name": "Slim",
+							"image": "slimphp.png",
+							"description": "Micro framework PHP",
+							"link": "http://www.slimframework.com/",
+							"shortlink": "slimframework.com",
+							"level": 3
+						},
+						{
+							"name": "Symfony",
+							"image": "symfony.svg",
+							"description": "Framework PHP",
+							"link": "https://symfony.com/",
+							"shortlink": "symfony.com",
+							"level": 1
+						}
+					]
+				},
+				{
+					"name": "Content Management System",
+					"values": [
+						{
+							"name": "Drupal",
+							"image": "drupal.svg",
+							"description": "CMS open source",
+							"link": "https://www.drupal.org/",
+							"shortlink": "drupal.org",
+							"level": 4,
+							"size": "big"
+						},
+						{
+							"name": "Wordpress",
+							"image": "wordpress.svg",
+							"description": "CMS open source",
+							"link": "https://wordpress.com/",
+							"shortlink": "wordpress.com",
+							"level": 4
+						},
+						{
+							"name": "Prestashop",
+							"image": "prestashop.svg",
+							"description": "CMS open source pour e-shop",
+							"link": "https://www.prestashop.com/",
+							"shortlink": "prestashop.com",
+							"level": 4
+						},
+						{
+							"name": "Jekyll",
+							"image": "jekyll.png",
+							"description": "Generateur de sites statiques",
+							"link": "http://jekyllrb.com/",
+							"shortlink": "jekyllrb.com",
+							"level": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Outils",
+			"subs": [
+				{
+					"name": "Task-runners/Bundlers",
+					"values": [
+						{
+							"name": "Gulp",
+							"image": "gulp.svg",
+							"description": "Automatisation des taches",
+							"link": "http://gulpjs.com/",
+							"shortlink": "gulpjs.com",
+							"level": 4
+						},
+						{
+							"name": "Browserify",
+							"image": "browserify.svg",
+							"description": "Bundling des modules et dépendences JS",
+							"link": "http://browserify.org/",
+							"shortlink": "browserify.org",
+							"level": 3
+						},
+						{
+							"name": "Grunt",
+							"image": "grunt.svg",
+							"description": "Automatisation des taches",
+							"link": "http://gruntjs.com/",
+							"shortlink": "gruntjs.com",
+							"level": 3
+						},
+						{
+							"name": "Webpack",
+							"image": "webpack.svg",
+							"description": "Bundling des modules et dépendences",
+							"link": "https://webpack.github.io/",
+							"shortlink": "webpack.gh.io",
+							"level": 2
+						}
+					]
+				},
+				{
+					"name": "Autres",
+					"values": [
+						{
+							"name": "Git",
+							"image": "git.svg",
+							"description": "Version Control System",
+							"link": "https://git-scm.com/",
+							"shortlink": "git-scm.com",
+							"level": 4
+						},
+						{
+							"name": "Travis-CI",
+							"image": "travis.svg",
+							"description": "Intégration continue et tests de régression",
+							"link": "https://travis-ci.org/",
+							"shortlink": "travis-ci.org",
+							"level": 3
+						},
+						{
+							"name": "Vagrant",
+							"image": "vagrant.svg",
+							"description": "Environnements de développement",
+							"link": "https://www.vagrantup.com/",
+							"shortlink": "vagrantup.com",
+							"level": 2
+						},
+						{
+							"name": "KarmaJS",
+							"image": "karma.png",
+							"description": "Framework d'automatisation de tests JavaScript",
+							"link": "http://karma-runner.github.io/",
+							"shortlink": "karma-runner.gh.io",
+							"level": 3
+						},
+						{
+							"name": "Photoshop",
+							"image": "photoshop.svg",
+							"link": "http://www.photoshop.com/",
+							"shortlink": "photoshop.com",
+							"level": 1
+						}
+					]
+				}
+			]
+		}
+	]
 }

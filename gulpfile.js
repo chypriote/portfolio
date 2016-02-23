@@ -61,6 +61,11 @@ gulp.task('clear-cache', function (done) {
 
 gulp.task('images', function(){
   gulp.src('src/images/**/*')
+    .pipe(g.plumber({
+      errorHandler: function (error) {
+        console.log(error.message);
+        this.emit('end');
+    }}))
     .pipe(g.imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
     .pipe(gulp.dest('public/assets/images'))
     .pipe(browserSync.reload({stream:true}));
