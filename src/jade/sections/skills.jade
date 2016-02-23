@@ -1,9 +1,6 @@
 mixin skill(skill)
 	.skill(class=skill.level < 3 ? 'not-yet' : '')
-		if skill.icon
-			span.devicon
-				i(class="devicon-" + skill.icon + "-plain" + (skill.nowood ? '' : "-wordmark"))
-		else if skill.image
+		if skill.image
 			span.image
 				img.img-responsive(src="assets/images/skills/" + skill.image)
 		else
@@ -35,9 +32,7 @@ mixin skill(skill)
 								each skill in subcat.values
 									+skill(skill)
 				else
-					.subcategory
-						.skills
-							each skill in category.values
-								+skill(skill)
+					each skill in category.values
+						+skill(skill)
 		a(class="skill-hide") Masquer les compétences en cours
 

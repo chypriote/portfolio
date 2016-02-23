@@ -1,6 +1,10 @@
 $(document).ready(function() {
 	$('.open-menu').click(function(){
-		$('.mobile-menu ul').slideToggle('slow');
+		$('.navigation').removeClass('navigation-slim');
+		$('.navigation.mobile').slideToggle('slow');
+	});
+	$('.elements a').click(function(){
+		$('.navigation.mobile').slideToggle('slow');
 	});
 	//Sticky header
 		$(window).scroll(function() {
@@ -26,10 +30,8 @@ $(document).ready(function() {
 		});
 
 	//Empeche le click random dans les skills
-		$('.skills-description a').bind('click', function(e){e.preventDefault();});
 		$('.skill').click(function(){
 			$(this).toggleClass('rectangle');
-			$(this).find('a').unbind('click');
 		});
 
 	//Affichage d'un projet
@@ -53,6 +55,7 @@ $(document).ready(function() {
 				$('#work .work-git').hide();
 			}
 		});
+
 		$('.project-slider').slick({
 			prevArrow: '',
 			nextArrow: '<a class="project-next">Voir plus</a>',
@@ -65,7 +68,7 @@ $(document).ready(function() {
 				},
 				{
 					breakpoint: 768,
-					settings: {slidesToShow: 1}
+					settings: {slidesToShow: 2}
 				}
 			]
 		});
@@ -73,59 +76,5 @@ $(document).ready(function() {
 	//Masquer skills
 		$('.skill-hide').click(function(){
 			$('.not-yet').toggle();
-		});
-
-	//Hexagons
-		function hex_initial_animation() {
-			$(".hex-wrap,.hover-notify").velocity("transition.expandIn", {
-				stagger: 150
-			});
-			$(".hex-wrap").velocity("callout.pulse");
-			$(".hoverblock").velocity("fadeOut", {
-				delay: 3000,
-				duration: 0
-			});
-		}
-		hex_initial_animation();
-
-		$(".hex-init").click(function() {
-			if ($(this).parent().hasClass('hexactive')) {
-				$(this).parent().velocity('stop').velocity('reverse').removeClass('hexactive');
-				return;
-			}
-
-			$('.hexactive').velocity('stop', true).velocity('reverse').removeClass('hexactive');
-
-			var title_color = $(this).parent().attr("data-color");
-			var title_name = $(this).parent().attr("data-title");
-			var desc_name = $(this).parent().attr("data-content");
-			var link_name = $(this).parent().attr("data-link");
-			var link_short = $(this).parent().attr("data-short");
-			var background = $(this).parent().attr("data-img");
-
-			function hex_description() {
-				$('.code-description').velocity('stop', true).velocity("transition.slideRightBigIn");
-				$('.' + desc_name).siblings().removeClass('desc-active');
-				setTimeout(function() {
-					$('.' + desc_name).addClass('desc-active');
-					$('.code-descriptopn > div, .desc-active').children().velocity('stop', true).velocity("transition.slideRightBigIn", {
-						stagger: 300
-					});
-					$('.code-title, .desc-active span').velocity({
-						color: title_color
-					}, {
-						queue: false
-					});
-					$('.code-title').text(title_name);
-					$('.code-desc').text(desc_name);
-					$('.code-link').text(link_short);
-					$('.code-link').attr('href', link_name);
-					$('.code-background').attr('style', 'background-image: url(assets/images/skills/'+background+')');
-				}, 0);
-			}
-			hex_description();
-
-			$(this).parent().addClass('hexactive');
-			$('.hexactive').velocity({scaleX: "1.08",scaleY: "1.08"}, {duration: 200});
 		});
 });

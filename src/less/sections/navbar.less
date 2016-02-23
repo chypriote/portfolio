@@ -9,8 +9,11 @@
 	border-bottom: 1px solid #ddd;
 	padding: 1em .5em;
 	opacity: 0.95;
-	transition: padding 0.4s linear;
+	@media (min-width: 768px) {transition: padding 0.4s linear;}
 
+	&.navigation-slim {
+		padding: 0 .5em;
+	}
 	.logo {
 		flex-grow: 1;
 		.name {
@@ -38,32 +41,28 @@
 				color: @link-color;
 				font-weight: bold;
 				font-size: 1.4em;
+				padding: 0 .5em;
 				i {margin-left: 10px;}
 			}
 		}
+		a:not(.mobile) {
+			@media (max-width: 767px) {display: none;}
+		}
 	}
-	.mobile {
-		@media (min-width: 768px){display: none;}
-	}
-
-}
-
-.navigation-slim {
-	padding: 0 .5em;
-}
-
-.mobile-menu {
-	z-index: 999;
-	margin: 40px 0 0;
-	ul {
-		margin: 0;
+	&.mobile {
 		display: none;
-		padding: 10px 0 0;
-		li {
-			margin: 0;
-			display: block;
-			padding: 10px;
-			border-top: 1px solid #ddd;
+		top: 60px;
+		padding: 0;
+		.elements {
+			display: flex;
+			flex-direction: column;
+		}
+		a {
+			padding: .5em 1em;
+			font-weight: bold;
+			font-size: 1.2em;
+			text-transform: uppercase;
+			&:not(:first-child) {border-top: 1px solid #ddd;}
 		}
 	}
 }

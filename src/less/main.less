@@ -10,7 +10,6 @@
 @import 'sections/education';
 @import 'sections/skills';
 @import 'sections/work';
-@import 'sections/hexagon';
 
 #content {
 	top: 100vh;
@@ -20,11 +19,12 @@
 	section {
 		background: @section-bg1;
 		padding-top: 41px;
-		min-height: 100vh;
+		min-height: 95vh;
 		border-bottom: 1px solid #ddd;
 		&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
 		&#projects .container {border-bottom: none;}
 		&#skills .row {margin: 0;}
+		> .container {padding-bottom: 3em;}
 	}
 }
 
