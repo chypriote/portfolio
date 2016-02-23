@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$('.open-menu').click(function(){
 		$('.navigation').removeClass('navigation-slim');
-		$('.navigation.mobile').slideToggle('slow');
+		$('.menu.mobile').slideToggle('slow');
 	});
-	$('.elements a').click(function(){
-		$('.navigation.mobile').slideToggle('slow');
+	$('.mobile.menu a').click(function(){
+		$('.menu.mobile').slideToggle('slow');
 	});
 	//Sticky header
 		$(window).scroll(function() {

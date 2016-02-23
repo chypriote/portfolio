@@ -1,14 +1,14 @@
 nav.navigation
-	.logo
-		a(href="#home")
-			span.name nicolas
-				span.surname temenides
-	.menu
-		each link in nav
-			a(href="#{link.url}") #{link.title}
+	.main-bar
+		.logo
+			a(href="#home")
+				span.name nicolas
+					span.surname temenides
 		a.mobile.open-menu MENU
 			i.fa.fa-bars
-nav.navigation.mobile
-	.elements
+		.menu
+			each link in nav
+				a(href="#{link.url}") #{link.title}
+	.menu.mobile
 		each link in nav
 			a(href="#{link.url}") #{link.title}
