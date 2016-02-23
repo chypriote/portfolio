@@ -2,6 +2,7 @@
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
+	@media (max-width: 767px) {font-size: .8em;}
 	h2 {
 		width: 100%;
 		margin-bottom: 0;
@@ -63,6 +64,7 @@
 	&.rectangle {
 		box-shadow: 0 0 10px #acacac;
 		width: 16em;
+		@media (max-width: 767px) {width: 15em;}
 		> span {opacity: 0.25;}
 		.image {
 			-webkit-filter: grayscale(0);
