@@ -2,7 +2,7 @@ mixin skill(skill)
 	.skill(class=skill.level < 3 ? 'not-yet' : '')
 		if skill.image
 			span.image
-				img.img-responsive(src="assets/images/skills/" + skill.image)
+				img.img-responsive(src="assets/images/skills/" + skill.image, alt=skill.name)
 		else
 			span.text #{skill.name}
 		.skills-description
@@ -20,14 +20,14 @@ mixin skill(skill)
 
 .container
 	.row
-		h1.text-center Compétences
+		h2.text-center Compétences
 		each category in skills
 			.skills
-				h2 #{category.name}
+				h3 #{category.name}
 				if category.subs
 					each subcat in category.subs
 						.subcategory
-							h3 #{subcat.name}
+							h4 #{subcat.name}
 							.skills
 								each skill in subcat.values
 									+skill(skill)
