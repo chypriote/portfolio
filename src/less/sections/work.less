@@ -1,17 +1,17 @@
 #content #work {
-	padding: 4em 0;
-	background-color: #333;
-	color: #fff;
-	display: none;
 	position: relative;
+	display: none;
 	min-height: initial;
+	padding: 4em 0;
+	color: #fff;
+	background-color: #333;
 	.closeicon {
 		position: absolute;
 		top: 1em;
-		@media (min-width: 768px) {top: 4em;}
 		right: 1em;
-		cursor: pointer;
 		z-index: 50;
+		cursor: pointer;
+		@media (min-width: 768px) {top: 4em;}
 	}
 
 	.work-gallery {
@@ -40,9 +40,9 @@
 		}
 	}
 	.work-title {
-		font-weight: 900;
 		margin: 20px 0 10px;
 		font-size: 1.7em;
+		font-weight: 900;
 	}
 	.work-description {
 		font-size: 1.1em;
@@ -54,19 +54,19 @@
 	}
 	.work-links {
 		a {
-			border: 1px solid #D5D5D5;
-			color: @link-color;
 			display: inline-block;
-			margin: 0.3em;
-			padding: 1em 0px;
 			width: 45%;
-			text-decoration: none;
-			text-align: center;
+			padding: 1em 0;
+			margin: 0.3em;
 			font-size: 0.9em;
+			color: @link-color;
+			text-align: center;
+			text-decoration: none;
+			border: 1px solid #D5D5D5;
 			&:hover {
-				background: #FFF none repeat scroll 0% 0%;
-				border-color: #CCC;
 				color: @link-hover;
+				background: #FFF none repeat scroll 0 0;
+				border-color: #CCC;
 			}
 			i {
 				margin-right: 5px;
@@ -77,16 +77,16 @@
 
 .project-img-container {
 	.project-tile {
-		background: #000;
 		position: relative;
+		background: #000;
 	}
 	a {
 		z-index: 7;
 	}
 	img {
+		z-index: 5;
 		margin: 15px auto;
 		cursor: pointer;
-		z-index: 5;
 		@media (max-width: 767px) {
 			margin: 0 auto;
 		}
@@ -103,11 +103,11 @@
 	}
 }
 .project-next {
-	margin-top: 15px;
-	font-size: 1.4em;
-	text-align: right;
 	position: absolute;
 	top: -45px;
 	right: 20px;
+	margin-top: 15px;
+	font-size: 1.4em;
+	text-align: right;
 	cursor: pointer;
 }

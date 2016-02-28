@@ -12,21 +12,21 @@
 @import 'sections/work';
 
 #content {
-	top: 100vh;
 	position: relative;
+	top: 100vh;
 	padding-top: 0;
 	h2 {text-align: center;}
 	section {
-		background: @section-bg1;
-		padding-top: 41px;
 		min-height: 95vh;
+		padding-top: 41px;
+		background: @section-bg1;
 		border-bottom: 1px solid #ddd;
 		&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
-		&#projects .container {border-bottom: none;}
-		&#skills .row {margin: 0;}
 		> .container {padding-bottom: 3em;}
 	}
 }
+#projects .container {border-bottom: none;}
+#skills .row {margin: 0;}
 
 
 .active {color: @link-hover;}

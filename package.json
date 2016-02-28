@@ -1,37 +1,38 @@
 {
-	"name": "portfolio",
-	"version": "1.5.0",
-	"description": "Portfolio for Nicolas",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/chypriote/portfolio.git"
-	},
-	"author": "Nicolas",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/chypriote/portfolio/issues"
-	},
-	"homepage": "https://github.com/chypriote/portfolio#readme",
-	"devDependencies": {
-		"browser-sync": "^2.9.11",
-		"gulp": "^3.9.0",
-		"gulp-autoprefixer": "^3.1.0",
-		"gulp-cache": "*",
-		"gulp-changed": "^1.3.0",
-		"gulp-concat": "*",
-		"gulp-cssnano": "^2.1.0",
-		"gulp-data": "^1.2.1",
-		"gulp-imagemin": "*",
-		"gulp-jade": "^1.1.0",
-		"gulp-less": "3.0.5",
-		"gulp-load-plugins": "^1.2.0",
-		"gulp-plumber": "1.1.0",
-		"gulp-rename": "1.2.2",
-		"gulp-uglify": "*",
-		"run-sequence": "*"
-	}
+  "name": "portfolio",
+  "version": "1.5.0",
+  "description": "Portfolio for Nicolas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chypriote/portfolio.git"
+  },
+  "author": "Nicolas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chypriote/portfolio/issues"
+  },
+  "homepage": "https://github.com/chypriote/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "*",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "*",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "*",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "3.0.5",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-recess": "^1.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "*",
+    "run-sequence": "*"
+  }
 }

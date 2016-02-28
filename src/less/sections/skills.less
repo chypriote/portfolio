@@ -1,17 +1,17 @@
 .skills {
-	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
+	list-style-type: none;
 	@media (max-width: 767px) {font-size: .8em;}
 	h3 {
 		width: 100%;
 		margin-bottom: 0;
 	}
-	&.has-subs {flex-direction: column;}
 }
+.has-subs {flex-direction: column;}
 .skill-hide {
-	cursor: pointer;
 	float: right;
+	cursor: pointer;
 }
 .subcategory {
 	display: flex;
@@ -20,70 +20,67 @@
 	margin-bottom: .5em;
 	font-size: 13px;
 	h4 {
-		font-size: 1.2em;
 		margin: .25em 0;
+		font-size: 1.2em;
 		color: #aaa;
 	}
 }
 
 .skill {
+	position: relative;
 	display: flex;
 	align-items: center;
-	position: relative;
 
 	width: 6em;
 	height: 6em;
-	margin: .5em;
 	padding: .5em;
+	margin: .5em;
+
+	overflow: hidden;
+	cursor: pointer;
 
 	background: #fff;
 	box-shadow: 0 0 3px #ccc;
-
-	overflow: hidden;
 	transition: width .5s ease;
-	cursor: pointer;
 	&:hover {
 		box-shadow: 0 0 10px #acacac;
 		.image {-webkit-filter: grayscale(0);}
 	}
 
-	> span {
+	> .image {
+		position: relative;
 		display: block;
+		width: 100%;
+		-webkit-filter: grayscale(1);
 		transition: all .5s;
-		&.image {
-			-webkit-filter: grayscale(1);
-			position: relative;
-			width: 100%;
-			img {
-				margin: auto;
-				max-height: 6em;
-			}
-		}
-	}
-
-	&.rectangle {
-		box-shadow: 0 0 10px #acacac;
-		width: 16em;
-		@media (max-width: 767px) {width: 15em;}
-		> span {opacity: 0.25;}
-		.image {
-			-webkit-filter: grayscale(0);
-			left: 15%;
-			position: absolute;
-		}
-		.skills-description {
-			opacity: 1;
-			display: flex;
+		img {
+			max-height: 6em;
+			margin: auto;
 		}
 	}
 }
+.rectangle {
+	width: 16em;
+	box-shadow: 0 0 10px #acacac;
+	@media (max-width: 767px) {width: 15em;}
+	> span {opacity: 0.25;}
+	.image {
+		position: absolute;
+		left: 15%;
+		-webkit-filter: grayscale(0);
+	}
+	.skills-description {
+		display: flex;
+		opacity: 1;
+	}
+}
 .skills-description {
+	z-index: 1;
 	display: none;
 	flex-direction: column;
-	opacity: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 1;
+	opacity: 0;
 	.skills-title {
 		margin: 0;
 		font-size: 1.4em;
@@ -98,14 +95,14 @@
 	 &:hover{text-decoration: underline;}
 	}
 	p {
+		flex-grow: 1;
+		margin: 0;
 		font-size: 1em;
 		line-height: 1.2em;
-		margin: 0;
-		flex-grow: 1;
 	}
 	.skills-level {
-		font-size: 0.8em;
 		flex-grow: 1;
+		font-size: 0.8em;
 		span {padding-right: .4em;}
 		i {margin-right: 2px;color:#000;}
 	}

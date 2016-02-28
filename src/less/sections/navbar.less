@@ -1,16 +1,15 @@
 .navigation {
-	z-index: 1000;
-	top: 0;
 	position: fixed;
+	top: 0;
+	z-index: 1000;
 	width: 100%;
-	@media (max-width: 767px) {font-size: .9em;}
-	.main-bar {display: flex;}
+	padding: 1em .5em;
 	background-color: @nav-background;
 	border-bottom: 1px solid #ddd;
-	padding: 1em .5em;
 	opacity: 0.95;
+	@media (max-width: 767px) {font-size: .9em;}
+	.main-bar {display: flex;}
 	@media (min-width: 768px) {transition: padding 0.4s linear;}
-	&.navigation-slim {padding: 0 .5em;}
 	.logo {
 		flex-grow: 1;
 		.name {
@@ -26,36 +25,37 @@
 		}
 	}
 }
+.navigation-slim {padding: 0 .5em;}
 .menu {
 	display: flex;
 	align-items: center;
 	padding: 0 1em;
 	a {
 		padding: 0 1.5em;
-		transition: all 0.2s ease;
 		text-transform: uppercase;
+		transition: all 0.2s ease;
 	}
 }
-.menu.mobile {
-	display: flex;
+.mobile {
 	top: 60px;
+	display: flex;
 	flex-direction: column;
 	padding: .5em .5em 0;
 	a {
-		padding: .5em 1em;
-		font-weight: bold;
-		font-size: 1.2em;
-		text-transform: uppercase;
 		width: 100%;
+		padding: .5em 1em;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-transform: uppercase;
 		border-top: 1px solid #ddd;
 	}
 }
-a.open-menu {
-	cursor: pointer;
-	color: @link-color;
-	font-weight: bold;
-	font-size: 1.4em;
+.open-menu {
 	padding: 0 1em;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: @link-color;
+	cursor: pointer;
 	i {margin-left: 10px;}
 	@media (min-width: 768px) {display: none;}
 }

@@ -1,21 +1,21 @@
 #splash {
+	position: fixed;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	position: fixed;
 	width: 100%;
 	height: 100vh;
 	border-bottom: 1px solid #ddd;
 	.title {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
+		flex-direction: column;
 		h1 {
-			font-size: 3.5em;
-			@media (max-width: 767px) {font-size: 2.5em;}
-			border-bottom: 2px solid #F3F2F2;
 			font-family: 'Kaushan Script', cursive;
+			font-size: 3.5em;
+			border-bottom: 2px solid #F3F2F2;
+			@media (max-width: 767px) {font-size: 2.5em;}
 		}
 		.small {
 			font-family: 'Montserrat', sans-serif;
@@ -26,48 +26,48 @@
 		display: flex;
 		margin-top: 1em;
 		a {
-			display: flex;
-			justify-content: center;
-			align-items: center;
 			position: relative;
-			height: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			width: 50px;
-			border: 1px solid #ddd;
-			color: #666;
+			height: 50px;
 			font-size: 1.2em;
+			color: #666;
+			border: 1px solid #ddd;
 			&:not(:first-child) {margin-left:.5em;}
 			&:hover {color: #fff;}
 			&::before {
-				content: '';
 				position: absolute;
-				height: 100%;
-				width: 100%;
 				top: 0;
 				left: 0;
-				transition: box-shadow 0.3s ease;
 				z-index: -20;
+				width: 100%;
+				height: 100%;
+				content: '';
+				transition: box-shadow 0.3s ease;
 			}
-			&.github {
-				color: @social-github;
-				border-color: @social-github;
-				&:hover {color: #fff;}
-				&::before {box-shadow: inset 0 0 0 0 @social-github;}
-				&:hover::before {box-shadow: inset 0 0 0 48px @social-github;}
-			}
-			&.linkedin {
-				color: @social-linkedin;
-				border-color: @social-linkedin;
-				&:hover {color: #fff;}
-				&::before {box-shadow: inset 0 0 0 0 @social-linkedin;}
-				&:hover::before {box-shadow: inset 0 0 0 48px @social-linkedin;}
-			}
-			&.email {
-				color: @social-email;
-				border-color: @social-email;
-				&:hover {color: #fff;}
-				&::before {box-shadow: inset 0 0 0 0 @social-email;}
-				&:hover::before {box-shadow: inset 0 0 0 48px @social-email;}
-			}
+		}
+		.github {
+			color: @social-github;
+			border-color: @social-github;
+			&:hover {color: #fff;}
+			&::before {box-shadow: inset 0 0 0 0 @social-github;}
+			&:hover::before {box-shadow: inset 0 0 0 48px @social-github;}
+		}
+		.linkedin {
+			color: @social-linkedin;
+			border-color: @social-linkedin;
+			&:hover {color: #fff;}
+			&::before {box-shadow: inset 0 0 0 0 @social-linkedin;}
+			&:hover::before {box-shadow: inset 0 0 0 48px @social-linkedin;}
+		}
+		.email {
+			color: @social-email;
+			border-color: @social-email;
+			&:hover {color: #fff;}
+			&::before {box-shadow: inset 0 0 0 0 @social-email;}
+			&:hover::before {box-shadow: inset 0 0 0 48px @social-email;}
 		}
 	}
 }
