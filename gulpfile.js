@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var g = require('gulp-load-plugins')();
 
 var	runSequence  = require('run-sequence'),
-		browserSync = require('browser-sync');
+		browserSync = require('browser-sync'),
+		clean = require('del');
 
 gulp.task('serve', function() {
 	browserSync({
@@ -59,20 +60,16 @@ gulp.task('scripts', function(){
 		.pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('clear-cache', function (done) {
-	return g.cache.clearAll(done);
-});
-
 gulp.task('images', function(){
-	gulp.src('src/images/**/*')
-		// .pipe(g.plumber({
-		//   errorHandler: function (error) {
-		//     console.log(error.message);
-		//     this.emit('end');
-		// }}))
-		// .pipe(g.imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-		// .pipe(gulp.dest('public/assets/images'))
-		.pipe(browserSync.reload({stream:true}));
+	return gulp.src('src/images/**/*')
+		.pipe(g.imagemin({
+			progressive: true,
+			svgoPlugins: [{removeViewBox: false}],
+			optimizationLevel: 4,
+			multipass: true,
+			interlaced: true
+		}))
+		.pipe(gulp.dest('public/assets/images'));
 });
 
 gulp.task('copy', function(){
@@ -83,8 +80,12 @@ gulp.task('copy', function(){
 		.pipe(browserSync.reload({stream:true}));
 });
 
+gulp.task('clean', function() {
+    clean(['public/**/*', '!public']);
+});
+
 gulp.task('build', function(cb) {
-	runSequence(['clear-cache', 'styles', 'scripts', 'copy', 'images', 'jade']);
+	runSequence(['styles', 'scripts', 'copy', 'images', 'jade']);
 });
 
 gulp.task('watch', function(){
