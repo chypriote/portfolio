@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var g = require('gulp-load-plugins')();
 
 var	runSequence  = require('run-sequence'),
-		browserSync = require('browser-sync');
+		browserSync = require('browser-sync'),
+		clean = require('del');
 
 gulp.task('serve', function() {
 	browserSync({
@@ -60,9 +61,8 @@ gulp.task('scripts', function(){
 });
 
 gulp.task('images', function(){
-	gulp.src('src/images/**/*')
-		.pipe(gulp.dest('public/assets/images'))
-		.pipe(browserSync.reload({stream:true}));
+	return gulp.src('src/images/**/*')
+		.pipe(gulp.dest('public/assets/images'));
 });
 
 gulp.task('copy', function(){
@@ -71,6 +71,10 @@ gulp.task('copy', function(){
 	gulp.src('src/flags/*')
 		.pipe(gulp.dest('public/assets/flags'))
 		.pipe(browserSync.reload({stream:true}));
+});
+
+gulp.task('clean', function() {
+    clean(['public/**/*', '!public']);
 });
 
 gulp.task('build', function(cb) {
