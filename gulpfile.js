@@ -62,6 +62,13 @@ gulp.task('scripts', function(){
 
 gulp.task('images', function(){
 	return gulp.src('src/images/**/*')
+		.pipe(g.imagemin({
+			progressive: true,
+			svgoPlugins: [{removeViewBox: false}],
+			optimizationLevel: 4,
+			multipass: true,
+			interlaced: true
+		}))
 		.pipe(gulp.dest('public/assets/images'));
 });
 
