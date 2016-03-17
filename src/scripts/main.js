@@ -37,7 +37,7 @@ $('.mobile.menu a').click(function(){
 	$('.closeicon').click(function(){
 		$('#work').slideUp();
 	});
-	$('.ih-item').click(function(){
+	$('.project').click(function(){
 		$('#work').fadeIn();
 		$('#work .work-img').attr('src', $(this).attr('data-img'));
 		$('#work .work-title').html($(this).attr('data-title'));
@@ -53,23 +53,6 @@ $('.mobile.menu a').click(function(){
 		} else {
 			$('#work .work-git').hide();
 		}
-	});
-
-	$('.project-slider').slick({
-		prevArrow: '',
-		nextArrow: '<a class="project-next">Voir plus</a>',
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {slidesToShow: 2}
-			},
-			{
-				breakpoint: 768,
-				settings: {slidesToShow: 2}
-			}
-		]
 	});
 
 //Masquer skills
