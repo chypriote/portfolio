@@ -97,8 +97,8 @@
 			"name": "Les Talens Lyriques",
 			"img": "ltl.jpg",
 			"subtitle": "Nouvelle version du site",
-			"description": "Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.",
-			"role": "",
+			"description": "Le site de l'orchestre <em>Les Talens Lyriques</em>, développé en 2011 par l'agence Minit-L.<br>Le site sert permet aux visiteurs d'être aux faits des derniers évenements organisés par l'orchestre, d'écouter la musique de celui-ci, ainsi que d'acheter des billets pour leurs concerts.<br>Le site a été construit en utilisant le CMS <strong>Drupal</strong>.",
+			"role": "Dans le cadre de mon stage à <strong>Minit-L</strong>, ma mission a été de reconstruire l'ensemble du site, afin de lui donner un design plus moderne et responsive. Les fonctionalités telles que le calendrier ou le lecteur de musique ont aussi été remises à jour.<br><ul><li>Installation du framework CSS Foundation 5, afin de permettre au design du site d'être responsive</li><li>Réécriture de plusieurs modules Drupal du site: lecteur de musique, discographie</li><li>Création de nouveaux modules: calendrier, slider</li></ul>Cette mission m'a permis d'acquérir une grande maitrise du CMS Drupal, ainsi que du framework Foundation.",
 			"link": "http://www.lestalenslyriques.com",
 			"git": "",
 			"skills": [
