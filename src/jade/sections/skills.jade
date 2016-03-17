@@ -2,7 +2,7 @@ mixin skill(skill)
 	.skill(class=skill.level < 3 ? 'not-yet' : '')
 		if skill.image
 			span.image
-				img.img-responsive(src="assets/images/skills/" + skill.image, alt=skill.name)
+				img(src="assets/images/skills/" + skill.image, alt=skill.name)
 		else
 			span.text #{skill.name}
 		.skills-description

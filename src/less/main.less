@@ -2,8 +2,8 @@
 @import 'abstracts/variables';
 
 @import 'base/reset';
-@import 'base/base';
 @import 'base/grid';
+@import 'base/base';
 @import	'base/typography';
 
 @import 'sections/navbar';
@@ -13,26 +13,3 @@
 @import 'sections/projects';
 @import 'sections/work';
 
-#content {
-	position: relative;
-	top: 100vh;
-	padding-top: 0;
-	h2 {text-align: center;}
-	section {
-		min-height: 95vh;
-		padding-top: 41px;
-		background: @section-bg1;
-		border-bottom: 1px solid #ddd;
-		&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
-		> .container {padding-bottom: 3em;}
-	}
-}
-#projects .container {border-bottom: none;}
-
-.active {color: @link-hover;}
-
-ul {padding: 0;}
-.valign {
-	display: table-cell;
-	vertical-align: middle;
-}
