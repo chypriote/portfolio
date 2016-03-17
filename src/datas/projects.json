@@ -57,10 +57,10 @@
 		{
 			"name": "Boutique de la Comédie Française",
 			"img": "comedie-francaise.jpg",
-			"role": "",
-			"link": "http://www.boutique-comedie-francaise.fr",
 			"subtitle": "Maintenance et évolution",
-			"description": "Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.",
+			"description": "La boutique en ligne de la <em>Comédie Française</em> est dévelopée et maintenue par l'agence Minit-L.<br>Le site permet aux visiteurs d'acheter des produits dérivés des différents spectacles de la troupe. Il a été développé grace au CMS <strong>Prestashop</strong>, ainsi que le framework <strong>Bootstrap</strong>.",
+			"role": "Durant mon stage à <strong>Minit-L</strong>, j'ai été chargé de la maintenance du site, ainsi que d'effectuer plusieurs évolutions.<ul><li>Corrections sur l'affichage mobile du site (responsiveness)</li><li>Refonte complète du menu en vue mobile (utilisation d'un menu \"hamburger\"</li><li>Correction de bugs sur l'affichage des produits</li></ul>",
+			"link": "http://www.boutique-comedie-francaise.fr",
 			"git": "",
 			"skills": [
 				"html5",
@@ -75,8 +75,8 @@
 			"name": "PonyShop",
 			"img": "ponyshop.jpg",
 			"subtitle": "Réalisation du site",
-			"description": "Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.",
-			"role": "",
+			"description": "Dans le cadre du module Java à Epitech, il nous a été demandé de réaliser un site web servant à vendre un produit fictif. J'ai décidé de créer une boutique permettant l'achat de poneys, de toutes les formes et de toutes les couleurs.<br>Le site utilise la technologie <strong>JavaServer Pages</strong>, un serveur <strong>Tomcat</strong>, et communique avec une base de données <strong>SQLite</strong>.<br>En plus des fonctionalités requise, j'ai aussi ajouté des fonctionalités personalisées: gestion du panier, filtrage par catégories, système de news. Le design a quand à lui été réalisé à l'aide d'un template <strong>Bootstrap</strong>.Utilisation de servlets, DAO factories, stockage SQLite.",
+			"role": "Ce projet m'a permis de me familiariser avec les technologies <strong>Java 2 Platform, Entreprise Edition</strong>, ainsi que de mettre en application plusieurs concepts de l'architecture MVC pour le web.<ul><li>Servlets Java</li><li>Data Access Objects factories</li></ul>",
 			"link": "",
 			"git": "https://github.com/chypriote/PonyShop",
 			"skills": [
@@ -92,15 +92,14 @@
 			"name": "MyElo",
 			"img": "myelo.jpg",
 			"subtitle": "Réalisation du site",
-			"description": "Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.",
-			"role": "",
-			"link": "http://www.chypriote.net/projects/myelo",
+			"description": "<em>MyElo</em> est un site personnel, fruit de ma passion pour les statistiques. L'objectif du site était de permettre de garder un historique des rencontres entre les équipes françaises sur League of Legends.<br>Les résultats des matchs sont enregistrés sur le site, et permettent de calculer le nombre de points d'une équipe. Ce nombre de point est déterminé par un algorythme basé sur le système Elo, auquel j'ai ajouté plusieurs variables pour prendre en compte des données supplémentaires: rencontre officielle ou non, en ligne ou hors ligne, etc...<br>Le site sert aussi à garder une trace du passage des joueurs dans différentes équipes, ainsi que de leur progression en solo dans le classement officiel du jeu. Pour cela, j'ai utilisé l'API Riot Games, et stocker les données dans une base de données MySQL.<br>Le backend du site utilise PHP, tandis que le design a été réalisé en utilisant <strong>Bootstrap</strong>. L'ensemble du site a été réalisé entièrement \"from-scratch\".",
+			"role": "J'ai travaillé sur MyElo pendant plusieurs mois, ajoutant peu à peu de nouvelles fonctionalités, et affinant celles déjà en place. Il s'agit du premier site que j'ai construit possédant un frontend communiquant avec une API backend, plutôt que d'effectuer les requêtes directement en base de données. Pour celà, j'ai utilisé la fonction <em>$.ajax</em> de <strong>jQuery</strong>. Ainsi, il serait théoriquement possible très facilement de créer une application Android, iOS ou autre utilisant les memes données que le site.<br><ul><li>Création d'une API en backend</li><li>Communication avec l'API Riot via curL</li><li>Mise en place d'un algorythme de type Elo</li><li>Back-office permettant la création d'équipes, de joueurs, ainsi que l'ajout de résultats</li><li>Partie privée permettant de traquer les résultats solo de joueurs en particulier</li>",
+			"link": "http://projects.chypriote.me/myelo",
 			"git": "https://github.com/chypriote/myelo",
 			"skills": [
 				"html5",
 				"css3",
 				"jquery",
-				"bootsrap",
 				"php",
 				"mysql",
 				"bootstrap"
@@ -124,11 +123,11 @@
 			]
 		},
 		{
-			"name": "Easy Elo Boost v2",
+			"name": "Easy Elo Boost v3",
 			"img": "easyboost.jpg",
 			"subtitle": "Réalisation du site",
 			"role": "",
-			"link": "http://www.chypriote.net/projects/EasyElov3",
+			"link": "http://projects.chypriote.me/elo-boost-v3",
 			"description": "Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.",
 			"git": "",
 			"skills": [

@@ -31,6 +31,13 @@ function scrollTo(target) {
 	}, 1000);
 }
 
+function handleButton(button, value) {
+	if (value != '')
+		$(button).attr('href', value).removeClass('invisible');
+	else
+		$(button).addClass('invisible');
+}
+
 function loadProject(project) {
 	$('#work-title').html(project.name);
 	$('#work-description').html(project.description);
@@ -40,25 +47,20 @@ function loadProject(project) {
 	$(project.skills.forEach(function(el){
 		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'">');
 	}));
-	if (project.link != '') {
-		$('#work-site').attr('href', project.link).removeClass('invisible')
-	} else {
-		$('#work-site').addClass('invisible');
-	}
-	if (project.git != '') {
-		$('#work-git').attr('href', project.git).removeClass('invisible');
-	} else {
-		$('#work-git').addClass('invisible');
-	}
+	handleButton('#work-site', project.link);
+	handleButton('#work-git', project.git);
 	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name);
 }
 
 //Affichage d'un projet
 	$('.btn-project').click(function(){
 		$id = $(this).closest('.project').data('id');
+		$('#work-img').fadeOut('fast', function(){
 		loadProject(proj[$id]);
+		});
 		$('#work').slideDown();
 		scrollTo($('#work'));
+		$('#work-img').fadeIn();
 	});
 
 $('img').not('#work-img').unveil({offset:200});
