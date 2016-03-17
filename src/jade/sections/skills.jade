@@ -9,12 +9,6 @@ mixin skill(skill)
 			.skills-title #{skill.name}
 			p #{skill.description}
 			.skills-footer
-				.skills-level
-					span Niveau:
-					- for (var i = 0; i < skill.level; i++)
-						i.fa.fa-square
-					- for (var i; i < 5; i++)
-						i.fa.fa-square-o
 				if skill.link
 					a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
 
@@ -33,5 +27,4 @@ h2 Compétences
 			else
 				each skill in category.values
 					+skill(skill)
-		//- a(class="skill-hide") Masquer les compétences en cours
 

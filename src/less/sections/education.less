@@ -19,28 +19,6 @@
 }
 .studies {
 	flex-grow: 1;
-	.study {
-		z-index: 2;
-		display: flex;
-		padding: .5em 0;
-	}
-	.study-time {
-		display: table;
-		font-size: 1.3em;
-		font-weight: 700;
-		color: #000;
-		vertical-align: top;
-		background: #fff;
-	}
-	.study-text {
-		flex-grow: 1;
-		padding: 0 1em;
-		margin-bottom: 1em;
-		.study-title {
-			font-size: 1.3em;
-			font-weight: 700;
-		}
-	}
 	&::before {
 		position: absolute;
 		top: 5px;
@@ -53,52 +31,70 @@
 		content: ' ';
 	}
 }
-
-.jobs {
+.study {
+	z-index: 2;
+	display: flex;
+	padding: .5em 0;
+}
+.study-time {
+	display: table;
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #000;
+	vertical-align: top;
+	background: #fff;
+}
+.study-text {
 	flex-grow: 1;
-	.job {
-		padding: .5em 0;
-		&:not(:last-of-type){border-bottom: 1px solid #ddd;}
-	}
-	.job-header {
-		display: flex;
-		align-items: center;
-		.job-title {
-			flex-grow: 1;
-			font-size: 1.5em;
-			font-weight: 700;
-			@media (max-width: 767px) {font-size: 1.3em;}
-		}
-		.job-logo {
-			max-width: 40%;
-			font-size: 1.7em;
-			img {
-				max-width: 100%;
-				max-height: 40px;
-				@media (max-width: 767px) {max-width: 70px;}
-			}
-		}
-	}
-	.job-subtitle {
-		margin: -.5em 0 .5em;
-		font-size: 0.9em;
-		color: #aaa;
-	}
+	padding: 0 1em;
+	margin-bottom: 1em;
+}
+.study-title {
+	font-size: 1.3em;
+	font-weight: 700;
 }
 
-.langues {
-	.langue {
-		display: flex;
-		align-items: center;
-		padding: .5em 0;
-	}
-	.flag-icon {margin-right: .5em;font-size: 1.4em;}
-	.langue-level i {
-		padding: 0 .1em;
-	}
-	.langue-name {
-		flex-grow: 1;
-		font-size: 1.5em;
-		font-weight: 700;
+.jobs {flex-grow: 1;}
+.job {
+	padding: .5em 0;
+	&:not(:last-of-type){border-bottom: 1px solid #ddd;}
+}
+.job-header {
+	display: flex;
+	align-items: center;
+}
+.job-title {
+	flex-grow: 1;
+	font-size: 1.5em;
+	font-weight: 700;
+	@media (max-width: 767px) {font-size: 1.3em;}
+}
+.job-logo {
+	max-width: 40%;
+	font-size: 1.7em;
+	img {
+		max-width: 100%;
+		max-height: 40px;
+		@media (max-width: 767px) {max-width: 70px;}
 	}
 }
+.job-subtitle {
+	margin: -.5em 0 .5em;
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+.langue {
+	display: flex;
+	align-items: center;
+	padding: .5em 0;
+}
+.langue-level i {
+	padding: 0 .1em;
+}
+.langue-name {
+	flex-grow: 1;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.flag-icon {margin-right: .5em;font-size: 1.4em;}

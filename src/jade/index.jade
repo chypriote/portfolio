@@ -1,26 +1,28 @@
-extends layout
-
-block header
-	.title
-		h1 Nicolas Temenides
-		span.small Développeur Web & Software
-	.social
-		a.github(href="https://github.com/chypriote" target="_blank")
-			span.valign
-				i.fa.fa-github
-		a.linkedin(href="https://www.linkedin.com/profile/view?id=311450971" target="_blank")
-			span.valign
-				i.fa.fa-linkedin
-		a.email(href="mailto:nicolas.temenides@epitech.eu")
-			span.valign
-				i.fa.fa-envelope
-
-block content
-	section#education
-		include ./sections/education
-	section#skills
-		include ./sections/skills
-	section#work
-		include ./sections/work
-	section#projects
-		include ./sections/projects
+doctype html
+html
+	head
+		include ./inc/head.jade
+	body
+		#home
+		include ./inc/nav.jade
+		#splash
+			.title
+				h1 Nicolas Temenides
+				span.small Développeur Web & Software
+			.social
+				a.github(href="https://github.com/chypriote" target="_blank")
+					i.fa.fa-github
+				a.linkedin(href="https://www.linkedin.com/profile/view?id=311450971" target="_blank")
+					i.fa.fa-linkedin
+				a.email(href="mailto:nicolas.temenides@epitech.eu")
+					i.fa.fa-envelope
+		#content
+			section#education
+				include ./sections/education
+			section#skills
+				include ./sections/skills
+			section#work
+				include ./sections/work
+			section#projects
+				include ./sections/projects
+		include ./inc/footer.jade
