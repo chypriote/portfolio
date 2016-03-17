@@ -1,27 +1,22 @@
+mixin project(project)
+	.project(
+			data-title="#{project.name}",
+			data-img="assets/images/projects/" + project.img,
+			data-subtitle="#{project.subtitle}",
+			data-description="#{project.description}",
+			data-link="#{project.link}",
+			data-git="#{project.git}"
+		)
+		img(src="assets/images/projects/" + project.img, alt=project.name)
+		.info
+			.title #{project.name}
+			p #{project.subtitle}
+			button Voir plus
+
 .container
-	h2.text-center Projets
-	.project-slider
-		each row in projects
-			.slide
-				each project in row
-					.project-img-container
-						.ih-item(
-									data-title="#{project.name}",
-									data-img="assets/images/projects/" + project.img,
-									data-subtitle="#{project.subtitle}",
-									data-description="#{project.description}",
-									data-link="#{project.link}",
-									data-git="#{project.git}"
-						)
-							a(href="#work")
-								.img
-									img.img-responsive(src="assets/images/projects/" + project.img, alt=project.name)
-								.info
-									.title #{project.name}
-									p #{project.subtitle}
-									.hidden.project-skills
-										each skill in project.skills
-											if skill != "less"
-												i(class= 'devicon-' + skill + '-plain' title=skill)
-											else
-												i(class= 'devicon-' + skill + '-plain-wordmark' title=skill)
+	.row
+		h2.text-center Projets
+		- var n = 0
+		.projects
+			each project in projects
+				+project(project)
