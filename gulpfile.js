@@ -48,7 +48,7 @@ gulp.task('styles', function(){
 });
 
 gulp.task('scripts', function(){
-	return gulp.src(['src/scripts/unveil2.js', 'src/scripts/main.js'])
+	return gulp.src(['src/scripts/jquery.js', 'src/scripts/unveil2.js', 'src/scripts/main.js'])
 		.pipe(g.plumber({
 			errorHandler: function (error) {
 				console.log(error.message);
