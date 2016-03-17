@@ -13,10 +13,7 @@ mixin project(project)
 			p #{project.subtitle}
 			button Voir plus
 
-.container
-	.row
-		h2.text-center Projets
-		- var n = 0
-		.projects
-			each project in projects
-				+project(project)
+h2 Projets
+.projects
+	each project in projects
+		+project(project)

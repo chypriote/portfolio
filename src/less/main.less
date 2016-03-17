@@ -1,8 +1,10 @@
 
-@import 'vendors/bootstrap';
+@import 'abstracts/variables';
 
-@import 'variables';
-@import	'typography';
+@import 'base/reset';
+@import 'base/base';
+@import 'base/grid';
+@import	'base/typography';
 
 @import 'sections/navbar';
 @import 'sections/header';
@@ -26,8 +28,6 @@
 	}
 }
 #projects .container {border-bottom: none;}
-#skills .row {margin: 0;}
-
 
 .active {color: @link-hover;}
 

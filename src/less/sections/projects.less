@@ -1,15 +1,4 @@
-.project {
-	img {
-		@media (max-width: 767px) {
-			margin: 0 auto;
-		}
-	}
-	@media (max-width: 767px) {
-		margin-bottom: 20px;
-	}
-}
-
-
+.projects:extend(.container) {}
 .project {
 	position: relative;
 	display: inline-block;
@@ -66,7 +55,7 @@
 	}
 	&:hover {
 		z-index: 2;
-		transform: scale(1.5);
+		transform: scale(1.4);
 		.info {opacity: 0.9;}
 	}
 }
