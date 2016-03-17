@@ -1,18 +1,20 @@
-img.closeicon(src="assets/images/close.png", alt="icon-close")
-.work-gallery
-	.image-container
-		img.work-img(src="assets/images/projects/hermes.jpg", alt="work-img")
-	.work-infos
-		h3.work-title Hermes
-		span.work-description.
-			Verbex is a web app, made to make simple regular expressions a bit easier to construct, by using word-blocks, and by highlighting matches on predefined text. It's built on top of JSVerbalExpressions, using jQuery. Verbex can be found at
-		hr
-		.work-techno Technologies :
-			.work-skills
+h2#work-title Titre
+.work
+	.col-left
+		img#work-img.work-img(src="assets/images/projects/hermes.jpg", alt="work-img")
 		.work-links
-			a(href="" class="work-site" target="_blank")
-				i.fa.fa-caret-right
-				| Voir le site
-			a(href="" class="work-git" target="_blank")
-				i.fa.fa-github
-				| Projet sur GitHub
+			a#work-site.btn-work(href="" target="_blank").
+				#[i.fa.fa-caret-right]
+				Voir le site
+			a#work-git.btn-work(href="" target="_blank").
+				#[i.fa.fa-github]
+				Projet sur GitHub
+	.col-right
+		h3 Description
+		#work-description.
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		h3 Role
+		#work-role.
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		h3 Technologies
+		#work-skills

@@ -5,6 +5,7 @@
 			"img": "ltl.jpg",
 			"subtitle": "Nouvelle version du site",
 			"description": "Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.",
+			"role": "",
 			"link": "http://www.lestalenslyriques.com",
 			"git": "",
 			"skills": [
@@ -22,6 +23,7 @@
 			"img": "challengewars.jpg",
 			"subtitle": "Réalisation du site",
 			"description": "Dans le cadre du PFA à Epitech, création from-scratch d'un site déstiné aux joueurs de League of Legends. Design, création de l'API, front-end et back-end du site. Le site consomme l'API Riot (League of Legends) pour afficher des données mises à jour automatiquement.",
+			"role": "",
 			"link": "http://challengewars.byethost12.com/",
 			"git": "https://github.com/chypriote/ChallengeWars",
 			"skills": [
@@ -38,6 +40,7 @@
 			"img": "videowp.jpg",
 			"subtitle": "Réalisation du site",
 			"description": "Création d'un site sous Wordpress pour indexer mes vidéos de League of Legends postées sur youtube.",
+			"role": "",
 			"link": "http://video.chypriote.me",
 			"git": "https://github.com/chypriote/wp-video",
 			"skills": [
@@ -54,6 +57,7 @@
 		{
 			"name": "Boutique de la Comédie Française",
 			"img": "comedie-francaise.jpg",
+			"role": "",
 			"link": "http://www.boutique-comedie-francaise.fr",
 			"subtitle": "Maintenance et évolution",
 			"description": "Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.",
@@ -72,6 +76,7 @@
 			"img": "ponyshop.jpg",
 			"subtitle": "Réalisation du site",
 			"description": "Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.",
+			"role": "",
 			"link": "",
 			"git": "https://github.com/chypriote/PonyShop",
 			"skills": [
@@ -88,6 +93,7 @@
 			"img": "myelo.jpg",
 			"subtitle": "Réalisation du site",
 			"description": "Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.",
+			"role": "",
 			"link": "http://www.chypriote.net/projects/myelo",
 			"git": "https://github.com/chypriote/myelo",
 			"skills": [
@@ -98,6 +104,53 @@
 				"php",
 				"mysql",
 				"bootstrap"
+			]
+		},
+		{
+			"name": "Observatoire des Territoires",
+			"img": "datar.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "Dans le cadre de mon stage à Minit-L, évolution majeure: passage de l'intégralité du site en responsive. Modifications en back office ainsi qu'en front.",
+			"role": "",
+			"link": "http://www.datar.gouv.fr/observatoire-des-territoires",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"drupal"
+			]
+		},
+		{
+			"name": "Easy Elo Boost v2",
+			"img": "easyboost.jpg",
+			"subtitle": "Réalisation du site",
+			"role": "",
+			"link": "http://www.chypriote.net/projects/EasyElov3",
+			"description": "Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"bootstrap",
+				"jquery",
+				"mysql"
+			]
+		},
+		{
+			"name": "EpiAndroid",
+			"img": "epiandroid.jpg",
+			"subtitle": "Application android",
+			"description": "Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/EpiAndroid",
+			"skills": [
+				"java",
+				"android"
 			]
 		}
 	]

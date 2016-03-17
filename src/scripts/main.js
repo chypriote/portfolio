@@ -1,11 +1,13 @@
-$('.open-menu').click(function(){
-	$('.navigation').removeClass('navigation-slim');
-	$('.sub-bar').slideToggle('slow');
-});
-$('.mobile.menu a').click(function(){
-	$('.sub-bar').slideToggle('slow');
-});
-//Sticky header
+//Barre de navigation
+	$('.open-menu').click(function(){
+		$('.navigation').removeClass('navigation-slim');
+		$('.sub-bar').slideToggle('slow');
+	});
+	$('.mobile.menu a').click(function(){
+		$('.sub-bar').slideToggle('slow');
+	});
+
+//Smooth scrolling
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
 			$('.navigation').addClass("navigation-slim");
@@ -13,49 +15,50 @@ $('.mobile.menu a').click(function(){
 			$('.navigation').removeClass("navigation-slim");
 		}
 	});
-	$(function() {
-		$('nav a').click(function() {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			if (target.length) {
-				$('html,body').animate({
-					scrollTop: target.offset().top
-				}, 1000);
-				return false;
-			}
-		});
+	$('nav a').click(function(e) {
+		e.preventDefault();
+		scrollTo($(this.hash));
 	});
 
-//Empeche le click random dans les skills
+//Classe skill
 	$('.skill').click(function(){
 		$(this).toggleClass('rectangle');
 	});
 
+function scrollTo(target) {
+	$('html,body').animate({
+		scrollTop: target.offset().top
+	}, 1000);
+}
+
+function loadProject(project) {
+	$('#work-title').html(project.name);
+	$('#work-description').html(project.description);
+	$('#work-role').html(project.role);
+
+	$('#work-skills').empty();
+	$(project.skills.forEach(function(el){
+		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg">');
+	}));
+	if (project.link != '') {
+		$('#work-site').attr('href', project.link).removeClass('invisible')
+	} else {
+		$('#work-site').addClass('invisible');
+	}
+	if (project.git != '') {
+		$('#work-git').attr('href', project.git).removeClass('invisible');
+	} else {
+		$('#work-git').addClass('invisible');
+	}
+	$('#work-img').attr('src', 'assets/images/projects/' + project.img);
+}
+
 //Affichage d'un projet
-	$('.closeicon').click(function(){
-		$('#work').slideUp();
-	});
-	$('.project').click(function(){
-		$('#work').fadeIn();
-		$('#work .work-img').attr('src', $(this).attr('data-img'));
-		$('#work .work-title').html($(this).attr('data-title'));
-		$('#work .work-description').html($(this).attr('data-description'));
-		$('#work .work-skills').html($(this).find('.project-skills').html());
-		if ($(this).attr('data-link')) {
-			$('#work .work-site').attr('href', $(this).attr('data-link')).show();
-		} else {
-			$('#work .work-site').hide();
-		}
-		if ($(this).attr('data-git')) {
-			$('#work .work-git').attr('href', $(this).attr('data-git')).show();
-		} else {
-			$('#work .work-git').hide();
-		}
+	$('.btn-project').click(function(){
+		$id = $(this).closest('.project').data('id');
+		loadProject(proj[$id]);
+		$('#work').slideDown();
+		scrollTo($('#work'));
 	});
 
-//Masquer skills
-	$('.skill-hide').click(function(){
-		$('.not-yet').toggle();
-	});
-
-$('img').unveil({offset:200});
+$('img').not('#work-img').unveil({offset:200});

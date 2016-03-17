@@ -1,19 +1,15 @@
-mixin project(project)
-	.project(
-			data-title="#{project.name}",
-			data-img="assets/images/projects/" + project.img,
-			data-subtitle="#{project.subtitle}",
-			data-description="#{project.description}",
-			data-link="#{project.link}",
-			data-git="#{project.git}"
-		)
+mixin project(project, id)
+	.project(data-id=id)
 		img(src="assets/images/projects/" + project.img, alt=project.name)
 		.info
 			.title #{project.name}
 			p #{project.subtitle}
-			button Voir plus
+			button.btn-project Voir plus
+		- jsonProject = JSON.stringify(project)
+		script proj["#{id}"] = !{jsonProject};
 
+script proj = []
 h2 Projets
 .projects
-	each project in projects
-		+project(project)
+	each project, id in projects
+		+project(project, id)

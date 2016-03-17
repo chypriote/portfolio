@@ -33,20 +33,6 @@
 			font-style: italic;
 			color: #bbb;
 		}
-		button {
-			width: 50%;
-			padding: 1em 0;
-			font-size: 0.9em;
-			color: @link-color;
-			background: transparent;
-			border: 1px solid #D5D5D5;
-			opacity: 1;
-			transition: all .2s ease-in;
-			&:hover {
-				color: @link-hover;
-				background: @link-color;
-			}
-		}
 	}
 	img {
 		width: 100%;
@@ -58,4 +44,9 @@
 		transform: scale(1.4);
 		.info {opacity: 0.9;}
 	}
+}
+.btn-project:extend(.btn-default all) {
+	width: 50%;
+	font-size: 0.9em;
+	opacity: 1;
 }
