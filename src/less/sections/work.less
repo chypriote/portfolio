@@ -1,6 +1,11 @@
-#work {display: none;}
+#work {
+	// display: none;
+	display: flex;
+	flex-direction: column;
+}
 .work:extend(.container) {
 	display: flex;
+	flex-grow: 1;
 	padding-top: 2em;
 	& > div {
 		width: 49%;
@@ -30,5 +35,11 @@
 	display: inline-block;
 	width: 4em;
 	height: 4em;
-	padding: 0 .25em;
+	padding: 0 .25em 1em;
+}
+.back:extend(.btn-default all) {
+	float: right;
+	padding: 1em;
+	margin-bottom: 2em;
+	i {margin-left: 5px;}
 }

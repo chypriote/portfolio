@@ -15,7 +15,7 @@
 			$('.navigation').removeClass("navigation-slim");
 		}
 	});
-	$('nav a').click(function(e) {
+	$('nav a, .back').click(function(e) {
 		e.preventDefault();
 		scrollTo($(this.hash));
 	});
@@ -38,7 +38,7 @@ function loadProject(project) {
 
 	$('#work-skills').empty();
 	$(project.skills.forEach(function(el){
-		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg">');
+		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'">');
 	}));
 	if (project.link != '') {
 		$('#work-site').attr('href', project.link).removeClass('invisible')
@@ -50,7 +50,7 @@ function loadProject(project) {
 	} else {
 		$('#work-git').addClass('invisible');
 	}
-	$('#work-img').attr('src', 'assets/images/projects/' + project.img);
+	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name);
 }
 
 //Affichage d'un projet
