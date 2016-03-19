@@ -2,66 +2,84 @@
 	position: fixed;
 	top: 0;
 	z-index: 1000;
-	width: 100%;
-	padding: 1em .5em;
-	background-color: @nav-background;
-	border-bottom: 1px solid #ddd;
-	opacity: 0.95;
-	@media (max-width: 767px) {font-size: .9em;}
-	.main-bar {display: flex;}
-	@media (min-width: 768px) {transition: padding 0.4s linear;}
-	.logo {
-		flex-grow: 1;
-		.name {
-			font-family: 'Montserrat', sans-serif;
-			font-size: 2em;
-			font-weight: 600;
-			color: #fff;
-			@media(max-width: 767px){font-size: 1.6em;}
-		}
-		.surname {
-			font-weight: 100;
-			color: #aaa;
-		}
-	}
-}
-.navigation-slim {padding: 0 .5em;}
-.menu {
-	display: flex;
-	align-items: center;
-	padding: 0 1em;
-	a {
-		padding: 0 1.5em;
-		text-transform: uppercase;
-		transition: all 0.2s ease;
-	}
-}
-.mobile {
-	top: 60px;
 	display: flex;
 	flex-direction: column;
-	padding: .5em .5em 0;
-	a {
-		width: 100%;
-		padding: .5em 1em;
-		font-size: 1.2em;
-		font-weight: bold;
-		text-transform: uppercase;
-		border-top: 1px solid #ddd;
+	width: 100%;
+
+
+	background-color: @nav-background;
+	border-bottom: 1px solid #ddd;
+
+	opacity: 0.95;
+
+
+	@media (max-width: 767px) {
+		font-size: .9em;
+	}
+	@media (min-width: 768px) {
+		flex-direction: row;
+		align-items: center;
 	}
 }
+
+.main-bar {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding: 1em .5em;
+	transition: padding 0.4s linear;
+}
+
+.logo {
+	flex-grow: 1;
+	.name {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+		color: #fff;
+		@media(max-width: 767px){font-size: 1.6em;}
+	}
+	.surname {
+		font-weight: 100;
+		color: #aaa;
+	}
+}
+
 .open-menu {
-	padding: 0 1em;
+	display: block;
+	padding: 0;
 	font-size: 1.4em;
 	font-weight: bold;
 	color: @link-color;
 	cursor: pointer;
 	i {margin-left: 10px;}
-	@media (min-width: 768px) {display: none;}
 }
-.sub-bar {
-	display: none;
+
+
+.navigation-slim {
+	.main-bar {padding: 0 .5em;}
 }
+
 .menu {
-	@media (max-width: 767px) {display: none;}
+	display: flex;
+	@media (max-width: 768px) {display: none;}
+	a {
+		padding: .5em 1.5em;
+		text-transform: uppercase;
+		transition: all 0.2s ease;
+	}
+}
+.menu-mobile {
+	display: none;
+	@media (min-width: 768px) {display: none !important;}
+	a {
+		display: block;
+		padding: .5em 1.5em;
+		text-transform: uppercase;
+		transition: all 0.2s ease;
+	}
+}
+
+.mobile {
+	@media (min-width: 768px) {display: none;}
 }

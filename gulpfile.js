@@ -10,7 +10,8 @@ gulp.task('serve', function() {
 		server: {
 			 baseDir: "./public"
 		},
-		online: false
+		online: false,
+		notify: false
 	});
 });
 
