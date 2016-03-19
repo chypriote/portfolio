@@ -75,9 +75,9 @@ function loadProject(project) {
 
 	$('#work-skills').empty();
 	$(project.skills.forEach(function(el){
-		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'">');
+		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'" title="'+el+'">');
 	}));
 	handleButton('#work-site', project.link);
 	handleButton('#work-git', project.git);
-	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name);
+	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name).attr('title', project.name);
 }
