@@ -29,6 +29,9 @@
 	});
 
 //Affichage d'un projet
+	$('.project').click(function(){
+		$(this).find('.info').css('opacity', 0.9);
+	});
 	$('.btn-project').click(function(){
 		$id = $(this).closest('.project').data('id');
 		$('#work-img').fadeOut('fast', function(){

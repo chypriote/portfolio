@@ -2,7 +2,7 @@
 .project {
 	position: relative;
 	display: inline-block;
-	width: 31%;
+	width: 95%;
 	margin: .5em;
 	border: 1px solid #000;
 	transition: all 0.2s ease-in;
@@ -39,14 +39,33 @@
 		height: 100%;
 		cursor: pointer;
 	}
-	&:hover {
-		z-index: 2;
-		transform: scale(1.4);
-		.info {opacity: 0.9;}
-	}
 }
 .btn-project:extend(.btn-default all) {
 	width: 50%;
 	font-size: 0.9em;
 	opacity: 1;
+}
+
+@media (min-width: 768px) {
+	.project {
+		width: 47%;
+	}
+	.info {opacity: 0;}
+}
+@media (min-width: 992px) {
+	.project {
+		width: 31%;
+		border-bottom-width: 2px;
+		&:hover {
+			z-index: 2;
+			transform: scale(1.4);
+			.info {opacity: 0.9;}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.project {
+		border-bottom-width: 1px;
+		&:hover {transform: scale(1.25);}
+	}
 }

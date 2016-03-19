@@ -1,11 +1,8 @@
 #work {	display: none;}
 .work:extend(.container) {
 	display: flex;
+	flex-direction: column;
 	padding-top: 2em;
-	& > div {
-		width: 49%;
-		padding: 0 1em;
-	}
 	h3 {
 		margin: .67em 0;
 		color: #aaa;
@@ -32,9 +29,21 @@
 	height: 4em;
 	padding: 0 .25em 1em;
 }
+.back-button {
+	text-align: right;
+}
 .back:extend(.btn-default all) {
-	float: right;
+	display: inline-block;
 	padding: 1em;
-	margin-bottom: 2em;
+	margin: 2em 0;
 	i {margin-left: 5px;}
+}
+@media (min-width: 992px) {
+	.work {
+		flex-direction: row;
+		& > div {
+			width: 49%;
+			padding: 0 1em;
+		}
+	}
 }
