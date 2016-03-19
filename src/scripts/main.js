@@ -12,14 +12,14 @@
 	});
 
 //Smooth scrolling
-	$('.menu-item, .back').click(function(e) {
+	$('.menu-item').click(function(e) {
 		e.preventDefault();
-		scrollTo($(this.hash));
+		scrollToTop($(this.hash));
 	});
 	$('.menu-mobile-item').click(function(e) {
 		e.preventDefault();
 		$('.menu-mobile').slideToggle();
-		scrollTo($(this.hash));
+		scrollToTop($(this.hash));
 	});
 
 
@@ -30,16 +30,23 @@
 
 //Affichage d'un projet
 	$('.project').click(function(){
-		$(this).find('.info').css('opacity', 0.9);
+		$(this).find('.info').toggleClass('touched');
 	});
+
 	$('.btn-project').click(function(){
 		$id = $(this).closest('.project').data('id');
 		$('#work-img').fadeOut('fast', function(){
-		loadProject(proj[$id]);
+			loadProject(proj[$id]);
 		});
 		$('#work').slideDown();
-		scrollTo($('#work'));
+		scrollToTop($('#work'));
 		$('#work-img').fadeIn();
+	});
+
+	$('.back').click(function(e) {
+		e.preventDefault();
+		$('.touched').removeClass('touched');
+		scrollToTop($(this.hash));
 	});
 
 $('img').not('#work-img').unveil({offset:200});
@@ -48,7 +55,7 @@ $('img').not('#work-img').unveil({offset:200});
 
 // Fonctions
 
-function scrollTo(target) {
+function scrollToTop(target) {
 	$('html,body').animate({
 		scrollTop: target.offset().top
 	}, 1000);
