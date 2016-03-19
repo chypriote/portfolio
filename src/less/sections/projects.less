@@ -1,0 +1,83 @@
+.projects:extend(.container) {}
+.project {
+	position: relative;
+	display: inline-block;
+	width: 95%;
+	margin: .5em;
+	border: 1px solid #000;
+	transition: all 0.2s ease-in;
+
+	.info {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		padding: 1em;
+		text-align: center;
+		background: #333333;
+		border: 3px solid #000;
+
+		opacity: 0;
+		transition: all 0.35s ease-in-out;
+
+		.title {
+			margin-top: 1em;
+			font-size: 1.3em;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		p {
+			flex-grow: 1;
+			margin: 0;
+			font-style: italic;
+			color: #bbb;
+		}
+	}
+	.touched {
+		z-index: 2;
+		opacity: 0.9;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+	&:hover {
+		z-index: 2;
+		.info {
+			z-index: 2;
+			opacity: 0.9;
+		}
+	}
+}
+.btn-project:extend(.btn-default all) {
+	width: 50%;
+	font-size: 0.9em;
+	opacity: 1;
+}
+
+@media (min-width: 600px) {
+	.project {width: 46%;}
+	.info {z-index: 1;}
+}
+@media (min-width: 992px) {
+	.project {
+		width: 31%;
+		border-bottom-width: 2px;
+		&:hover {transform: scale(1.4);}
+	}
+}
+@media (min-width: 1200px) {
+	.project {
+		border-bottom-width: 1px;
+		&:hover {transform: scale(1.25);}
+	}
+}

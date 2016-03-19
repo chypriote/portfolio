@@ -1,38 +1,24 @@
 
-@import 'vendors/bootstrap';
-@import 'vendors/effect';
+@import 'abstracts/variables';
 
-@import 'variables';
-@import	'typography';
+//Flagicons
+.flag-icon{background-position:50%;background-repeat:no-repeat;background-size:contain;}
+.flag-icon{position:relative;display:inline-block;width:1.33333333em;line-height:1em;}
+.flag-icon::before{content:"\00a0";}
+.flag-icon-fr{background-image:url(../images/flags/fr.svg);}
+.flag-icon-cn{background-image:url(../images/flags/cn.svg);}
+.flag-icon-gb{background-image:url(../images/flags/gb.svg);}
+.flag-icon-de{background-image:url(../images/flags/de.svg);}
+
+@import 'base/reset';
+@import 'base/grid';
+@import 'base/base';
+@import	'base/typography';
 
 @import 'sections/navbar';
 @import 'sections/header';
 @import 'sections/education';
 @import 'sections/skills';
+@import 'sections/projects';
 @import 'sections/work';
 
-#content {
-	position: relative;
-	top: 100vh;
-	padding-top: 0;
-	h2 {text-align: center;}
-	section {
-		min-height: 95vh;
-		padding-top: 41px;
-		background: @section-bg1;
-		border-bottom: 1px solid #ddd;
-		&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
-		> .container {padding-bottom: 3em;}
-	}
-}
-#projects .container {border-bottom: none;}
-#skills .row {margin: 0;}
-
-
-.active {color: @link-hover;}
-
-ul {padding: 0;}
-.valign {
-	display: table-cell;
-	vertical-align: middle;
-}

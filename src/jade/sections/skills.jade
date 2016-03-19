@@ -2,37 +2,29 @@ mixin skill(skill)
 	.skill(class=skill.level < 3 ? 'not-yet' : '')
 		if skill.image
 			span.image
-				img.img-responsive(src="assets/images/skills/" + skill.image, alt=skill.name)
+				img(src="assets/images/skills/" + skill.image, alt=skill.name)
 		else
 			span.text #{skill.name}
 		.skills-description
 			.skills-title #{skill.name}
 			p #{skill.description}
 			.skills-footer
-				.skills-level
-					span Niveau:
-					- for (var i = 0; i < skill.level; i++)
-						i.fa.fa-square
-					- for (var i; i < 5; i++)
-						i.fa.fa-square-o
 				if skill.link
 					a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
 
-.container
-	.row
-		h2.text-center Compétences
-		each category in skills
-			.skills
-				h3 #{category.name}
-				if category.subs
-					each subcat in category.subs
-						.subcategory
-							h4 #{subcat.name}
-							.skills
-								each skill in subcat.values
-									+skill(skill)
-				else
-					each skill in category.values
-						+skill(skill)
-		//- a(class="skill-hide") Masquer les compétences en cours
+h2 Compétences
+.skills
+	each category in skills
+		.skills-row
+			h3 #{category.name}
+			if category.subs
+				each subcat in category.subs
+					.subcategory
+						h4 #{subcat.name}
+						.skills-row
+							each skill in subcat.values
+								+skill(skill)
+			else
+				each skill in category.values
+					+skill(skill)
 

@@ -1,8 +1,24 @@
-[
-	{"title":"Accueil", "url":"#home"},
-	{"title":"Formation", "url":"#education"},
-	{"title":"Experiences", "url":"#experience"},
-	{"title":"Compétences", "url":"#skills"},
-	{"title":"Projets", "url":"#portfolio"},
-	{"title":"Contact", "url":"#contact"}
-]
+{
+	"nav": [
+		{
+			"title": "Accueil",
+			"english": "Home",
+			"url": "#home"
+		},
+		{
+			"title": "Formation",
+			"english": "Education",
+			"url": "#education"
+		},
+		{
+			"title": "Compétences",
+			"english": "Skills",
+			"url": "#skills"
+		},
+		{
+			"title": "Projets",
+			"english": "Projects",
+			"url": "#projects"
+		}
+	]
+}

@@ -1,15 +1,13 @@
 nav.navigation
 	.main-bar
 		.logo
-			a(href="#home")
-				span.name nicolas
-					span.surname temenides
-		a.mobile.open-menu MENU
+			a.menu-item.name(href="#home") nicolas
+				span.surname temenides
+		.mobile.open-menu MENU
 			i.fa.fa-bars
 		.menu
 			each link in nav
-				a(href="#{link.url}") #{link.title}
-	.sub-bar
-		.menu.mobile
-			each link in nav
-				a(href="#{link.url}") #{link.title}
+				a.menu-item(href="#{link.url}") #{link.title}
+	.menu-mobile
+		each link in nav
+			a.menu-mobile-item(href="#{link.url}") #{link.title}

@@ -1,0 +1,88 @@
+/*
+ * Google fonts
+ * Kaushan - Titre
+ * Montserrat - Sous-titre
+ * Lato - body
+ *
+*/
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/KaushanScript.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Montserrat.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Lato.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Lato-Bold.woff2) format('woff2');
+}
+
+/*
+ *
+ * Headers
+ *
+*/
+body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3.5em;
+}
+h2 {
+	margin: 0 0 .67em;
+	font-size: 2em;
+	text-align: center;
+}
+h3 {
+	font-size: 1.4em;
+	font-weight: 500;
+}
+h4 {
+	margin: .25em 0;
+	font-size: 1.1em;
+	color: #aaa;
+}
+
+/*
+ *
+ * Links
+ *
+*/
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+	background: transparent;
+	&:link, &:visited, &:active {
+		color: @link-color;
+		text-decoration: none;
+	}
+	&:hover {
+		color: @link-hover;
+		text-decoration: none;
+	}
+	&:focus {
+		outline: thin dotted;
+		outline: 5px auto -webkit-focus-ring-color;
+		outline-offset: -2px;
+	}
+}

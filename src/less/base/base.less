@@ -1,0 +1,43 @@
+#content {
+	position: relative;
+	top: 100vh;
+	padding-top: 0;
+}
+section {
+	min-height: 91vh;
+	padding: 41px 0;
+	background: @section-bg1;
+	border-bottom: 1px solid #ddd;
+	&:nth-of-type(2), &:nth-of-type(5){background: @section-bg2;}
+	&:last-of-type {padding-bottom: 0;}
+}
+.inversed {
+	color: #fff;
+	background-color: #333;
+}
+.invisible {
+	visibility: hidden;
+}
+
+img {
+	vertical-align: middle;
+}
+hr {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border: 0;
+	border-top: 1px solid #eeeeee;
+}
+
+.btn-default {
+	padding: 1em 0;
+	color: @link-color;
+	text-align: center;
+	background: transparent;
+	border: 1px solid #D5D5D5;
+	transition: all .2s ease-in;
+	&:hover {
+		color: @link-hover;
+		background: @link-color;
+	}
+}

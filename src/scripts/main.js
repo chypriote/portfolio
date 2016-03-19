@@ -1,11 +1,8 @@
-$('.open-menu').click(function(){
-	$('.navigation').removeClass('navigation-slim');
-	$('.sub-bar').slideToggle('slow');
-});
-$('.mobile.menu a').click(function(){
-	$('.sub-bar').slideToggle('slow');
-});
-//Sticky header
+//Barre de navigation
+	$('.open-menu').click(function(){
+		$('.navigation').addClass('navigation-slim');
+		$('.menu-mobile').slideToggle('slow');
+	});
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
 			$('.navigation').addClass("navigation-slim");
@@ -13,68 +10,74 @@ $('.mobile.menu a').click(function(){
 			$('.navigation').removeClass("navigation-slim");
 		}
 	});
-	$(function() {
-		$('nav a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				if (target.length) {
-					$('html,body').animate({
-						scrollTop: target.offset().top
-					}, 1000);
-					return false;
-				}
-			}
-		});
+
+//Smooth scrolling
+	$('.menu-item').click(function(e) {
+		e.preventDefault();
+		scrollToTop($(this.hash));
+	});
+	$('.menu-mobile-item').click(function(e) {
+		e.preventDefault();
+		$('.menu-mobile').slideToggle();
+		scrollToTop($(this.hash));
 	});
 
-//Empeche le click random dans les skills
+
+//Classe skill
 	$('.skill').click(function(){
 		$(this).toggleClass('rectangle');
 	});
 
 //Affichage d'un projet
-	$('.closeicon').click(function(){
-		$('#work').slideUp();
-	});
-	$('.ih-item').click(function(){
-		$('#work').fadeIn();
-		$('#work .work-img').attr('src', $(this).attr('data-img'));
-		$('#work .work-title').html($(this).attr('data-title'));
-		$('#work .work-description').html($(this).attr('data-description'));
-		$('#work .work-skills').html($(this).find('.project-skills').html());
-		if ($(this).attr('data-link')) {
-			$('#work .work-site').attr('href', $(this).attr('data-link')).show();
-		} else {
-			$('#work .work-site').hide();
-		}
-		if ($(this).attr('data-git')) {
-			$('#work .work-git').attr('href', $(this).attr('data-git')).show();
-		} else {
-			$('#work .work-git').hide();
-		}
+	$('.project').click(function(){
+		$(this).find('.info').toggleClass('touched');
 	});
 
-	$('.project-slider').slick({
-		prevArrow: '',
-		nextArrow: '<a class="project-next">Voir plus</a>',
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {slidesToShow: 2}
-			},
-			{
-				breakpoint: 768,
-				settings: {slidesToShow: 2}
-			}
-		]
+	$('.btn-project').click(function(){
+		$id = $(this).closest('.project').data('id');
+		$('#work-img').fadeOut('fast', function(){
+			loadProject(proj[$id]);
+		});
+		$('#work').slideDown();
+		scrollToTop($('#work'));
+		$('#work-img').fadeIn();
 	});
 
-//Masquer skills
-	$('.skill-hide').click(function(){
-		$('.not-yet').toggle();
+	$('.back').click(function(e) {
+		e.preventDefault();
+		$('.touched').removeClass('touched');
+		scrollToTop($(this.hash));
 	});
 
-$('img').unveil({offset:200});
+$('img').not('#work-img').unveil({offset:200});
+
+
+
+// Fonctions
+
+function scrollToTop(target) {
+	$('html,body').animate({
+		scrollTop: target.offset().top
+	}, 1000);
+}
+
+function handleButton(button, value) {
+	if (value != '')
+		$(button).attr('href', value).removeClass('invisible');
+	else
+		$(button).addClass('invisible');
+}
+
+function loadProject(project) {
+	$('#work-title').html(project.name);
+	$('#work-description').html(project.description);
+	$('#work-role').html(project.role);
+
+	$('#work-skills').empty();
+	$(project.skills.forEach(function(el){
+		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'" title="'+el+'">');
+	}));
+	handleButton('#work-site', project.link);
+	handleButton('#work-git', project.git);
+	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name).attr('title', project.name);
+}

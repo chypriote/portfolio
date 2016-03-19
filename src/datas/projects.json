@@ -1,141 +1,156 @@
-[
-	[
+{
+	"projects": [
+		{
+			"name": "Les Talens Lyriques",
+			"img": "ltl.jpg",
+			"subtitle": "Nouvelle version du site",
+			"description": "Le site de l'orchestre <em>Les Talens Lyriques</em>, développé en 2011 par l'agence Minit-L.<br>Le site sert permet aux visiteurs d'être aux faits des derniers évenements organisés par l'orchestre, d'écouter la musique de celui-ci, ainsi que d'acheter des billets pour leurs concerts.<br>Le site a été construit en utilisant le CMS <strong>Drupal</strong>.",
+			"role": "Dans le cadre de mon stage à <strong>Minit-L</strong>, ma mission a été de reconstruire l'ensemble du site, afin de lui donner un design plus moderne et responsive. Les fonctionalités telles que le calendrier ou le lecteur de musique ont aussi été remises à jour.<br><ul><li>Installation du framework CSS <strong>Foundation 5</strong>, afin de permettre au design du site d'être responsive</li><li>Réécriture de plusieurs modules Drupal du site: lecteur de musique, discographie</li><li>Création de nouveaux modules: calendrier, slider</li></ul>Cette mission m'a permis d'acquérir une grande maitrise du CMS Drupal, ainsi que du framework Foundation.",
+			"link": "http://www.lestalenslyriques.com",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"drupal",
+				"mysql",
+				"foundation"
+			]
+		},
+		{
+			"name": "Challenge Wars",
+			"img": "challengewars.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Le Projet de Fin d'Année à <strong>Epitech</strong> demande aux étudiants de travailler en groupe de 5 à 8 sur une période de 6 mois, sur un projet innovant et ambitieux. <em>Challenge Wars</em> est né de ce projet: ce site s'adresse aux joueurs de jeux-vidéos, et leur permet de se lancer des défis. En remportant un défi, le joueur gagne des points, lui permettant de débloquer des récompenses, aussi bien sur le site qu'en jeu.<br>La première version de Challenge Wars comprenait un site web et une application Android, permettant aux joueurs de créer et participer à des défis sur le jeu <em>League of Legends</em>.",
+			"role": "En tant que chef de projet, j'ai été responsable de la communication dans le groupe, ainsi que de la gestion des objectifs et du travail de chaque membre.<br>En tant que développeur, j'ai réalisé le site web \"from-scratch\" (sans CMS/template), en utilisant <strong>Bootstrap 3</strong> pour le design et un backend PHP.<br>Taches accomplies:<ul><li>Création de l'API utilisée par le site et l'application</li><li>Mise en place du backend du site en utilisant PHP et MySQL</li><li>Design du site</li><li>Liaison entre le backend et l'API Riot Games, pour récupérer les données depuis les serveurs du jeu</li><li>Mise en place de taches CRON pour mettre à jour les données de façon régulière</li></ul>Ce projet m'a permis une première approche du role de chef de projet. J'ai aussi pu apprendre à utiliser curL afin de communiquer avec une API externe, ainsi que mettre en place ma propre API.",
+			"link": "http://projects.chypriote.me/challenge-wars",
+			"git": "https://github.com/chypriote/ChallengeWars",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "ChypRiotE Videos",
+			"img": "videowp.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "<em>ChypRiotE videos</em> est un site recensant l'ensemble des vidéos de League of Legensd que j'ai mis en ligne sur Youtube. Le site est né du besoin que j'ai ressenti de trouver un moyen de classer mes vidéos qui soit plus efficace et facile à utiliser que l'interface originale de Youtube.<br>Le site utilise le CMS <strong>Wordpress</strong>, ainsi qu'un thème adapté à la publication de vidéos.",
+			"role": "Mon objectif en construisant ce site était de passer le plus rapidement possible de la phase de développement à la mise en ligne du site. Pour celà, j'ai décidé d'utiliser Wordpress, un template, et le framework Bootstrap, pour réduire au minimum la quantité de code à écrire. Ainsi, l'ensemble du site à été réalisé en 5 jours.<br>Ceci comprend:<ul><li>Mise en place de Wordpress et du thème <em>VideoTube</em></li><li>Adaptation du branding du thème, ainsi qu'ajout de champs personalisés pour correspondre à mes besoins</li><li>Publication du contenu sur le site</li></ul>Bien que n'ayant pas requis particulièrement de compétences techniques, ce été pour moi l'occasion de prendre de l'expérience sur Wordpress, ainsi que de mesurer le temps nécessaire à arriver à Produit Minimum Viable.",
+			"link": "http://video.chypriote.me",
+			"git": "https://github.com/chypriote/wp-video",
+			"skills": [
+				"html5",
+				"css3",
+				"javascript",
+				"php",
+				"mysql",
+				"wordpress",
+				"jquery",
+				"bootstrap"
+			]
+		},
 		{
 			"name": "Boutique de la Comédie Française",
 			"img": "comedie-francaise.jpg",
-			"link": "http://www.boutique-comedie-francaise.fr",
 			"subtitle": "Maintenance et évolution",
-			"description": "Dans le cadre de mon stage de 3e année à Minit-L, maintenance et évolution sur le site de la Boutique de la Comédie Française. Principalement responsive design, et back-office.",
+			"description": "La boutique en ligne de la <em>Comédie Française</em> est dévelopée et maintenue par l'agence Minit-L.<br>Le site permet aux visiteurs d'acheter des produits dérivés des différents spectacles de la troupe. Il a été développé grace au CMS <strong>Prestashop</strong>, ainsi que le framework <strong>Bootstrap</strong>.",
+			"role": "Durant mon stage à <strong>Minit-L</strong>, j'ai été chargé de la maintenance du site, ainsi que d'effectuer plusieurs évolutions.<ul><li>Corrections sur l'affichage mobile du site (responsiveness)</li><li>Refonte complète du menu en vue mobile (utilisation d'un menu \"hamburger\"</li><li>Correction de bugs sur l'affichage des produits</li></ul>",
+			"link": "http://www.boutique-comedie-francaise.fr",
 			"git": "",
-			"skills": ["html5", "css3", "jquery", "php", "mysql", "bootstrap"]
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "PonyShop",
+			"img": "ponyshop.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Dans le cadre du module Java à Epitech, il nous a été demandé de réaliser un site web servant à vendre un produit fictif. J'ai décidé de créer une boutique permettant l'achat de poneys, de toutes les formes et de toutes les couleurs.<br>Le site utilise la technologie <strong>JavaServer Pages</strong>, un serveur <strong>Tomcat</strong>, et communique avec une base de données <strong>SQLite</strong>.<br>En plus des fonctionalités requise, j'ai aussi ajouté des fonctionalités personalisées: gestion du panier, filtrage par catégories, système de news. Le design a quand à lui été réalisé à l'aide d'un template <strong>Bootstrap</strong>.Utilisation de servlets, DAO factories, stockage SQLite.",
+			"role": "Ce projet m'a permis de me familiariser avec les technologies <strong>Java 2 Platform, Entreprise Edition</strong>, ainsi que de mettre en application plusieurs concepts de l'architecture MVC pour le web.<ul><li>Servlets Java</li><li>Data Access Objects factories</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/PonyShop",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"java",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "MyElo",
+			"img": "myelo.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "<em>MyElo</em> est un site personnel, fruit de ma passion pour les statistiques. L'objectif du site était de permettre de garder un historique des rencontres entre les équipes françaises sur League of Legends.<br>Les résultats des matchs sont enregistrés sur le site, et permettent de calculer le nombre de points d'une équipe. Ce nombre de point est déterminé par un algorythme basé sur le système Elo, auquel j'ai ajouté plusieurs variables pour prendre en compte des données supplémentaires: rencontre officielle ou non, en ligne ou hors ligne, etc...<br>Le site sert aussi à garder une trace du passage des joueurs dans différentes équipes, ainsi que de leur progression en solo dans le classement officiel du jeu. Pour cela, j'ai utilisé l'API Riot Games, et stocker les données dans une base de données MySQL.<br>Le backend du site utilise PHP, tandis que le design a été réalisé en utilisant <strong>Bootstrap</strong>. L'ensemble du site a été réalisé entièrement \"from-scratch\".",
+			"role": "J'ai travaillé sur MyElo pendant plusieurs mois, ajoutant peu à peu de nouvelles fonctionalités, et affinant celles déjà en place. Il s'agit du premier site que j'ai construit possédant un frontend communiquant avec une API backend, plutôt que d'effectuer les requêtes directement en base de données. Pour celà, j'ai utilisé la fonction <em>$.ajax</em> de <strong>jQuery</strong>. Ainsi, il serait théoriquement possible très facilement de créer une application Android, iOS ou autre utilisant les memes données que le site.<br><ul><li>Création d'une API en backend</li><li>Communication avec l'API Riot via curL</li><li>Mise en place d'un algorythme de type Elo</li><li>Back-office permettant la création d'équipes, de joueurs, ainsi que l'ajout de résultats</li><li>Partie privée permettant de traquer les résultats solo de joueurs en particulier</li>",
+			"link": "http://projects.chypriote.me/myelo",
+			"git": "https://github.com/chypriote/myelo",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
 		},
 		{
 			"name": "Observatoire des Territoires",
 			"img": "datar.jpg",
 			"subtitle": "Maintenance et évolution",
 			"description": "Dans le cadre de mon stage à Minit-L, évolution majeure: passage de l'intégralité du site en responsive. Modifications en back office ainsi qu'en front.",
+			"role": "",
 			"link": "http://www.datar.gouv.fr/observatoire-des-territoires",
 			"git": "",
-			"skills": ["html5", "css3", "jquery", "php", "mysql", "drupal"]
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"drupal"
+			]
 		},
 		{
-			"name": "MyElo",
-			"img": "myelo.jpg",
-			"subtitle": "Réalisation du site",
-			"description": "Site personnel permettant de classer les équipes sur League of Legends. Algorythme de calcul des points basés sur le système Elo, récupération des données via l'API Riot, stockage des informations en base MySQL, ajout de joueurs et équipes via le back-office. Site créé from scratch.",
-			"link": "http://www.chypriote.net/projects/myelo",
-			"git": "https://github.com/chypriote/myelo",
-			"skills": ["html5", "css3", "jquery", "bootsrap", "php", "mysql", "bootstrap"]
-		}],
-	[
-		{
-			"name": "Les Talens Lyriques",
-			"img": "ltl.jpg",
-			"subtitle": "Nouvelle version du site",
-			"description": "Dans le cadre de mon stage à Minit-L, reconstruction complète du site pour intégrer un nouveau design plus modern et responsive. Création de modules drupal (agenda, filtres,...) personalisés.",
-			"link": "http://www.lestalenslyriques.com",
-			"git": "",
-			"skills": ["html5", "css3", "jquery", "php", "drupal", "mysql", "foundation"]
-		},
-		{
-			"name": "Hugues Laurent",
-			"img": "hugues.jpg",
-			"subtitle": "Maintenance et évolution",
-			"link": "http://www.hugueslaurent.fr",
-			"description": "Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.",
-			"git": "",
-			"skills": ["html5", "css3", "jquery", "php", "wordpress", "bootstrap"]
-		},
-		{
-			"name": "Easy Elo Boost",
-			"img": "easyelo.jpg",
-			"subtitle": "Réalisation du site",
-			"link": "http://www.chypriote.net/projects/EasyElov1",
-			"description": "Première version du site proposant des services aux joueurs sur League of Legends. Créé from scratch, site statique, calcul des prix.",
-			"git": "",
-			"skills": ["html5", "css3", "php" ]
-		}],
-	[
-		{
-			"name": "Challenge Wars",
-			"img": "challengewars.jpg",
-			"subtitle": "Réalisation du site",
-			"description": "Dans le cadre du PFA à Epitech, création from-scratch d'un site déstiné aux joueurs de League of Legends. Design, création de l'API, front-end et back-end du site. Le site consomme l'API Riot (League of Legends) pour afficher des données mises à jour automatiquement.", 
-			"link": "http://challengewars.byethost12.com/",
-			"git": "https://github.com/chypriote/ChallengeWars",
-			"skills": ["html5", "css3", "jquery", "php", "mysql", "bootstrap"]
-		},
-		{
-			"name": "PonyShop",
-			"img": "ponyshop.jpg",
-			"subtitle": "Réalisation du site",
-			"description": "Site web réalisé avec la technologie J2EE pour le module Java à Epitech. Utilisation de servlets, DAO factories, stockage SQLite.",
-			"link": "",
-			"git": "https://github.com/chypriote/PonyShop",
-			"skills": ["html5", "css3", "jquery", "java", "mysql", "bootstrap"]
-		},
-		{
-			"name": "Easy Elo Boost v2",
+			"name": "Easy Elo Boost v3",
 			"img": "easyboost.jpg",
 			"subtitle": "Réalisation du site",
-			"link": "http://www.chypriote.net/projects/EasyElov3",
+			"role": "",
+			"link": "http://projects.chypriote.me/elo-boost-v3",
 			"description": "Site personnel proposant des services aux joueurs sur League of Legends. Créé from scratch, calcul des prix, enregistrement des commandes. Deuxième version.",
 			"git": "",
-			"skills": ["html5", "css3", "php", "bootstrap", "jquery", "mysql"]
-		}],
-	[
-		{
-			"name": "42sh - Minishell",
-			"img": "mysh.jpg",
-			"subtitle": "Codage d'un shell",
-			"description": "Projet de fin de 1ere année Epitech en C. Création d'un Shell UNIX complet, gestion de l'environnement, historique, auto-complétion, pipes...",
-			"link": "",
-			"git": "",
-			"skills": ["c", "linux"]
-		},
-		{
-			"name": "Bomberman",
-			"img": "bomberman.jpg",
-			"subtitle": "Recréation du jeu",
-			"description": "Projet de fin de 2e année Epitech en C++. Recréation du jeu BomberMan en groupe. Gestion de la logique de jeu et de l'IA.",
-			"link": "",
-			"git": "",
-			"skills": ["cplusplus", "linux"]
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"bootstrap",
+				"jquery",
+				"mysql"
+			]
 		},
 		{
 			"name": "EpiAndroid",
 			"img": "epiandroid.jpg",
-		"subtitle": "Application android",
-		"description": "Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.",
-		"link": "",
-		"git": "https://github.com/chypriote/EpiAndroid",
-		"skills": ["java", "android"]
-	}],
-	[{
-		"name": "Promenade à Versailles",
-		"img": "hermes.jpg",
-		"subtitle": "Réalisation du site",
-		"description": "Dans le cadre de mon stage à Minit-L, création de site vitrine Hermes & Chateau de Versailles pour une opération commerciale de mai à décembre 2015.",
-		"link": "http://www.promenadeaversailles.chateauversailles.fr",
-		"git": "",
-		"skills": ["html5", "css3", "javascript", "php", "bootstrap"]
-	},
-	{
-		"name": "Fuzeria",
-		"img": "fuzeria.jpg",
-		"subtitle": "Réalisation du site",
-		"description": "Réalisation du site web du serveur \"Fuzeria\" sur le jeu Minecraft. Le site utilise un CMS fait maison, permettant la création de news, un classement des membres, ainsi que l'affichage de données du serveur en temps réel, et une boutique liée au jeu.",
-		"link": "",
-		"git": "https://github.com/chypriote/Fuzeria",
-		"skills": ["html5", "css3", "javascript", "php", "mysql", "less", "jquery", "bootstrap"]
-	},
-	{
-		"name": "ChypRiotE Videos",
-		"img": "videowp.jpg",
-		"subtitle": "Réalisation du site",
-		"description": "Création d'un site sous Wordpress pour indexer mes vidéos de League of Legends postées sur youtube.",
-		"link": "http://video.chypriote.me",
-		"git": "https://github.com/chypriote/wp-video",
-		"skills": ["html5", "css3", "javascript", "php", "mysql", "wordpress", "jquery", "bootstrap"]
-	}]
-]
+			"subtitle": "Application android",
+			"description": "Application Android dans le cadre du module Java d'Epitech. Consommation de l'API Epitech pour proposer une application permettant l'accès à l'intranet Epitech, la gestion et l'inscription aux modules et cours, ainsi que l'affichage des notes.",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/EpiAndroid",
+			"skills": [
+				"java",
+				"android"
+			]
+		}
+	]
+}

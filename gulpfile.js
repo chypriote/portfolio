@@ -10,7 +10,8 @@ gulp.task('serve', function() {
 		server: {
 			 baseDir: "./public"
 		},
-		online: false
+		online: false,
+		notify: false
 	});
 });
 
@@ -48,12 +49,13 @@ gulp.task('styles', function(){
 });
 
 gulp.task('scripts', function(){
-	return gulp.src('src/scripts/**/*.js')
+	return gulp.src(['src/scripts/jquery.js', 'src/scripts/unveil2.js', 'src/scripts/main.js'])
 		.pipe(g.plumber({
 			errorHandler: function (error) {
 				console.log(error.message);
 				this.emit('end');
 		}}))
+		.pipe(g.concat('main.js'))
 		.pipe(g.rename({suffix: '.min'}))
 		.pipe(g.uglify())
 		.pipe(gulp.dest('public/assets/js/'))
