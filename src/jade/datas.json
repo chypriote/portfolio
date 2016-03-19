@@ -671,7 +671,7 @@
 						{
 							"name": "KarmaJS",
 							"image": "karma.png",
-							"description": "Framework d'automatisation de tests JavaScript",
+							"description": "Framework de tests unitaires JavaScript",
 							"role": "",
 			"link": "http://karma-runner.github.io/",
 							"shortlink": "karma-runner.gh.io",
