@@ -50,6 +50,13 @@
 		height: 100%;
 		cursor: pointer;
 	}
+	&:hover {
+		z-index: 2;
+		.info {
+			z-index: 2;
+			opacity: 0.9;
+		}
+	}
 }
 .btn-project:extend(.btn-default all) {
 	width: 50%;
@@ -57,19 +64,15 @@
 	opacity: 1;
 }
 
-@media (min-width: 480px) {
-	.project {width: 47%;}
+@media (min-width: 600px) {
+	.project {width: 46%;}
 	.info {z-index: 1;}
 }
 @media (min-width: 992px) {
 	.project {
 		width: 31%;
 		border-bottom-width: 2px;
-		&:hover {
-			z-index: 2;
-			transform: scale(1.4);
-			.info {opacity: 0.9;}
-		}
+		&:hover {transform: scale(1.4);}
 	}
 }
 @media (min-width: 1200px) {
