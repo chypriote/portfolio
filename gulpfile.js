@@ -8,7 +8,7 @@ var	runSequence  = require('run-sequence'),
 gulp.task('serve', function() {
 	browserSync({
 		server: {
-			baseDir: './public'
+			baseDir: 'public'
 		},
 		online: false,
 		notify: false
