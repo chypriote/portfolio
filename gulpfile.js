@@ -21,7 +21,7 @@ gulp.task('reload', function () {
 
 gulp.task('jade', function(){
 	gulp.src(['src/jade/index.jade'])
-		.pipe(g.data(function(file){
+		.pipe(g.data(function(){
 			return require('./src/jade/datas.json')
 		}))
 		.pipe(g.jade({pretty:true}))
@@ -86,7 +86,7 @@ gulp.task('clean', function() {
     clean(['public/**/*', '!public']);
 });
 
-gulp.task('build', function(cb) {
+gulp.task('build', function() {
 	runSequence(['styles', 'scripts', 'copy', 'images', 'jade']);
 });
 
