@@ -1,7 +1,5 @@
 /* global $ */
 
-// Fonctions
-
 function scrollToTop(target) {
 	$('html,body').animate({
 		scrollTop: target.offset().top
