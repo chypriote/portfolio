@@ -1,3 +1,5 @@
+/* global $ */
+
 // Fonctions
 
 function scrollToTop(target) {
@@ -36,9 +38,9 @@ function loadProject(project) {
 	});
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
-			$('.navigation').addClass("navigation-slim");
+			$('.navigation').addClass('navigation-slim');
 		} else{
-			$('.navigation').removeClass("navigation-slim");
+			$('.navigation').removeClass('navigation-slim');
 		}
 	});
 
@@ -65,9 +67,9 @@ function loadProject(project) {
 	});
 
 	$('.btn-project').click(function(){
-		$id = $(this).closest('.project').data('id');
+		var id = $(this).closest('.project').data('id');
 		$('#work-img').fadeOut('fast', function(){
-			loadProject(proj[$id]);
+			loadProject(proj[id]);
 		});
 		$('#work').slideDown();
 		scrollToTop($('#work'));
