@@ -9,10 +9,11 @@ function scrollToTop(target) {
 }
 
 function handleButton(button, value) {
-	if (value != '')
+	if (value !== '') {
 		$(button).attr('href', value).removeClass('invisible');
-	else
+	} else {
 		$(button).addClass('invisible');
+	}
 }
 
 function loadProject(project) {

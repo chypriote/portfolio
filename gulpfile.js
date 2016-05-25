@@ -8,7 +8,7 @@ var	runSequence  = require('run-sequence'),
 gulp.task('serve', function() {
 	browserSync({
 		server: {
-			 baseDir: './public'
+			baseDir: './public'
 		},
 		online: false,
 		notify: false
@@ -26,7 +26,7 @@ gulp.task('jade', function(){
 		}))
 		.pipe(g.jade({pretty:true}))
 		.pipe(gulp.dest('public/'))
-		.pipe(browserSync.reload({stream:true}))
+		.pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('styles', function(){
