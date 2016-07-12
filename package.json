@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/chypriote/portfolio#readme",
   "devDependencies": {
-    "browser-sync": "^2.9.11",
-    "del": "^2.2.0",
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "font-awesome": "^4.5.0",
-    "jquery": "^2.2.2"
+    "jquery": "^3.1.0"
   }
 }
