@@ -8,7 +8,7 @@ var	runSequence  = require('run-sequence'),
 gulp.task('serve', function() {
 	browserSync({
 		server: {
-			 baseDir: "./public"
+			baseDir: './public'
 		},
 		online: false,
 		notify: false
@@ -21,12 +21,12 @@ gulp.task('reload', function () {
 
 gulp.task('jade', function(){
 	gulp.src(['src/jade/index.jade'])
-		.pipe(g.data(function(file){
-			return require('./src/jade/datas.json')
+		.pipe(g.data(function(){
+			return require('./src/jade/datas.json');
 		}))
 		.pipe(g.jade({pretty:true}))
 		.pipe(gulp.dest('public/'))
-		.pipe(browserSync.reload({stream:true}))
+		.pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('styles', function(){
@@ -76,9 +76,7 @@ gulp.task('images', function(){
 
 gulp.task('copy', function(){
 	gulp.src('src/fonts/*')
-		.pipe(gulp.dest('public/assets/fonts'));
-	gulp.src('src/flags/*')
-		.pipe(gulp.dest('public/assets/flags'))
+		.pipe(gulp.dest('public/assets/fonts'))
 		.pipe(browserSync.reload({stream:true}));
 });
 
@@ -86,15 +84,15 @@ gulp.task('clean', function() {
     clean(['public/**/*', '!public']);
 });
 
-gulp.task('build', function(cb) {
+gulp.task('build', function() {
 	runSequence(['styles', 'scripts', 'copy', 'images', 'jade']);
 });
 
 gulp.task('watch', function(){
-	gulp.watch("src/less/**/*.less", ['styles']);
-	gulp.watch("src/scripts/**/*.js", ['scripts']);
-	gulp.watch("src/images/**/*", ['images']);
-	gulp.watch("src/jade/**/*.jade", ['jade']);
+	gulp.watch('src/less/**/*.less', ['styles']);
+	gulp.watch('src/scripts/**/*.js', ['scripts']);
+	gulp.watch('src/images/**/*', ['images']);
+	gulp.watch('src/jade/**/*.jade', ['jade']);
 });
 
 gulp.task('default', ['build', 'watch', 'serve'], function(){
