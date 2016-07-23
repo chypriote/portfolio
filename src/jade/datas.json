@@ -346,7 +346,7 @@
 						},
 						{
 							"name": "Semantic UI",
-							"image": "semanticui.png",
+							"image": "semanticui.svg",
 							"description": "Framework CSS responsive et sémantique",
 							"role": "",
 							"link": "http://semantic-ui.com/",
@@ -373,7 +373,7 @@
 						},
 						{
 							"name": "Milligram",
-							"image": "milligram.png",
+							"image": "milligram.svg",
 							"description": "Framework CSS minimaliste",
 							"role": "",
 							"link": "http://milligram.github.io/",
@@ -588,7 +588,16 @@
 							"role": "",
 							"link": "https://symfony.com/",
 							"shortlink": "symfony.com",
-							"level": 1
+							"level": 3
+						},
+						{
+							"name": "Laravel",
+							"image": "laravel.svg",
+							"description": "Framework PHP",
+							"role": "",
+							"link": "https://laravel.com/",
+							"shortlink": "laravel.com",
+							"level": 3
 						}
 					]
 				}
@@ -670,7 +679,7 @@
 						},
 						{
 							"name": "KarmaJS",
-							"image": "karma.png",
+							"image": "karma.svg",
 							"description": "Framework de tests unitaires JavaScript",
 							"role": "",
 							"link": "http://karma-runner.github.io/",
