@@ -51,13 +51,14 @@ h2 Formation
 		h3 Expériences professionelles
 		.jobs.card
 			each job in jobs
-				.job
-					.job-header
-						.job-title #{job.title}
-						.job-logo
-							if job.logo
-								img(src="/assets/images/logo/" + job.logo, alt=job.title)
-							else
-								i.fa(class= job.icon)
-					.job-subtitle #{job.subtitle}
-					.job-desc #{job.text}
+				if job.title
+					.job
+						.job-header
+							.job-title #{job.title}
+							.job-logo
+								if job.logo
+									img(src="/assets/images/logo/" + job.logo, alt=job.title)
+								else
+									i.fa(class= job.icon)
+						.job-subtitle #{job.subtitle}
+						.job-desc #{job.text}

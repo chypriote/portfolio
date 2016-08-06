@@ -23,14 +23,14 @@
 	],
 	"studies": [
 		{
+			"title": "EPITECH Paris",
+			"time": "2016",
+			"text": "Expert en technologies de l'information"
+		},
+		{
 			"title": "Beijing Jiatong University",
 			"time": "2016",
 			"text": "Master Degree: Software Engineering"
-		},
-		{
-			"title": "EPITECH Paris",
-			"time": "2015",
-			"text": "Quatrième année"
 		},
 		{
 			"title": "HEI Lille",
@@ -44,6 +44,13 @@
 		}
 	],
 	"jobs": [
+		{
+			"title": "SmartAngels",
+			"time": "2016",
+			"subtitle": "Juillet 2016 - Aout 2016",
+			"text": "Développement en AngularJS et Symfony 2 pour contribuer aux mises à jour de fonctionalités existantes et à l'élaboration de nouvelles fonctionalités sur la plateforme SmartAngels",
+			"logo": "smartangels.png"
+		},
 		{
 			"title": "Minit-L",
 			"time": "2015",
@@ -76,12 +83,12 @@
 			"logo": "f4.png"
 		},
 		{
-			"title": "PSA Peugeot Citroën",
-			"time": "2012",
-			"subtitle": "Juillet 2012",
-			"logo": "psa.png",
-			"text": "Opérateur sur ligne de montage C3/DS3.",
-			"icon": "fa-car"
+			"//title": "PSA Peugeot Citroën",
+			"//time": "2012",
+			"//subtitle": "Juillet 2012",
+			"//logo": "psa.png",
+			"//text": "Opérateur sur ligne de montage C3/DS3.",
+			"//icon": "fa-car"
 		},
 		{
 			"title": "SNCF",
