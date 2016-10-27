@@ -4,6 +4,13 @@ script.
 	(n[c].q=n[c].q||[]).push(arguments)});n[c].l=+new Date;a=i.createElement(o);
 	s=i.getElementsByTagName(o)[0];a.src=l;s.parentNode.insertBefore(a,s)}
 	(window,document,'ga','script','//www.google-analytics.com/analytics.js');
+script.
+	window.smartlook||(function(d) {
+	var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+	var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+	c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+	})(document);
+	smartlook('init', 'f0067942c7785bf0c1402456a52c4851ca21938d');
 
 	ga('create', 'UA-43723492-3', 'cv.chypriote.me');
 	ga('send', 'pageview');
