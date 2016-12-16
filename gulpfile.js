@@ -93,6 +93,7 @@ gulp.task('watch', function(){
 	gulp.watch('src/scripts/**/*.js', ['scripts']);
 	gulp.watch('src/images/**/*', ['images']);
 	gulp.watch('src/jade/**/*.jade', ['jade']);
+	gulp.watch('src/jade/*.json', ['jade']);
 });
 
 gulp.task('default', ['build', 'watch', 'serve'], function(){

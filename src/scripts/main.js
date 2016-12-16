@@ -61,10 +61,6 @@ function loadProject(project) {
 	});
 
 //Affichage d'un projet
-	$('.project').click(function(){
-		$(this).find('.info').toggleClass('touched');
-	});
-
 	$('.btn-project').click(function(){
 		var id = $(this).closest('.project').data('id');
 		$('#work-img').fadeOut('fast', function(){

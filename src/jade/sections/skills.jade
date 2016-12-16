@@ -1,16 +1,17 @@
 mixin skill(skill)
-	.skill(class=skill.level < 3 ? 'not-yet' : '')
-		if skill.image
-			span.image
-				img(src="assets/images/skills/" + skill.image, alt=skill.name)
-		else
-			span.text #{skill.name}
-		.skills-description
-			.skills-title #{skill.name}
-			p #{skill.description}
-			.skills-footer
-				if skill.link
-					a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
+	if skill.name && skill.level > 2
+		.skill
+			if skill.image
+				span.image
+					img(src="assets/images/skills/" + skill.image, alt=skill.name)
+			else
+				span.text #{skill.name}
+			.skills-description
+				.skills-title #{skill.name}
+				p #{skill.description}
+				.skills-footer
+					if skill.link
+						a.link(href="#{skill.link}" title="#{skill.name}" target="_blank") #{skill.shortlink}
 
 h2 Compétences
 .skills

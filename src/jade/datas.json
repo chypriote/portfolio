@@ -23,14 +23,19 @@
 	],
 	"studies": [
 		{
+			"title": "Université de Haute-Alsace",
+			"time": "2017",
+			"text": "Master en Management de Projets"
+		},
+		{
 			"title": "EPITECH Paris",
-			"time": "2016",
+			"time": "2017",
 			"text": "Expert en technologies de l'information"
 		},
 		{
 			"title": "Beijing Jiatong University",
 			"time": "2016",
-			"text": "Master Degree: Software Engineering"
+			"text": "Master en Génie logiciel"
 		},
 		{
 			"title": "HEI Lille",
@@ -47,7 +52,7 @@
 		{
 			"title": "SmartAngels",
 			"time": "2016",
-			"subtitle": "Juillet 2016 - Aout 2016",
+			"subtitle": "Juillet 2016 - Aujourd'hui",
 			"text": "Développement en AngularJS et Symfony 2 pour contribuer aux mises à jour de fonctionalités existantes et à l'élaboration de nouvelles fonctionalités sur la plateforme SmartAngels",
 			"logo": "smartangels.png"
 		},
@@ -83,12 +88,12 @@
 			"logo": "f4.png"
 		},
 		{
-			"//title": "PSA Peugeot Citroën",
-			"//time": "2012",
-			"//subtitle": "Juillet 2012",
-			"//logo": "psa.png",
-			"//text": "Opérateur sur ligne de montage C3/DS3.",
-			"//icon": "fa-car"
+			"title": "PSA Peugeot Citroën",
+			"time": "2012",
+			"subtitle": "Juillet 2012",
+			"logo": "psa.png",
+			"text": "Opérateur sur ligne de montage C3/DS3.",
+			"icon": "fa-car"
 		},
 		{
 			"title": "SNCF",
@@ -116,6 +121,79 @@
 				"drupal",
 				"mysql",
 				"foundation"
+			]
+		},
+		{
+			"name": "CaritatHelp",
+			"img": "caritathelp.jpg",
+			"subtitle": "Conception et Réalisation",
+			"description": "L'<em>Epitech Innovative Project</em> (EIP) est l'étape principale dans le cursus Epitech, celle qui le fait passer de son statut d'étudiant à celui de professionnel à part entière. Les étudiants travaillent en groupe de 6 ou plus, sur une période de deux ans et demi, à la manière d’un véritable projet entrepreneurial, dans toutes ses composantes : business, techno, design & communication. Un EIP est appelé à devenir une start-up viable.<br><br>Le projet <strong>CaritatHelp</strong> est destiné à devenir la 1ère plateforme humanitaire en France. Son but premier étant de centraliser les associations caritatives françaises et leurs membres, afin d’améliorer leurs moyens de communication et de sensibiliser de nouvelles personnes aux actions humanitaires.<br>Ce réseau d’entraide optimise les démarches, permettant ainsi aux différents acteurs du bénévolat de réagir en temps réel aux besoins. Ainsi, un directeur d’association peut gérer les actualités de son groupe, tandis que les membres peuvent suivre différentes associations et choisir de participer à leurs évènements.<br><br>Pour ce faire, Caritathelp dispose d’une application web ainsi que de trois applications mobiles (iOS, Android et Windows Phone).<br>Des systèmes de messageries, de notifications et d’alertes sont présents pour permettre à tous les bénévoles de bénéficier d’une grande visibilité quant aux actions menées près de chez eux.",
+			"role": "En tant que responsable du pole Web du projet, j'ai été chargé de définir la structure du projet, ainsi que les différentes technologies et méthodologies utilisées.<br>Taches accomplies:<ul><li>Conception et design du site</li><li>Création d'une SPA AngularJS</li><li>Création d'un styleguide pour le projet</li><li>DevOps sur le serveur caritathelp</li><li>Mise en place d'une documentation API</li><li>Réalisation de tests unitaires sur l'ensemble du site</li></ul>",
+			"link": "http://caritahelp.me",
+			"git": "https://github.com/CaritatHelp/caritathelp-web",
+			"skills": [
+				"html5",
+				"css3",
+				"angular",
+				"jade",
+				"less",
+				"gulp",
+				"browserify",
+				"git",
+				"karma"
+			]
+		},
+		{
+			"name": "Boutique de la Comédie Française",
+			"img": "comedie-francaise.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "La boutique en ligne de la <em>Comédie Française</em> est développée et maintenue par l'agence Minit-L.<br>Le site permet aux visiteurs d'acheter des produits dérivés des différents spectacles de la troupe. Il a été développé grâce au CMS <strong>Prestashop</strong>, ainsi que le framework <strong>Bootstrap</strong>.",
+			"role": "Durant mon stage à <strong>Minit-L</strong>, j'ai été chargé de la maintenance du site, ainsi que d'effectuer plusieurs évolutions.<ul><li>Corrections sur l'affichage mobile du site (responsiveness)</li><li>Refonte complète du menu en vue mobile (utilisation d'un menu \"hamburger\"</li><li>Correction de bugs sur l'affichage des produits</li></ul>",
+			"link": "http://www.boutique-comedie-francaise.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "ACS Gestion Privée",
+			"img": "acsgestion.jpg",
+			"subtitle": "Intégration et développement",
+			"description": "<em>A venir</em>.",
+			"role": "Mission freelance pour ACS Gestion Privée.<ul><li>Mise en place du serveur</li><li>Installation Drupal 8</li><li>Installation de thème et intégration de maquettes</li><li>Crétion de modules (Map, Simulateur de taux)</li></ul>",
+			"link": "http://acsgestionprivee.fr",
+			"git": "https://github.com/chypriote/snapshift",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"drupal",
+				"twig",
+				"git"
+			]
+		},
+		{
+			"name": "Snapshift",
+			"img": "snapshift.jpg",
+			"subtitle": "Intégration",
+			"description": "<em>A venir</em>.",
+			"role": "Mission freelance pour Snapshift.<ul><li>Intégration from-scratch</li><li>Animations personnalisés</li></ul>",
+			"link": "https://www.snapshift.co",
+			"git": "https://github.com/chypriote/acsgestion",
+			"skills": [
+				"html5",
+				"css3",
+				"gulp",
+				"less",
+				"jade",
+				"jquery",
+				"git"
 			]
 		},
 		{
@@ -151,23 +229,6 @@
 				"mysql",
 				"wordpress",
 				"jquery",
-				"bootstrap"
-			]
-		},
-		{
-			"name": "Boutique de la Comédie Française",
-			"img": "comedie-francaise.jpg",
-			"subtitle": "Maintenance et évolution",
-			"description": "La boutique en ligne de la <em>Comédie Française</em> est développée et maintenue par l'agence Minit-L.<br>Le site permet aux visiteurs d'acheter des produits dérivés des différents spectacles de la troupe. Il a été développé grâce au CMS <strong>Prestashop</strong>, ainsi que le framework <strong>Bootstrap</strong>.",
-			"role": "Durant mon stage à <strong>Minit-L</strong>, j'ai été chargé de la maintenance du site, ainsi que d'effectuer plusieurs évolutions.<ul><li>Corrections sur l'affichage mobile du site (responsiveness)</li><li>Refonte complète du menu en vue mobile (utilisation d'un menu \"hamburger\"</li><li>Correction de bugs sur l'affichage des produits</li></ul>",
-			"link": "http://www.boutique-comedie-francaise.fr",
-			"git": "",
-			"skills": [
-				"html5",
-				"css3",
-				"jquery",
-				"php",
-				"mysql",
 				"bootstrap"
 			]
 		},
@@ -220,6 +281,23 @@
 				"php",
 				"mysql",
 				"drupal"
+			]
+		},
+		{
+			"name": "MiniLink",
+			"img": "minilink.jpg",
+			"subtitle": "Création",
+			"description": "Développement d'une application de raccourcissement d'url, en utilisant NodeJS et MongoDB.",
+			"role": "<ul><li>Backend NodeJS/ExpressJS</li><li>Frontend Milligram</li><li>Base de données MongoDB</li><li>Linting avec XO</li></ul>",
+			"link": "http://url.chypriote.me/",
+			"git": "https://github.com/chypriote/url-shortener",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"express",
+				"mongodb",
+				"milligram"
 			]
 		},
 		{
@@ -326,7 +404,7 @@
 							"role": "",
 							"link": "http://www.typescriptlang.org/",
 							"shortlink": "typescriptlang.org",
-							"level": 1
+							"level": 3
 						}
 					]
 				},
@@ -361,13 +439,13 @@
 							"level": 3
 						},
 						{
-							"name": "Bulma",
-							"image": "bulma.png",
-							"description": "Framework CSS basé sur Flexbox",
-							"role": "",
-							"link": "http://bulma.io/",
-							"shortlink": "bulma.io",
-							"level": 3
+							"//name": "Bulma",
+							"//image": "bulma.png",
+							"//description": "Framework CSS basé sur Flexbox",
+							"//role": "",
+							"//link": "http://bulma.io/",
+							"//shortlink": "bulma.io",
+							"//level": 3
 						},
 						{
 							"name": "Blaze",
