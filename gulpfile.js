@@ -36,10 +36,6 @@ gulp.task('styles', function(){
 				console.log(error.message);
 				this.emit('end');
 		}}))
-		.pipe(g.recess({
-			noIDs: false
-		}))
-		.pipe(g.recess.reporter())
 		.pipe(g.less())
 		.pipe(g.autoprefixer('last 2 versions'))
 		.pipe(g.rename({suffix: '.min'}))
