@@ -202,7 +202,7 @@
 			"subtitle": "Réalisation du site",
 			"description": "Le Projet de Fin d'Année à <strong>Epitech</strong> demande aux étudiants de travailler en groupe de 5 à 8 sur une période de 6 mois, sur un projet innovant et ambitieux. <em>Challenge Wars</em> est né de ce projet : ce site s'adresse aux joueurs de jeux-vidéos, leur permettant de se lancer des défis. En remportant un défi, le joueur gagne des points, lui permettant de débloquer des récompenses, aussi bien sur le site qu'en jeu.<br>La première version de Challenge Wars comprenait un site web et une application Android, permettant aux joueurs de créer et participer à des défis sur le jeu <em>League of Legends</em>.",
 			"role": "En tant que chef de projet, j'ai été responsable de la communication dans le groupe, ainsi que de la gestion des objectifs et du travail de chaque membre.<br>En tant que développeur, j'ai réalisé le site web \"from-scratch\" (sans CMS/template), en utilisant <strong>Bootstrap 3</strong> pour le design et un backend PHP.<br>Taches accomplies:<ul><li>Création de l'API utilisée par le site et l'application</li><li>Mise en place du backend du site en utilisant PHP et MySQL</li><li>Design du site</li><li>Liaison entre le backend et l'API Riot Games, pour récupérer les données depuis les serveurs du jeu</li><li>Mise en place de taches CRON pour mettre à jour les données de façon régulière</li></ul>Ce projet m'a permis une première approche du role de chef de projet. J'ai aussi pu apprendre à utiliser curL afin de communiquer avec une API externe, ainsi que mettre en place ma propre API.",
-			"link": "http://projects.chypriote.me/challenge-wars",
+			"link": "https://projects.nicolastem.fr/challenge-wars",
 			"git": "https://github.com/chypriote/ChallengeWars",
 			"skills": [
 				"html5",
@@ -219,7 +219,7 @@
 			"subtitle": "Réalisation du site",
 			"description": "<em>ChypRiotE videos</em> est un site recensant l'ensemble des vidéos de League of Legensd que j'ai mis en ligne sur Youtube. Le site est né du besoin que j'ai ressenti de trouver un moyen de classer mes vidéos qui soit plus efficace et facile à utiliser que l'interface originale de Youtube.<br>Le site utilise le CMS <strong>Wordpress</strong>, ainsi qu'un thème adapté à la publication de vidéos.",
 			"role": "Mon objectif en construisant ce site était de passer le plus rapidement possible de la phase de développement à la mise en ligne du site. Pour cela, j'ai décidé d'utiliser Wordpress, un template pour celui ci, ainsi que le framework Bootstrap. De cette façon, j'ai pu réduire au minimum la quantité de code à écrire. Ainsi, l'ensemble du site à été réalisé en 5 jours.<br>Ceci comprend :<ul><li>Mise en place de Wordpress et du thème <em>VideoTube</em></li><li>Adaptation du branding du thème, ainsi qu'ajout de champs personalisés pour correspondre à mes besoins</li><li>Publication du contenu sur le site</li></ul>Bien que n'ayant pas requis particulièrement de compétences techniques, ce été pour moi l'occasion de prendre de l'expérience sur Wordpress, ainsi que de mesurer le temps nécessaire à arriver à Produit Minimum Viable.",
-			"link": "http://video.chypriote.me",
+			"link": "http://video.chypriote.com",
 			"git": "https://github.com/chypriote/wp-video",
 			"skills": [
 				"html5",
@@ -255,7 +255,7 @@
 			"subtitle": "Réalisation du site",
 			"description": "<em>MyElo</em> est un site personnel, fruit de ma passion pour les statistiques. L'objectif du site était de permettre de garder un historique des rencontres entre les équipes françaises sur League of Legends.<br>Les résultats des matchs sont enregistrés sur le site et permettent de calculer le nombre de points d'une équipe. Ce nombre de point est déterminé par un algorithme basé sur le système Elo, auquel j'ai ajouté plusieurs variables pour prendre en compte des données supplémentaires : rencontre officielle ou non, en ligne ou hors ligne, etc...<br>Le site sert aussi à garder une trace du passage des joueurs dans différentes équipes, ainsi que de leur progression en solo dans le classement officiel du jeu. Pour cela, j'ai utilisé l'API Riot Games, et stocker les données dans une base de données MySQL.<br>Le backend du site utilise PHP, tandis que le design a été réalisé en utilisant <strong>Bootstrap</strong>. L'ensemble du site a été réalisé entièrement \"from-scratch\".",
 			"role": "J'ai travaillé sur MyElo pendant plusieurs mois, ajoutant peu à peu de nouvelles fonctionnalités, et affinant celles déjà en place. Il s'agit du premier site que j'ai construit possédant un frontend communiquant avec une API backend, plutôt que d'effectuer les requêtes directement en base de données. Pour cela, j'ai utilisé la fonction <em>$.ajax</em> de <strong>jQuery</strong>. Ainsi, il serait théoriquement possible très facilement de créer une application Android, iOS ou autre utilisant les mêmes données que le site.<br><ul><li>Création d'une API en backend</li><li>Communication avec l'API Riot via curL</li><li>Mise en place d'un algorithme de type Elo</li><li>Back-office permettant la création d'équipes, de joueurs, ainsi que l'ajout de résultats</li><li>Partie privée permettant de traquer les résultats solo de joueurs en particulier</li>",
-			"link": "http://projects.chypriote.me/myelo",
+			"link": "https://projects.nicolastem.fr/myelo",
 			"git": "https://github.com/chypriote/myelo",
 			"skills": [
 				"html5",
@@ -289,7 +289,7 @@
 			"subtitle": "Création",
 			"description": "Développement d'une application de raccourcissement d'url, en utilisant NodeJS et MongoDB.",
 			"role": "<ul><li>Backend NodeJS/ExpressJS</li><li>Frontend Milligram</li><li>Base de données MongoDB</li><li>Linting avec XO</li></ul>",
-			"link": "http://url.chypriote.me/",
+			"link": "http://url.chypriote.com/",
 			"git": "https://github.com/chypriote/url-shortener",
 			"skills": [
 				"html5",
@@ -304,7 +304,7 @@
 			"name": "Easy Elo Boost v3",
 			"img": "easyboost.jpg",
 			"subtitle": "Réalisation du site",
-			"link": "http://projects.chypriote.me/elo-boost-v3/",
+			"link": "https://projects.nicolastem.fr/elo-boost-v3/",
 			"description": "Easy Elo Boost est un site proposant des services aux joueurs de League of Legends. Le projet a été mis en place par un groupe d'amis et moi, et je me suis chargé de la réalisation du site web.<br>Les premières versions du site étaient peu évoluées, contenant un simple backend en PHP, servant un site statique en HTML. Cette troisième version m'a permis d'intégrer le framework <strong>Bootstrap</strong>,  de proposer un site en une seule page et d'intégrer une vraie base de données en backend.",
 			"role": "Je me suis chargé de la création et de l'intégration de l'ensemble du design et des fonctionalités. Le design reprend un template Bootstrap \"classique\", en y ajoutant plusieurs plugins spécifiques à nos besoins :<ul><li>Calcul des prix</li><li>Galerie d'images</li><li>Carrousel de texte</li><li>Paiement via Paypal</li></ul>Le projet a maintenant été abandonné et le site n'est plus maintenu à jour.",
 			"git": "",
@@ -328,6 +328,40 @@
 			"skills": [
 				"java",
 				"android"
+			]
+		},
+		{
+			"name": "Hugues Laurent",
+			"img": "hugues.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "Portfolio du photographe Hugues Laurent.",
+			"role": "Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.",
+			"link": "http://www.hugueslaurent.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"wordpress",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "Promenade à Versailles",
+			"img": "hermes.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Mini site vitrine de présentation du foulard Hermès de la collection <em>Promenade à Versailles</em> en partenariat avec le Chateau de Versailles",
+			"role": "Création de site vitrine sur Prestashop, intégration pixel-perfect d'une maquette.",
+			"link": "http://www.promenadeaversailles.chateauversailles.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"javascript",
+				"php",
+				"bootstrap",
+				"prestashop"
 			]
 		}
 	],
