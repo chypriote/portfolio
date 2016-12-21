@@ -24,7 +24,7 @@ gulp.task('jade', function(){
 		.pipe(g.data(function(){
 			return require('./src/jade/datas.json');
 		}))
-		.pipe(g.jade({pretty:true}))
+		.pipe(g.pug({pretty:true}))
 		.pipe(gulp.dest('public/'))
 		.pipe(browserSync.reload({stream:true}));
 });
@@ -36,10 +36,6 @@ gulp.task('styles', function(){
 				console.log(error.message);
 				this.emit('end');
 		}}))
-		.pipe(g.recess({
-			noIDs: false
-		}))
-		.pipe(g.recess.reporter())
 		.pipe(g.less())
 		.pipe(g.autoprefixer('last 2 versions'))
 		.pipe(g.rename({suffix: '.min'}))
