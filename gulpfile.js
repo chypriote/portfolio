@@ -24,7 +24,7 @@ gulp.task('jade', function(){
 		.pipe(g.data(function(){
 			return require('./src/jade/datas.json');
 		}))
-		.pipe(g.jade({pretty:true}))
+		.pipe(g.pug({pretty:true}))
 		.pipe(gulp.dest('public/'))
 		.pipe(browserSync.reload({stream:true}));
 });
