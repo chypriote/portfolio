@@ -1,8 +1,9 @@
 /* global $ */
 
 function scrollToTop(target) {
+	$offset = target ? target.offset().top : 0;
 	$('html,body').animate({
-		scrollTop: target.offset().top
+		scrollTop: $offset
 	}, 1000);
 }
 
@@ -21,11 +22,11 @@ function loadProject(project) {
 
 	$('#work-skills').empty();
 	$(project.skills.forEach(function(el){
-		$('#work-skills').append('<img class="work-skill" src="assets/images/skills/' + el + '.svg" alt="'+el+'" title="'+el+'">');
+		$('#work-skills').append('<img class="work-skill" src="/assets/images/skills/' + el + '.svg" alt="'+el+'" title="'+el+'">');
 	}));
 	handleButton('#work-site', project.link);
 	handleButton('#work-git', project.git);
-	$('#work-img').attr('src', 'assets/images/projects/' + project.img).attr('alt', project.name).attr('title', project.name);
+	$('#work-img').attr('src', '/assets/images/projects/' + project.img).attr('alt', project.name).attr('title', project.name);
 }
 
 
@@ -38,8 +39,10 @@ function loadProject(project) {
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
 			$('.navigation').addClass('navigation-slim');
+			$('#back-to-top').fadeIn();
 		} else{
 			$('.navigation').removeClass('navigation-slim');
+			$('#back-to-top').fadeOut();
 		}
 	});
 
@@ -53,6 +56,10 @@ function loadProject(project) {
 		$('.menu-mobile').slideToggle();
 		scrollToTop($(this.hash));
 	});
+	$('#back-to-top').click(function(e) {
+		e.preventDefault();
+		scrollToTop();
+	})
 
 
 //Classe skill
