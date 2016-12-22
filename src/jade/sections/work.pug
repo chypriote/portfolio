@@ -1,3 +1,5 @@
+-var str = static.sections.projects
+
 h2#work-title Titre
 .work
 	.col-left
@@ -5,10 +7,10 @@ h2#work-title Titre
 		.work-links
 			a#work-site.btn-work(href="" target="_blank").
 				#[i.fa.fa-caret-right]
-				Voir le site
+				#{str.site}
 			a#work-git.btn-work(href="" target="_blank").
 				#[i.fa.fa-github]
-				Projet sur GitHub
+				#{str.github}
 		h3 Technologies
 		#work-skills
 	.col-right
@@ -20,5 +22,5 @@ h2#work-title Titre
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 		.back-button
 			a.back(href="#projects").
-				Retour aux projets
+				#{str.back}
 				#[i.fa.fa-arrow-up]

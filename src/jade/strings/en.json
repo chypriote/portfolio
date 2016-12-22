@@ -2,10 +2,29 @@
 	"static": {
 		"title": "Nicolas Temenides",
 		"subtitle": "Fullstack Web Developper",
-		"projects": "Translation of projects' descriptions will come soon",
 		"backToTop": "Back to top",
 		"langSwitch": "fr",
-		"langUrl": "/"
+		"langUrl": "/",
+		"sections": {
+			"education": {
+				"title": "Education",
+				"studies": "Studies",
+				"jobs": "Experiences",
+				"languages": "Languages",
+				"chinese": "Chinese"
+			},
+			"skills": {
+				"title": "Skills"
+			},
+			"projects": {
+				"title": "Projects",
+				"subtitle": "Translation of projects' descriptions will come soon",
+				"more": "See more",
+				"github": "Project on GitHub",
+				"site": "Go to the website",
+				"back": "Back to projects "
+			}
+		}
 	},
 	"nav": [
 		{

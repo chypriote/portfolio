@@ -1,7 +1,9 @@
-h2 Formation
+-var str = static.sections.education
+
+h2 #{str.title}
 .education
 	.left-col
-		h3 Etudes
+		h3 #{str.studies}
 		.studies.card
 			each study in studies
 				.study
@@ -9,7 +11,7 @@ h2 Formation
 					.study-text
 						.study-title #{study.title}
 						.study-desc #{study.text}
-		h3 Langues
+		h3 #{str.languages}
 		.langues.card
 			.langue
 				span.flag-icon.flag-icon-fr
@@ -40,7 +42,7 @@ h2 Formation
 					i.fa.fa-circle-o
 			.langue
 				span.flag-icon.flag-icon-cn
-				.langue-name 中文 (Chinois)
+				.langue-name 中文 (#{str.chinese})
 				.langue-level
 					i.fa.fa-circle
 					i.fa.fa-circle-o
@@ -48,7 +50,7 @@ h2 Formation
 					i.fa.fa-circle-o
 					i.fa.fa-circle-o
 	.right-col
-		h3 Expériences professionelles
+		h3 #{str.jobs}
 		.jobs.card
 			each job in jobs
 				if job.title

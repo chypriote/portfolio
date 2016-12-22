@@ -13,7 +13,9 @@ mixin skill(skill)
 					if skill.link
 						a.link(href=skill.link title="#{skill.name}" target="_blank") #{skill.shortlink}
 
-h2 Compétences
+-var str = static.sections.skills
+
+h2 #{str.title}
 .skills
 	each category in skills
 		.skills-row

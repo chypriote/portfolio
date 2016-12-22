@@ -4,14 +4,16 @@ mixin project(project, id)
 		.info
 			.title #{project.name}
 			p #{project.subtitle}
-			button.btn-project Voir plus
+			button.btn-project #{str.more}
 		- jsonProject = JSON.stringify(project)
 		script proj["#{id}"] = !{jsonProject};
 
+-var str = static.sections.projects
+
 script proj = []
-h2 Projets
-if static.projects
-	h4.small #{static.projects}
+h2 #{str.title}
+if str.subtitle
+	h4.small #{str.subtitle}
 .projects
 	each project, id in projects
 		+project(project, id)

@@ -4,7 +4,26 @@
 		"subtitle": "Développeur Web Fullstack",
 		"backToTop": "Aller en haut",
 		"langSwitch": "us",
-		"langUrl": "/en"
+		"langUrl": "/en",
+		"sections": {
+			"education": {
+				"title": "Formation",
+				"studies": "Etudes",
+				"jobs": "Expériences professionelles",
+				"languages": "Langues",
+				"chinese": "Chinois"
+			},
+			"skills": {
+				"title": "Compétences"
+			},
+			"projects": {
+				"title": "Projets",
+				"more": "Voir plus",
+				"github": "Projet sur GitHub",
+				"site": " Voir le site",
+				"back": "Retour aux projets "
+			}
+		}
 	},
 	"nav": [
 		{
