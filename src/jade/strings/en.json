@@ -1,7 +1,7 @@
 {
 	"static": {
 		"title": "Nicolas Temenides",
-		"subtitle": "Fullstack Web Developper",
+		"subtitle": "Fullstack Web Developer",
 		"backToTop": "Back to top",
 		"langSwitch": "fr",
 		"langUrl": "/",
@@ -83,7 +83,7 @@
 			"title": "Minit-L",
 			"time": "2015",
 			"subtitle": "April 2015 - July 2015",
-			"text": "Development of new website using PHP5 / MySQL. Updates and maintenance on production websites. Development of mini-sites and widgets (Facebook apps, Wordpress/Drupal plugins. Technical documentation and technological watch.",
+			"text": "Development of brand new websites using PHP5 / MySQL. Updates and maintenance on production websites. Development of mini-sites and widgets (Facebook apps, Wordpress/Drupal plugins. Technical documentation and technological watch.",
 			"icon": "fa-drupal",
 			"logo": "minitl.png"
 		},
@@ -91,7 +91,7 @@
 			"title": "MEGA International",
 			"time": "2014",
 			"subtitle": "October 2014 - March 2015",
-			"text": "Intercept AJAX requests in order to handle them locally inside a custom IE browser inside the MEGA Win 32 app.",
+			"text": "Interception of AJAX requests in order to handle them locally inside a custom IE browser inside the MEGA Win 32 app.",
 			"icon": "fa-cog",
 			"logo": "mega.gif"
 		},
@@ -99,7 +99,7 @@
 			"title": "PSA Peugeot Citroën",
 			"time": "2014",
 			"subtitle": "November - December 2013",
-			"text": "Developped an intranet website using PHP, in order to speed up the release and update of software applications, and allow logging.",
+			"text": "Developed an intranet website using PHP, in order to speed up the release and update of software applications, and allow logging.",
 			"icon": "fa-keyboard-o",
 			"logo": "psa.png"
 		},
@@ -123,7 +123,7 @@
 			"time": "2011",
 			"subtitle": "July 2011",
 			"logo": "sncf.png",
-			"text": "Maintenance and repair on pantographs of high speed trains.",
+			"text": "Maintenance and repair of pantographs on high speed trains.",
 			"icon": "fa-train"
 		}
 	],
