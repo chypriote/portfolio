@@ -1,14 +1,14 @@
 doctype html
 html
 	head
-		include ./inc/head.jade
+		include ./inc/head
 	body
 		#home
-		include ./inc/nav.jade
+		include ./inc/nav
 		#splash
 			.title
-				h1 Nicolas Temenides
-				span.small Développeur Web Fullstack
+				h1 #{static.title}
+				span.small #{static.subtitle}
 			.social
 				a.github(href="https://github.com/chypriote" target="_blank")
 					i.fa.fa-github
@@ -25,4 +25,4 @@ html
 				include ./sections/projects
 			section#work.inversed
 				include ./sections/work
-		include ./inc/footer.jade
+		include ./inc/footer

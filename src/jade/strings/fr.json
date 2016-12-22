@@ -1,23 +1,26 @@
 {
+	"static": {
+		"title": "Nicolas Temenides",
+		"subtitle": "Développeur Web Fullstack",
+		"backToTop": "Aller en haut",
+		"langSwitch": "us",
+		"langUrl": "/en"
+	},
 	"nav": [
 		{
 			"title": "Accueil",
-			"english": "Home",
 			"url": "#home"
 		},
 		{
 			"title": "Formation",
-			"english": "Education",
 			"url": "#education"
 		},
 		{
 			"title": "Compétences",
-			"english": "Skills",
 			"url": "#skills"
 		},
 		{
 			"title": "Projets",
-			"english": "Projects",
 			"url": "#projects"
 		}
 	],
@@ -417,7 +420,6 @@
 							"name": "JavaScript",
 							"image": "javascript.svg",
 							"description": "",
-							"role": "",
 							"link": "https://www.javascript.com/",
 							"shortlink": "javascript.com",
 							"level": 5
@@ -426,7 +428,6 @@
 							"name": "CoffeeScript",
 							"image": "coffeescript.svg",
 							"description": "Language compilé en JavaScript",
-							"role": "",
 							"link": "http://coffeescript.org/",
 							"shortlink": "coffeescript.org",
 							"level": 2
@@ -435,7 +436,6 @@
 							"name": "TypeScript",
 							"image": "typescript.svg",
 							"description": "Superset Javascript",
-							"role": "",
 							"link": "http://www.typescriptlang.org/",
 							"shortlink": "typescriptlang.org",
 							"level": 3
@@ -449,7 +449,6 @@
 							"name": "Bootstrap",
 							"image": "bootstrap.svg",
 							"description": "Framework CSS complet et responsive",
-							"role": "",
 							"link": "http://getbootstrap.com/",
 							"shortlink": "getbootstrap.com",
 							"level": 5
@@ -458,7 +457,6 @@
 							"name": "Foundation",
 							"image": "foundation.svg",
 							"description": "Framework CSS complet et responsive",
-							"role": "",
 							"link": "http://foundation.zurb.com/",
 							"shortlink": "foundation.zurb.com",
 							"level": 4
@@ -467,7 +465,6 @@
 							"name": "Semantic UI",
 							"image": "semanticui.svg",
 							"description": "Framework CSS responsive et sémantique",
-							"role": "",
 							"link": "http://semantic-ui.com/",
 							"shortlink": "semantic-ui.com",
 							"level": 3
@@ -476,7 +473,6 @@
 							"//name": "Bulma",
 							"//image": "bulma.png",
 							"//description": "Framework CSS basé sur Flexbox",
-							"//role": "",
 							"//link": "http://bulma.io/",
 							"//shortlink": "bulma.io",
 							"//level": 3
@@ -485,7 +481,6 @@
 							"name": "Blaze",
 							"image": "blazecss.png",
 							"description": "Framework CSS modulaire",
-							"role": "",
 							"link": "http://blazecss.com/",
 							"shortlink": "blazecss.com",
 							"level": 2
@@ -494,7 +489,6 @@
 							"name": "Milligram",
 							"image": "milligram.svg",
 							"description": "Framework CSS minimaliste",
-							"role": "",
 							"link": "http://milligram.github.io/",
 							"shortlink": "milligram.gh.io",
 							"level": 3
@@ -508,7 +502,6 @@
 							"name": "jQuery",
 							"image": "jquery.svg",
 							"description": "",
-							"role": "",
 							"link": "http://jquery.com/",
 							"shortlink": "jquery.com",
 							"level": 5
@@ -517,7 +510,6 @@
 							"name": "AngularJS",
 							"image": "angular.svg",
 							"description": "Applications web dynamiques",
-							"role": "",
 							"link": "https://angularjs.org/",
 							"shortlink": "angularjs.org",
 							"level": 4
@@ -526,7 +518,6 @@
 							"name": "Vue.js",
 							"image": "vue.svg",
 							"description": "Composants réactifs pour interfaces Web",
-							"role": "",
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
 							"level": 1
@@ -540,7 +531,6 @@
 							"name": "less",
 							"image": "less.svg",
 							"description": "Préprocesseur CSS",
-							"role": "",
 							"link": "http://lesscss.org/",
 							"shortlink": "lesscss.org",
 							"level": 4
@@ -549,7 +539,6 @@
 							"name": "Sass",
 							"image": "sass.svg",
 							"description": "Préprocesseur CSS",
-							"role": "",
 							"link": "http://sass-lang.com/",
 							"shortlink": "sass-lang.com",
 							"level": 3
@@ -563,7 +552,6 @@
 							"name": "Smarty",
 							"image": "smarty.png",
 							"description": "Moteur de templates PHP",
-							"role": "",
 							"link": "http://www.smarty.net/",
 							"shortlink": "smarty.net",
 							"level": 3
@@ -572,7 +560,6 @@
 							"name": "Jade",
 							"image": "jade.svg",
 							"description": "Moteur de templates HTML",
-							"role": "",
 							"link": "http://jade-lang.com/",
 							"shortlink": "jade-lang.com",
 							"level": 4
@@ -581,7 +568,6 @@
 							"name": "Twig",
 							"image": "twig.png",
 							"description": "Moteur de templates PHP",
-							"role": "",
 							"link": "http://twig.sensiolabs.org/",
 							"shortlink": "twig.sensiolabs.org",
 							"level": 3
@@ -599,8 +585,7 @@
 						{
 							"name": "PHP",
 							"image": "php.svg",
-							"description": "nope",
-							"role": "",
+							"description": "",
 							"link": "https://www.php.net/",
 							"shortlink": "php.net",
 							"level": 5
@@ -609,7 +594,6 @@
 							"name": "nodeJS",
 							"image": "nodejs.svg",
 							"description": "Environnement JS back-end",
-							"role": "",
 							"link": "https://nodejs.org/",
 							"shortlink": "nodejs.org",
 							"level": 3
@@ -622,7 +606,6 @@
 						{
 							"name": "MySQL",
 							"image": "mysql.svg",
-							"role": "",
 							"link": "https://www.mysql.com/",
 							"shortlink": "mysql.com",
 							"level": 4
@@ -631,7 +614,6 @@
 							"name": "MongoDB",
 							"image": "mongodb.svg",
 							"description": "Base de données NoSQL",
-							"role": "",
 							"link": "https://www.mongodb.org/",
 							"shortlink": "mongodb.org",
 							"level": 3
@@ -639,7 +621,6 @@
 						{
 							"name": "PostgreSQL",
 							"image": "postgresql.svg",
-							"role": "",
 							"link": "http://www.postgresql.org/",
 							"shortlink": "postgresql.org",
 							"level": 3
@@ -653,7 +634,6 @@
 							"name": "Drupal",
 							"image": "drupal.svg",
 							"description": "CMS open source",
-							"role": "",
 							"link": "https://www.drupal.org/",
 							"shortlink": "drupal.org",
 							"level": 4,
@@ -663,7 +643,6 @@
 							"name": "Wordpress",
 							"image": "wordpress.svg",
 							"description": "CMS open source",
-							"role": "",
 							"link": "https://wordpress.com/",
 							"shortlink": "wordpress.com",
 							"level": 4
@@ -672,7 +651,6 @@
 							"name": "Prestashop",
 							"image": "prestashop.svg",
 							"description": "CMS open source pour e-shop",
-							"role": "",
 							"link": "https://www.prestashop.com/",
 							"shortlink": "prestashop.com",
 							"level": 4
@@ -681,7 +659,6 @@
 							"name": "Jekyll",
 							"image": "jekyll.png",
 							"description": "Générateur de sites statiques",
-							"role": "",
 							"link": "http://jekyllrb.com/",
 							"shortlink": "jekyllrb.com",
 							"level": 4
@@ -695,7 +672,6 @@
 							"name": "ExpressJS",
 							"image": "express.svg",
 							"description": "Framework pour applications web",
-							"role": "",
 							"link": "http://expressjs.com/",
 							"shortlink": "expressjs.com",
 							"level": 3
@@ -704,7 +680,6 @@
 							"name": "Slim",
 							"image": "slimphp.png",
 							"description": "Micro framework PHP",
-							"role": "",
 							"link": "http://www.slimframework.com/",
 							"shortlink": "slimframework.com",
 							"level": 3
@@ -713,7 +688,6 @@
 							"name": "Symfony",
 							"image": "symfony.svg",
 							"description": "Framework PHP",
-							"role": "",
 							"link": "https://symfony.com/",
 							"shortlink": "symfony.com",
 							"level": 3
@@ -722,7 +696,6 @@
 							"name": "Laravel",
 							"image": "laravel.svg",
 							"description": "Framework PHP",
-							"role": "",
 							"link": "https://laravel.com/",
 							"shortlink": "laravel.com",
 							"level": 3
@@ -741,7 +714,6 @@
 							"name": "Gulp",
 							"image": "gulp.svg",
 							"description": "Automatisation des taches",
-							"role": "",
 							"link": "http://gulpjs.com/",
 							"shortlink": "gulpjs.com",
 							"level": 4
@@ -750,7 +722,6 @@
 							"name": "Browserify",
 							"image": "browserify.svg",
 							"description": "Bundling des modules et dépendences JS",
-							"role": "",
 							"link": "http://browserify.org/",
 							"shortlink": "browserify.org",
 							"level": 3
@@ -759,7 +730,6 @@
 							"name": "Grunt",
 							"image": "grunt.svg",
 							"description": "Automatisation des taches",
-							"role": "",
 							"link": "http://gruntjs.com/",
 							"shortlink": "gruntjs.com",
 							"level": 3
@@ -768,7 +738,6 @@
 							"name": "Webpack",
 							"image": "webpack.svg",
 							"description": "Bundling des modules et dépendences",
-							"role": "",
 							"link": "https://webpack.github.io/",
 							"shortlink": "webpack.gh.io",
 							"level": 2
@@ -782,7 +751,6 @@
 							"name": "Git",
 							"image": "git.svg",
 							"description": "Version Control System",
-							"role": "",
 							"link": "https://git-scm.com/",
 							"shortlink": "git-scm.com",
 							"level": 4
@@ -791,7 +759,6 @@
 							"name": "Travis-CI",
 							"image": "travis.svg",
 							"description": "Intégration continue et tests de régression",
-							"role": "",
 							"link": "https://travis-ci.org/",
 							"shortlink": "travis-ci.org",
 							"level": 3
@@ -800,7 +767,6 @@
 							"name": "Vagrant",
 							"image": "vagrant.svg",
 							"description": "Environnements de développement",
-							"role": "",
 							"link": "https://www.vagrantup.com/",
 							"shortlink": "vagrantup.com",
 							"level": 2
@@ -809,15 +775,21 @@
 							"name": "KarmaJS",
 							"image": "karma.svg",
 							"description": "Framework de tests unitaires JavaScript",
-							"role": "",
 							"link": "http://karma-runner.github.io/",
 							"shortlink": "karma-runner.gh.io",
 							"level": 3
 						},
 						{
+							"name": "PHPUnit",
+							"image": "phpunit.png",
+							"description": "Framework de tests unitaires PHP",
+							"link": "https://phpunit.de/",
+							"shortlink": "phpunit.de",
+							"level": 3
+						},
+						{
 							"name": "Photoshop",
 							"image": "photoshop.svg",
-							"role": "",
 							"link": "http://www.photoshop.com/",
 							"shortlink": "photoshop.com",
 							"level": 1

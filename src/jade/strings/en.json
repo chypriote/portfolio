@@ -1,0 +1,804 @@
+{
+	"static": {
+		"title": "Nicolas Temenides",
+		"subtitle": "Fullstack Web Developper",
+		"projects": "Translation of projects' descriptions will come soon",
+		"backToTop": "Back to top",
+		"langSwitch": "fr",
+		"langUrl": "/"
+	},
+	"nav": [
+		{
+			"title": "Home",
+			"url": "#home"
+		},
+		{
+			"title": "Education",
+			"url": "#education"
+		},
+		{
+			"title": "Skills",
+			"url": "#skills"
+		},
+		{
+			"title": "Projects",
+			"url": "#projects"
+		}
+	],
+	"studies": [
+		{
+			"title": "Université de Haute-Alsace",
+			"time": "2017",
+			"text": "Master degree: Project Management"
+		},
+		{
+			"title": "EPITECH Paris",
+			"time": "2017",
+			"text": "IT Expert"
+		},
+		{
+			"title": "Beijing Jiatong University",
+			"time": "2016",
+			"text": "Master degree: Software Engineering"
+		},
+		{
+			"title": "HEI Lille",
+			"time": "2012",
+			"text": "Engineering preparation course, option Physics and Chemistry"
+		},
+		{
+			"title": "Baccalauréat général",
+			"time": "2010",
+			"text": "Science specialization"
+		}
+	],
+	"jobs": [
+		{
+			"title": "SmartAngels",
+			"time": "2016",
+			"subtitle": "July 2016 - Now",
+			"text": "Maintenance, updates and development of new functionalities on the SmartAngels website, using AngularJS and Symfony 2.",
+			"logo": "smartangels.png"
+		},
+		{
+			"title": "Minit-L",
+			"time": "2015",
+			"subtitle": "April 2015 - July 2015",
+			"text": "Development of new website using PHP5 / MySQL. Updates and maintenance on production websites. Development of mini-sites and widgets (Facebook apps, Wordpress/Drupal plugins. Technical documentation and technological watch.",
+			"icon": "fa-drupal",
+			"logo": "minitl.png"
+		},
+		{
+			"title": "MEGA International",
+			"time": "2014",
+			"subtitle": "October 2014 - March 2015",
+			"text": "Intercept AJAX requests in order to handle them locally inside a custom IE browser inside the MEGA Win 32 app.",
+			"icon": "fa-cog",
+			"logo": "mega.gif"
+		},
+		{
+			"title": "PSA Peugeot Citroën",
+			"time": "2014",
+			"subtitle": "November - December 2013",
+			"text": "Developped an intranet website using PHP, in order to speed up the release and update of software applications, and allow logging.",
+			"icon": "fa-keyboard-o",
+			"logo": "psa.png"
+		},
+		{
+			"title": "F4",
+			"time": "2013",
+			"subtitle": "February 2013",
+			"text": "Set up a database for the F4-Map website.",
+			"logo": "f4.png"
+		},
+		{
+			"title": "PSA Peugeot Citroën",
+			"time": "2012",
+			"subtitle": "July 2012",
+			"logo": "psa.png",
+			"text": "Factory worker on the C3/DS3 assembly line.",
+			"icon": "fa-car"
+		},
+		{
+			"title": "SNCF",
+			"time": "2011",
+			"subtitle": "July 2011",
+			"logo": "sncf.png",
+			"text": "Maintenance and repair on pantographs of high speed trains.",
+			"icon": "fa-train"
+		}
+	],
+	"projects": [
+		{
+			"name": "Les Talens Lyriques",
+			"img": "ltl.jpg",
+			"subtitle": "Nouvelle version du site",
+			"description": "Le site de l'orchestre <em>Les Talens Lyriques</em>, développé en 2011 par l'agence Minit-L.<br>Le site sert permet aux visiteurs d'être aux faits des derniers évènements organisés par l'orchestre, d'écouter la musique de celui-ci, ainsi que d'acheter des billets pour leurs concerts.<br>Le site a été construit en utilisant le CMS <strong>Drupal</strong>.",
+			"role": "Dans le cadre de mon stage à <strong>Minit-L</strong>, ma mission a été de reconstruire l'ensemble du site, afin de lui donner un design plus moderne et responsive. Les fonctionnalités telles que le calendrier ou le lecteur de musique ont aussi été remises à jour.<br><ul><li>Installation du framework CSS <strong>Foundation 5</strong>, afin de permettre au design du site d'être responsive</li><li>Réécriture de plusieurs modules Drupal du site: lecteur de musique, discographie</li><li>Création de nouveaux modules: calendrier, slider</li></ul>Cette mission m'a permis d'acquérir une grande maitrise du CMS Drupal, ainsi que du framework Foundation.",
+			"link": "http://www.lestalenslyriques.com",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"drupal",
+				"mysql",
+				"foundation"
+			]
+		},
+		{
+			"name": "CaritatHelp",
+			"img": "caritathelp.jpg",
+			"subtitle": "Conception et Réalisation",
+			"description": "L'<em>Epitech Innovative Project</em> (EIP) est l'étape principale dans le cursus Epitech, celle qui le fait passer de son statut d'étudiant à celui de professionnel à part entière. Les étudiants travaillent en groupe de 6 ou plus, sur une période de deux ans et demi, à la manière d’un véritable projet entrepreneurial, dans toutes ses composantes : business, techno, design & communication. Un EIP est appelé à devenir une start-up viable.<br><br>Le projet <strong>CaritatHelp</strong> est destiné à devenir la 1ère plateforme humanitaire en France. Son but premier étant de centraliser les associations caritatives françaises et leurs membres, afin d’améliorer leurs moyens de communication et de sensibiliser de nouvelles personnes aux actions humanitaires.<br>Ce réseau d’entraide optimise les démarches, permettant ainsi aux différents acteurs du bénévolat de réagir en temps réel aux besoins. Ainsi, un directeur d’association peut gérer les actualités de son groupe, tandis que les membres peuvent suivre différentes associations et choisir de participer à leurs évènements.<br><br>Pour ce faire, Caritathelp dispose d’une application web ainsi que de trois applications mobiles (iOS, Android et Windows Phone).<br>Des systèmes de messageries, de notifications et d’alertes sont présents pour permettre à tous les bénévoles de bénéficier d’une grande visibilité quant aux actions menées près de chez eux.",
+			"role": "En tant que responsable du pole Web du projet, j'ai été chargé de définir la structure du projet, ainsi que les différentes technologies et méthodologies utilisées.<br>Taches accomplies:<ul><li>Conception et design du site</li><li>Création d'une SPA AngularJS</li><li>Création d'un styleguide pour le projet</li><li>DevOps sur le serveur caritathelp</li><li>Mise en place d'une documentation API</li><li>Réalisation de tests unitaires sur l'ensemble du site</li></ul>",
+			"link": "http://caritahelp.me",
+			"git": "https://github.com/CaritatHelp/caritathelp-web",
+			"skills": [
+				"html5",
+				"css3",
+				"angular",
+				"jade",
+				"less",
+				"gulp",
+				"browserify",
+				"git",
+				"karma"
+			]
+		},
+		{
+			"name": "Boutique de la Comédie Française",
+			"img": "comedie-francaise.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "La boutique en ligne de la <em>Comédie Française</em> est développée et maintenue par l'agence Minit-L.<br>Le site permet aux visiteurs d'acheter des produits dérivés des différents spectacles de la troupe. Il a été développé grâce au CMS <strong>Prestashop</strong>, ainsi que le framework <strong>Bootstrap</strong>.",
+			"role": "Durant mon stage à <strong>Minit-L</strong>, j'ai été chargé de la maintenance du site, ainsi que d'effectuer plusieurs évolutions.<ul><li>Corrections sur l'affichage mobile du site (responsiveness)</li><li>Refonte complète du menu en vue mobile (utilisation d'un menu \"hamburger\"</li><li>Correction de bugs sur l'affichage des produits</li></ul>",
+			"link": "http://www.boutique-comedie-francaise.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "ACS Gestion Privée",
+			"img": "acsgestion.jpg",
+			"subtitle": "Intégration et développement",
+			"description": "<em>A venir</em>.",
+			"role": "Mission freelance pour ACS Gestion Privée.<ul><li>Mise en place du serveur</li><li>Installation Drupal 8</li><li>Installation de thème et intégration de maquettes</li><li>Crétion de modules (Map, Simulateur de taux)</li></ul>",
+			"link": "http://acsgestionprivee.fr",
+			"git": "https://github.com/chypriote/snapshift",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"drupal",
+				"twig",
+				"git"
+			]
+		},
+		{
+			"name": "Snapshift",
+			"img": "snapshift.jpg",
+			"subtitle": "Intégration",
+			"description": "<em>A venir</em>.",
+			"role": "Mission freelance pour Snapshift.<ul><li>Intégration from-scratch</li><li>Animations personnalisés</li></ul>",
+			"link": "https://www.snapshift.co",
+			"git": "https://github.com/chypriote/acsgestion",
+			"skills": [
+				"html5",
+				"css3",
+				"gulp",
+				"less",
+				"jade",
+				"jquery",
+				"git"
+			]
+		},
+		{
+			"name": "Challenge Wars",
+			"img": "challengewars.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Le Projet de Fin d'Année à <strong>Epitech</strong> demande aux étudiants de travailler en groupe de 5 à 8 sur une période de 6 mois, sur un projet innovant et ambitieux. <em>Challenge Wars</em> est né de ce projet : ce site s'adresse aux joueurs de jeux-vidéos, leur permettant de se lancer des défis. En remportant un défi, le joueur gagne des points, lui permettant de débloquer des récompenses, aussi bien sur le site qu'en jeu.<br>La première version de Challenge Wars comprenait un site web et une application Android, permettant aux joueurs de créer et participer à des défis sur le jeu <em>League of Legends</em>.",
+			"role": "En tant que chef de projet, j'ai été responsable de la communication dans le groupe, ainsi que de la gestion des objectifs et du travail de chaque membre.<br>En tant que développeur, j'ai réalisé le site web \"from-scratch\" (sans CMS/template), en utilisant <strong>Bootstrap 3</strong> pour le design et un backend PHP.<br>Taches accomplies:<ul><li>Création de l'API utilisée par le site et l'application</li><li>Mise en place du backend du site en utilisant PHP et MySQL</li><li>Design du site</li><li>Liaison entre le backend et l'API Riot Games, pour récupérer les données depuis les serveurs du jeu</li><li>Mise en place de taches CRON pour mettre à jour les données de façon régulière</li></ul>Ce projet m'a permis une première approche du role de chef de projet. J'ai aussi pu apprendre à utiliser curL afin de communiquer avec une API externe, ainsi que mettre en place ma propre API.",
+			"link": "https://projects.nicolastem.fr/challenge-wars",
+			"git": "https://github.com/chypriote/ChallengeWars",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "ChypRiotE Videos",
+			"img": "videowp.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "<em>ChypRiotE videos</em> est un site recensant l'ensemble des vidéos de League of Legensd que j'ai mis en ligne sur Youtube. Le site est né du besoin que j'ai ressenti de trouver un moyen de classer mes vidéos qui soit plus efficace et facile à utiliser que l'interface originale de Youtube.<br>Le site utilise le CMS <strong>Wordpress</strong>, ainsi qu'un thème adapté à la publication de vidéos.",
+			"role": "Mon objectif en construisant ce site était de passer le plus rapidement possible de la phase de développement à la mise en ligne du site. Pour cela, j'ai décidé d'utiliser Wordpress, un template pour celui ci, ainsi que le framework Bootstrap. De cette façon, j'ai pu réduire au minimum la quantité de code à écrire. Ainsi, l'ensemble du site à été réalisé en 5 jours.<br>Ceci comprend :<ul><li>Mise en place de Wordpress et du thème <em>VideoTube</em></li><li>Adaptation du branding du thème, ainsi qu'ajout de champs personalisés pour correspondre à mes besoins</li><li>Publication du contenu sur le site</li></ul>Bien que n'ayant pas requis particulièrement de compétences techniques, ce été pour moi l'occasion de prendre de l'expérience sur Wordpress, ainsi que de mesurer le temps nécessaire à arriver à Produit Minimum Viable.",
+			"link": "http://video.chypriote.com",
+			"git": "https://github.com/chypriote/wp-video",
+			"skills": [
+				"html5",
+				"css3",
+				"javascript",
+				"php",
+				"mysql",
+				"wordpress",
+				"jquery",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "PonyShop",
+			"img": "ponyshop.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Dans le cadre du module Java à Epitech, il nous a été demandé de réaliser un site web servant à vendre un produit fictif. J'ai décidé de créer une boutique permettant l'achat de poneys, de toutes les formes et de toutes les couleurs.<br>Le site utilise la technologie <strong>JavaServer Pages</strong>, un serveur <strong>Tomcat</strong>, et communique avec une base de données <strong>SQLite</strong>.<br>En plus des fonctionnalités requises, j'ai aussi ajouté des fonctionnalités personnalisées: gestion du panier, filtrage par catégories, système de news. Le design a quant à lui été réalisé à l'aide d'un template <strong>Bootstrap</strong>.Utilisation de servlets, DAO factories, stockage SQLite.",
+			"role": "Ce projet m'a permis de me familiariser avec les technologies <strong>Java 2 Platform, Entreprise Edition</strong>, ainsi que de mettre en application plusieurs concepts de l'architecture MVC pour le web.<ul><li>Servlets Java</li><li>Data Access Objects factories</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/PonyShop",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"java",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "MyElo",
+			"img": "myelo.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "<em>MyElo</em> est un site personnel, fruit de ma passion pour les statistiques. L'objectif du site était de permettre de garder un historique des rencontres entre les équipes françaises sur League of Legends.<br>Les résultats des matchs sont enregistrés sur le site et permettent de calculer le nombre de points d'une équipe. Ce nombre de point est déterminé par un algorithme basé sur le système Elo, auquel j'ai ajouté plusieurs variables pour prendre en compte des données supplémentaires : rencontre officielle ou non, en ligne ou hors ligne, etc...<br>Le site sert aussi à garder une trace du passage des joueurs dans différentes équipes, ainsi que de leur progression en solo dans le classement officiel du jeu. Pour cela, j'ai utilisé l'API Riot Games, et stocker les données dans une base de données MySQL.<br>Le backend du site utilise PHP, tandis que le design a été réalisé en utilisant <strong>Bootstrap</strong>. L'ensemble du site a été réalisé entièrement \"from-scratch\".",
+			"role": "J'ai travaillé sur MyElo pendant plusieurs mois, ajoutant peu à peu de nouvelles fonctionnalités, et affinant celles déjà en place. Il s'agit du premier site que j'ai construit possédant un frontend communiquant avec une API backend, plutôt que d'effectuer les requêtes directement en base de données. Pour cela, j'ai utilisé la fonction <em>$.ajax</em> de <strong>jQuery</strong>. Ainsi, il serait théoriquement possible très facilement de créer une application Android, iOS ou autre utilisant les mêmes données que le site.<br><ul><li>Création d'une API en backend</li><li>Communication avec l'API Riot via curL</li><li>Mise en place d'un algorithme de type Elo</li><li>Back-office permettant la création d'équipes, de joueurs, ainsi que l'ajout de résultats</li><li>Partie privée permettant de traquer les résultats solo de joueurs en particulier</li>",
+			"link": "https://projects.nicolastem.fr/myelo",
+			"git": "https://github.com/chypriote/myelo",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "Observatoire des Territoires",
+			"img": "datar.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "L’Observatoire des Territoires du CGET met à disposition une sélection d'indicateurs cartographiés, de données, d'analyses et d'autres ressources. Ces ressources permettent de comprendre les dynamiques et les disparités des territoires, ainsi que de suivre les différentes formes de l'intervention publique dans le domaine de l'aménagement du territoire.<br>Le site a été construit avec l'aide du CMS <strong>Drupal</strong>, et est maintenu par l'agence <em>Minit-L</em>",
+			"role": "Durant mon stage à Minit-L, j'ai été chargé d'effectuer de la maintenance et des évolutions sur le site de l'Observatoire des Territoires. Il s'agissait d'abord de petites modifications :<ul><li>Création de modules Drupal</li><li>Correction de bugs d'affichages</li><li>Edition de contenu</li><li>Migration de Drupal en version 6</li></ul>J'ai ensuite été chargé de reprendre l'ensemble du design du site, afin de rendre celui-ci responsive.<br>Cette mission m'a tout d'abord permis de comprendre en détail le fonctionnement de Drupal, mais aussi d'apprendre à mettre en place des solutions adaptées à l'architecture de ce CMS.",
+			"link": "http://www.observatoire-des-territoires.gouv.fr/",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"mysql",
+				"drupal"
+			]
+		},
+		{
+			"name": "MiniLink",
+			"img": "minilink.jpg",
+			"subtitle": "Création",
+			"description": "Développement d'une application de raccourcissement d'url, en utilisant NodeJS et MongoDB.",
+			"role": "<ul><li>Backend NodeJS/ExpressJS</li><li>Frontend Milligram</li><li>Base de données MongoDB</li><li>Linting avec XO</li></ul>",
+			"link": "http://url.chypriote.com/",
+			"git": "https://github.com/chypriote/url-shortener",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"express",
+				"mongodb",
+				"milligram"
+			]
+		},
+		{
+			"name": "Easy Elo Boost v3",
+			"img": "easyboost.jpg",
+			"subtitle": "Réalisation du site",
+			"link": "https://projects.nicolastem.fr/elo-boost-v3/",
+			"description": "Easy Elo Boost est un site proposant des services aux joueurs de League of Legends. Le projet a été mis en place par un groupe d'amis et moi, et je me suis chargé de la réalisation du site web.<br>Les premières versions du site étaient peu évoluées, contenant un simple backend en PHP, servant un site statique en HTML. Cette troisième version m'a permis d'intégrer le framework <strong>Bootstrap</strong>,  de proposer un site en une seule page et d'intégrer une vraie base de données en backend.",
+			"role": "Je me suis chargé de la création et de l'intégration de l'ensemble du design et des fonctionalités. Le design reprend un template Bootstrap \"classique\", en y ajoutant plusieurs plugins spécifiques à nos besoins :<ul><li>Calcul des prix</li><li>Galerie d'images</li><li>Carrousel de texte</li><li>Paiement via Paypal</li></ul>Le projet a maintenant été abandonné et le site n'est plus maintenu à jour.",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"bootstrap",
+				"jquery",
+				"mysql"
+			]
+		},
+		{
+			"name": "EpiAndroid",
+			"img": "epiandroid.jpg",
+			"subtitle": "Application android",
+			"description": "EpiAndroid est une application <strong>Android</strong> développée dans le cadre du module Java d'Epitech. En groupe de trois, l'objectif était de communiquer avec l'API Epitech, afin de pouvoir récupérer les informations de l'intranet étudiant : informations sur un étudiant, modules et cours auxquels celui-ci est inscrit, affichage des notes, enregistrement à des modules.",
+			"role": "Sur ce projet, mon rêle a été de développer un service permettant d'effectuer les requêtes à l'API Epitech et de les retourner dans un format utilisable par le reste de l'application. J'ai pour cela utilisé le package <em>java.net</em>, et parser les retours avec le package Gson.<br>J'ai ensuite créé différentes classes pour chaque Objet utilisé par l'application, qui sont transmises en retour des requêtes.",
+			"link": "",
+			"git": "https://github.com/chypriote/EpiAndroid",
+			"skills": [
+				"java",
+				"android"
+			]
+		},
+		{
+			"name": "Hugues Laurent",
+			"img": "hugues.jpg",
+			"subtitle": "Maintenance et évolution",
+			"description": "Portfolio du photographe Hugues Laurent.",
+			"role": "Dans le cadre de mon stage à Minit-L, maintenance sur le portfolio d'Hugues Laurent. Edition du back-office Wordpress, maintenances en front.",
+			"link": "http://www.hugueslaurent.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"jquery",
+				"php",
+				"wordpress",
+				"bootstrap"
+			]
+		},
+		{
+			"name": "Promenade à Versailles",
+			"img": "hermes.jpg",
+			"subtitle": "Réalisation du site",
+			"description": "Mini site vitrine de présentation du foulard Hermès de la collection <em>Promenade à Versailles</em> en partenariat avec le Chateau de Versailles",
+			"role": "Création de site vitrine sur Prestashop, intégration pixel-perfect d'une maquette.",
+			"link": "http://www.promenadeaversailles.chateauversailles.fr",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"javascript",
+				"php",
+				"bootstrap",
+				"prestashop"
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Programmation languages",
+			"values": [
+				{
+					"name": "C",
+					"image": "coriginal.svg",
+					"description": "",
+					"level": 4
+				},
+				{
+					"name": "C++",
+					"image": "cplusplus.svg",
+					"description": "",
+					"level": 3
+				},
+				{
+					"name": "Java",
+					"image": "java.svg",
+					"description": "",
+					"level": 3
+				},
+				{
+					"name": "C#",
+					"image": "csharp.svg",
+					"description": "",
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Web - Front-end",
+			"subs": [
+				{
+					"name": "Languages",
+					"values": [
+						{
+							"name": "HTML5",
+							"image": "html5.svg",
+							"description": "",
+							"level": 5
+						},
+						{
+							"name": "CSS3",
+							"image": "css3.svg",
+							"description": "",
+							"level": 5
+						},
+						{
+							"name": "JavaScript",
+							"image": "javascript.svg",
+							"description": "",
+							"link": "https://www.javascript.com/",
+							"shortlink": "javascript.com",
+							"level": 5
+						},
+						{
+							"name": "CoffeeScript",
+							"image": "coffeescript.svg",
+							"description": "Language compiled to JavaScript",
+							"link": "http://coffeescript.org/",
+							"shortlink": "coffeescript.org",
+							"level": 2
+						},
+						{
+							"name": "TypeScript",
+							"image": "typescript.svg",
+							"description": "Javascript superset",
+							"link": "http://www.typescriptlang.org/",
+							"shortlink": "typescriptlang.org",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "CSS Frameworks",
+					"values": [
+						{
+							"name": "Bootstrap",
+							"image": "bootstrap.svg",
+							"description": "Complete responsive CSS framework",
+							"link": "http://getbootstrap.com/",
+							"shortlink": "getbootstrap.com",
+							"level": 5
+						},
+						{
+							"name": "Foundation",
+							"image": "foundation.svg",
+							"description": "Complete responsive CSS framework",
+							"link": "http://foundation.zurb.com/",
+							"shortlink": "foundation.zurb.com",
+							"level": 4
+						},
+						{
+							"name": "Semantic UI",
+							"image": "semanticui.svg",
+							"description": "Semantic responsive CSS framework",
+							"link": "http://semantic-ui.com/",
+							"shortlink": "semantic-ui.com",
+							"level": 3
+						},
+						{
+							"//name": "Bulma",
+							"//image": "bulma.png",
+							"//description": "Framework CSS basé sur Flexbox",
+							"//link": "http://bulma.io/",
+							"//shortlink": "bulma.io",
+							"//level": 3
+						},
+						{
+							"name": "Blaze",
+							"image": "blazecss.png",
+							"description": "Modular CSS Framework",
+							"link": "http://blazecss.com/",
+							"shortlink": "blazecss.com",
+							"level": 2
+						},
+						{
+							"name": "Milligram",
+							"image": "milligram.svg",
+							"description": "Minimalist CSS Framework",
+							"link": "http://milligram.github.io/",
+							"shortlink": "milligram.gh.io",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "JS Frameworks/Libraries",
+					"values": [
+						{
+							"name": "jQuery",
+							"image": "jquery.svg",
+							"description": "",
+							"link": "http://jquery.com/",
+							"shortlink": "jquery.com",
+							"level": 5
+						},
+						{
+							"name": "AngularJS",
+							"image": "angular.svg",
+							"description": "Dynamic web applications",
+							"link": "https://angularjs.org/",
+							"shortlink": "angularjs.org",
+							"level": 4
+						},
+						{
+							"name": "Vue.js",
+							"image": "vue.svg",
+							"description": "Composable MVVM for building interactive interfaces",
+							"link": "http://vuejs.org/",
+							"shortlink": "vuejs.org",
+							"level": 1
+						}
+					]
+				},
+				{
+					"name": "CSS Preprocessors",
+					"values": [
+						{
+							"name": "less",
+							"image": "less.svg",
+							"description": "CSS Preprocessor",
+							"link": "http://lesscss.org/",
+							"shortlink": "lesscss.org",
+							"level": 4
+						},
+						{
+							"name": "Sass",
+							"image": "sass.svg",
+							"description": "CSS Preprocessor",
+							"link": "http://sass-lang.com/",
+							"shortlink": "sass-lang.com",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Templating engines",
+					"values": [
+						{
+							"name": "Smarty",
+							"image": "smarty.png",
+							"description": "PHP Templating engines",
+							"link": "http://www.smarty.net/",
+							"shortlink": "smarty.net",
+							"level": 3
+						},
+						{
+							"name": "Jade/pug",
+							"image": "jade.svg",
+							"description": "HTML Templating engines",
+							"link": "https://pugjs.org/",
+							"shortlink": "pugjs.org",
+							"level": 4
+						},
+						{
+							"name": "Twig",
+							"image": "twig.png",
+							"description": "PHP Templating engines",
+							"link": "http://twig.sensiolabs.org/",
+							"shortlink": "twig.sensiolabs.org",
+							"level": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Web - Back-end",
+			"subs": [
+				{
+					"name": "Language",
+					"values": [
+						{
+							"name": "PHP",
+							"image": "php.svg",
+							"description": "",
+							"link": "https://www.php.net/",
+							"shortlink": "php.net",
+							"level": 5
+						},
+						{
+							"name": "nodeJS",
+							"image": "nodejs.svg",
+							"description": "Event-driven I/O server-side JavaScript environment",
+							"link": "https://nodejs.org/",
+							"shortlink": "nodejs.org",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Databases",
+					"values": [
+						{
+							"name": "MySQL",
+							"image": "mysql.svg",
+							"link": "https://www.mysql.com/",
+							"shortlink": "mysql.com",
+							"level": 4
+						},
+						{
+							"name": "MongoDB",
+							"image": "mongodb.svg",
+							"description": "NoSQL database",
+							"link": "https://www.mongodb.org/",
+							"shortlink": "mongodb.org",
+							"level": 3
+						},
+						{
+							"name": "PostgreSQL",
+							"image": "postgresql.svg",
+							"link": "http://www.postgresql.org/",
+							"shortlink": "postgresql.org",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Content Management System",
+					"values": [
+						{
+							"name": "Drupal",
+							"image": "drupal.svg",
+							"description": "open source CMS",
+							"link": "https://www.drupal.org/",
+							"shortlink": "drupal.org",
+							"level": 4,
+							"size": "big"
+						},
+						{
+							"name": "Wordpress",
+							"image": "wordpress.svg",
+							"description": "open source CMS",
+							"link": "https://wordpress.com/",
+							"shortlink": "wordpress.com",
+							"level": 4
+						},
+						{
+							"name": "Prestashop",
+							"image": "prestashop.svg",
+							"description": "open source CMS for e-shops",
+							"link": "https://www.prestashop.com/",
+							"shortlink": "prestashop.com",
+							"level": 4
+						},
+						{
+							"name": "Jekyll",
+							"image": "jekyll.png",
+							"description": "Static site generator",
+							"link": "http://jekyllrb.com/",
+							"shortlink": "jekyllrb.com",
+							"level": 4
+						}
+					]
+				},
+				{
+					"name": "Framework",
+					"values": [
+						{
+							"name": "ExpressJS",
+							"image": "express.svg",
+							"description": "Framework for web applications",
+							"link": "http://expressjs.com/",
+							"shortlink": "expressjs.com",
+							"level": 3
+						},
+						{
+							"name": "Slim",
+							"image": "slimphp.png",
+							"description": "PHP micro framework",
+							"link": "http://www.slimframework.com/",
+							"shortlink": "slimframework.com",
+							"level": 3
+						},
+						{
+							"name": "Symfony 2",
+							"image": "symfony.svg",
+							"description": "PHP Framework",
+							"link": "https://symfony.com/",
+							"shortlink": "symfony.com",
+							"level": 3
+						},
+						{
+							"name": "Laravel",
+							"image": "laravel.svg",
+							"description": "PHP Framework",
+							"link": "https://laravel.com/",
+							"shortlink": "laravel.com",
+							"level": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools",
+			"subs": [
+				{
+					"name": "Task-runners/Bundlers",
+					"values": [
+						{
+							"name": "Gulp",
+							"image": "gulp.svg",
+							"description": "Task runner",
+							"link": "http://gulpjs.com/",
+							"shortlink": "gulpjs.com",
+							"level": 4
+						},
+						{
+							"name": "Browserify",
+							"image": "browserify.svg",
+							"description": "JS modules and dependencies bundler",
+							"link": "http://browserify.org/",
+							"shortlink": "browserify.org",
+							"level": 3
+						},
+						{
+							"name": "Grunt",
+							"image": "grunt.svg",
+							"description": "Task runner",
+							"link": "http://gruntjs.com/",
+							"shortlink": "gruntjs.com",
+							"level": 3
+						},
+						{
+							"name": "Webpack",
+							"image": "webpack.svg",
+							"description": "JS modules and dependencies bundler",
+							"link": "https://webpack.github.io/",
+							"shortlink": "webpack.gh.io",
+							"level": 2
+						}
+					]
+				},
+				{
+					"name": "Others",
+					"values": [
+						{
+							"name": "Git",
+							"image": "git.svg",
+							"description": "Version Control System",
+							"link": "https://git-scm.com/",
+							"shortlink": "git-scm.com",
+							"level": 4
+						},
+						{
+							"name": "Travis-CI",
+							"image": "travis.svg",
+							"description": "Continuous integration",
+							"link": "https://travis-ci.org/",
+							"shortlink": "travis-ci.org",
+							"level": 3
+						},
+						{
+							"name": "Vagrant",
+							"image": "vagrant.svg",
+							"description": "Development environments",
+							"link": "https://www.vagrantup.com/",
+							"shortlink": "vagrantup.com",
+							"level": 2
+						},
+						{
+							"name": "KarmaJS",
+							"image": "karma.svg",
+							"description": "JavaScript unit-testing framework",
+							"link": "http://karma-runner.github.io/",
+							"shortlink": "karma-runner.gh.io",
+							"level": 3
+						},
+						{
+							"name": "PHPUnit",
+							"image": "phpunit.png",
+							"description": "PHP unit-testing framework",
+							"link": "https://phpunit.de/",
+							"shortlink": "phpunit.de",
+							"level": 3
+						},
+						{
+							"name": "Photoshop",
+							"image": "photoshop.svg",
+							"description": "",
+							"link": "http://www.photoshop.com/",
+							"shortlink": "photoshop.com",
+							"level": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

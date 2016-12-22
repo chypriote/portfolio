@@ -7,7 +7,9 @@ nav.navigation
 			i.fa.fa-bars
 		.menu
 			each link in nav
-				a.menu-item(href="#{link.url}") #{link.title}
+				a.menu-item(href=link.url) #{link.title}
+			a(href=static.langUrl)
+				i.flag-icon(class="flag-icon-" + static.langSwitch)
 	.menu-mobile
 		each link in nav
-			a.menu-mobile-item(href="#{link.url}") #{link.title}
+			a.menu-mobile-item(href=link.url) #{link.title}

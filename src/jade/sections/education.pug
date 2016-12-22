@@ -57,7 +57,7 @@ h2 Formation
 							.job-title #{job.title}
 							.job-logo
 								if job.logo
-									img(src="assets/images/logo/" + job.logo, alt=job.title)
+									img(src="/assets/images/logo/" + job.logo, alt=job.title)
 								else
 									i.fa(class= job.icon)
 						.job-subtitle #{job.subtitle}
