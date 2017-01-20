@@ -516,6 +516,27 @@
 					]
 				},
 				{
+					"name": "CSS Preprocessors",
+					"values": [
+						{
+							"name": "less",
+							"image": "less.svg",
+							"description": "CSS Preprocessor",
+							"link": "http://lesscss.org/",
+							"shortlink": "lesscss.org",
+							"level": 4
+						},
+						{
+							"name": "Sass",
+							"image": "sass.svg",
+							"description": "CSS Preprocessor",
+							"link": "http://sass-lang.com/",
+							"shortlink": "sass-lang.com",
+							"level": 3
+						}
+					]
+				},
+				{
 					"name": "JS Frameworks/Libraries",
 					"values": [
 						{
@@ -535,33 +556,20 @@
 							"level": 4
 						},
 						{
+							"name": "Aurelia",
+							"image": "aurelia.svg",
+							"description": "Dynamic web applications",
+							"link": "https://aurelia.io/",
+							"shortlink": "aurelia.io",
+							"level": 3
+						},
+						{
 							"name": "Vue.js",
 							"image": "vue.svg",
 							"description": "Composable MVVM for building interactive interfaces",
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
 							"level": 1
-						}
-					]
-				},
-				{
-					"name": "CSS Preprocessors",
-					"values": [
-						{
-							"name": "less",
-							"image": "less.svg",
-							"description": "CSS Preprocessor",
-							"link": "http://lesscss.org/",
-							"shortlink": "lesscss.org",
-							"level": 4
-						},
-						{
-							"name": "Sass",
-							"image": "sass.svg",
-							"description": "CSS Preprocessor",
-							"link": "http://sass-lang.com/",
-							"shortlink": "sass-lang.com",
-							"level": 3
 						}
 					]
 				},
