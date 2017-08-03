@@ -539,20 +539,20 @@
 					"name": "Frameworks/Librairies JS",
 					"values": [
 						{
+							"name": "AngularJS",
+							"image": "angular.svg",
+							"description": "Applications web dynamiques",
+							"link": "https://angularjs.org/",
+							"shortlink": "angularjs.org",
+							"level": 5
+						},
+						{
 							"name": "jQuery",
 							"image": "jquery.svg",
 							"description": "",
 							"link": "http://jquery.com/",
 							"shortlink": "jquery.com",
 							"level": 5
-						},
-						{
-							"name": "AngularJS",
-							"image": "angular.svg",
-							"description": "Applications web dynamiques",
-							"link": "https://angularjs.org/",
-							"shortlink": "angularjs.org",
-							"level": 4
 						},
 						{
 							"name": "Aurelia",
@@ -568,13 +568,21 @@
 							"description": "Composants réactifs pour interfaces Web",
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
-							"level": 1
+							"level": 3
 						}
 					]
 				},
 				{
 					"name": "Moteurs de templates",
 					"values": [
+						{
+							"name": "Twig",
+							"image": "twig.png",
+							"description": "Moteur de templates PHP",
+							"link": "http://twig.sensiolabs.org/",
+							"shortlink": "twig.sensiolabs.org",
+							"level": 4
+						},
 						{
 							"name": "Smarty",
 							"image": "smarty.png",
@@ -590,14 +598,6 @@
 							"link": "http://jade-lang.com/",
 							"shortlink": "jade-lang.com",
 							"level": 4
-						},
-						{
-							"name": "Twig",
-							"image": "twig.png",
-							"description": "Moteur de templates PHP",
-							"link": "http://twig.sensiolabs.org/",
-							"shortlink": "twig.sensiolabs.org",
-							"level": 3
 						}
 					]
 				}
@@ -696,6 +696,14 @@
 					"name": "Framework",
 					"values": [
 						{
+							"name": "Symfony",
+							"image": "symfony.svg",
+							"description": "Framework PHP",
+							"link": "https://symfony.com/",
+							"shortlink": "symfony.com",
+							"level": 4
+						},
+						{
 							"name": "ExpressJS",
 							"image": "express.svg",
 							"description": "Framework pour applications web",
@@ -709,14 +717,6 @@
 							"description": "Micro framework PHP",
 							"link": "http://www.slimframework.com/",
 							"shortlink": "slimframework.com",
-							"level": 3
-						},
-						{
-							"name": "Symfony",
-							"image": "symfony.svg",
-							"description": "Framework PHP",
-							"link": "https://symfony.com/",
-							"shortlink": "symfony.com",
 							"level": 3
 						},
 						{
@@ -767,7 +767,7 @@
 							"description": "Bundling des modules et dépendences",
 							"link": "https://webpack.github.io/",
 							"shortlink": "webpack.gh.io",
-							"level": 2
+							"level": 3
 						}
 					]
 				},
@@ -788,6 +788,14 @@
 							"description": "Intégration continue et tests de régression",
 							"link": "https://travis-ci.org/",
 							"shortlink": "travis-ci.org",
+							"level": 3
+						},
+						{
+							"name": "Docker",
+							"image": "docker.svg",
+							"description": "Automatisation du déploiement d'applications",
+							"link": "https://www.docker.com/",
+							"shortlink": "docker.com",
 							"level": 3
 						},
 						{

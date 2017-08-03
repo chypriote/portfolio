@@ -17,24 +17,24 @@
   },
   "homepage": "https://github.com/chypriote/portfolio#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.5",
-    "del": "^2.2.2",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-data": "^1.2.1",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-less": "^3.3.0",
-    "gulp-load-plugins": "^1.4.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.2.0",
+    "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
-    "run-sequence": "^1.2.2"
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.1.0"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "jquery": "^3.1.1"
+    "jquery": "^3.2.1"
   }
 }

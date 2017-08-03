@@ -540,20 +540,20 @@
 					"name": "JS Frameworks/Libraries",
 					"values": [
 						{
+							"name": "AngularJS",
+							"image": "angular.svg",
+							"description": "Dynamic web applications",
+							"link": "https://angularjs.org/",
+							"shortlink": "angularjs.org",
+							"level": 5
+						},
+						{
 							"name": "jQuery",
 							"image": "jquery.svg",
 							"description": "",
 							"link": "http://jquery.com/",
 							"shortlink": "jquery.com",
 							"level": 5
-						},
-						{
-							"name": "AngularJS",
-							"image": "angular.svg",
-							"description": "Dynamic web applications",
-							"link": "https://angularjs.org/",
-							"shortlink": "angularjs.org",
-							"level": 4
 						},
 						{
 							"name": "Aurelia",
@@ -569,13 +569,21 @@
 							"description": "Composable MVVM for building interactive interfaces",
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
-							"level": 1
+							"level": 3
 						}
 					]
 				},
 				{
 					"name": "Templating engines",
 					"values": [
+						{
+							"name": "Twig",
+							"image": "twig.png",
+							"description": "PHP Templating engines",
+							"link": "http://twig.sensiolabs.org/",
+							"shortlink": "twig.sensiolabs.org",
+							"level": 4
+						},
 						{
 							"name": "Smarty",
 							"image": "smarty.png",
@@ -591,14 +599,6 @@
 							"link": "https://pugjs.org/",
 							"shortlink": "pugjs.org",
 							"level": 4
-						},
-						{
-							"name": "Twig",
-							"image": "twig.png",
-							"description": "PHP Templating engines",
-							"link": "http://twig.sensiolabs.org/",
-							"shortlink": "twig.sensiolabs.org",
-							"level": 3
 						}
 					]
 				}
@@ -697,6 +697,14 @@
 					"name": "Framework",
 					"values": [
 						{
+							"name": "Symfony 2",
+							"image": "symfony.svg",
+							"description": "PHP Framework",
+							"link": "https://symfony.com/",
+							"shortlink": "symfony.com",
+							"level": 4
+						},
+						{
 							"name": "ExpressJS",
 							"image": "express.svg",
 							"description": "Framework for web applications",
@@ -710,14 +718,6 @@
 							"description": "PHP micro framework",
 							"link": "http://www.slimframework.com/",
 							"shortlink": "slimframework.com",
-							"level": 3
-						},
-						{
-							"name": "Symfony 2",
-							"image": "symfony.svg",
-							"description": "PHP Framework",
-							"link": "https://symfony.com/",
-							"shortlink": "symfony.com",
 							"level": 3
 						},
 						{
@@ -768,7 +768,7 @@
 							"description": "JS modules and dependencies bundler",
 							"link": "https://webpack.github.io/",
 							"shortlink": "webpack.gh.io",
-							"level": 2
+							"level": 3
 						}
 					]
 				},
@@ -789,6 +789,14 @@
 							"description": "Continuous integration",
 							"link": "https://travis-ci.org/",
 							"shortlink": "travis-ci.org",
+							"level": 3
+						},
+						{
+							"name": "Docker",
+							"image": "docker.svg",
+							"description": "Automatisation of app deployment",
+							"link": "https://www.docker.com/",
+							"shortlink": "docker.com",
 							"level": 3
 						},
 						{
