@@ -128,6 +128,124 @@
 	],
 	"projects": [
 		{
+			"name": "SmartAngels",
+			"img": "smartangels.jpg",
+			"subtitle": "Nouvelle version du site",
+			"description": "",
+			"role": "",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"symfony",
+				"angular",
+				"sass",
+				"mysql",
+				"mongodb",
+				"underscore",
+				"grunt",
+				"phpunit",
+				"browserify",
+				"travis",
+				"docker"
+			]
+		},
+		{
+			"name": "DailyAngels",
+			"img": "smartangels.jpg",
+			"subtitle": "Nouvelle version du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/DailyAngels",
+			"skills": [
+				"html5",
+				"css3",
+				"aurelia",
+				"sass",
+				"gulp"
+			]
+		},
+		{
+			"name": "France of Legends 1",
+			"img": "franceoflegends.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/DailyAngels",
+			"skills": [
+				"html5",
+				"css3",
+				"laravel",
+				"typescript",
+				"aurelia",
+				"mysql",
+				"milligram",
+				"less",
+				"gulp"
+			]
+		},
+		{
+			"name": "France of Legends 2",
+			"img": "franceoflegends2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/france-v2",
+			"skills": [
+				"html5",
+				"css3",
+				"symfony",
+				"vuejs",
+				"aurelia",
+				"mysql",
+				"sass",
+				"webpack"
+			]
+		},
+		{
+			"name": "Bookmarker",
+			"img": "bookmarker.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/DailyAngels",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"express",
+				"mongodb",
+				"jquery",
+				"jade",
+				"semanticui",
+				"less",
+				"gulp"
+			]
+		},
+		{
+			"name": "Bookmarker v2",
+			"img": "bookmarker2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/bookmarker-v3",
+			"skills": [
+				"html5",
+				"css3",
+				"adonis",
+				"nodejs",
+				"aurelia",
+				"sass",
+				"webpack"
+			]
+		},
+		{
 			"name": "Les Talens Lyriques",
 			"img": "ltl.jpg",
 			"subtitle": "Nouvelle version du site",
@@ -188,7 +306,7 @@
 			"subtitle": "Intégration et développement",
 			"description": "<em>A venir</em>.",
 			"role": "Mission freelance pour ACS Gestion Privée.<ul><li>Mise en place du serveur</li><li>Installation Drupal 8</li><li>Installation de thème et intégration de maquettes</li><li>Crétion de modules (Map, Simulateur de taux)</li></ul>",
-			"link": "http://acsgestionprivee.fr",
+			"link": "",
 			"git": "https://github.com/chypriote/snapshift",
 			"skills": [
 				"html5",
@@ -241,7 +359,7 @@
 			"subtitle": "Réalisation du site",
 			"description": "<em>ChypRiotE videos</em> est un site recensant l'ensemble des vidéos de League of Legensd que j'ai mis en ligne sur Youtube. Le site est né du besoin que j'ai ressenti de trouver un moyen de classer mes vidéos qui soit plus efficace et facile à utiliser que l'interface originale de Youtube.<br>Le site utilise le CMS <strong>Wordpress</strong>, ainsi qu'un thème adapté à la publication de vidéos.",
 			"role": "Mon objectif en construisant ce site était de passer le plus rapidement possible de la phase de développement à la mise en ligne du site. Pour cela, j'ai décidé d'utiliser Wordpress, un template pour celui ci, ainsi que le framework Bootstrap. De cette façon, j'ai pu réduire au minimum la quantité de code à écrire. Ainsi, l'ensemble du site à été réalisé en 5 jours.<br>Ceci comprend :<ul><li>Mise en place de Wordpress et du thème <em>VideoTube</em></li><li>Adaptation du branding du thème, ainsi qu'ajout de champs personalisés pour correspondre à mes besoins</li><li>Publication du contenu sur le site</li></ul>Bien que n'ayant pas requis particulièrement de compétences techniques, ce été pour moi l'occasion de prendre de l'expérience sur Wordpress, ainsi que de mesurer le temps nécessaire à arriver à Produit Minimum Viable.",
-			"link": "http://video.chypriote.com",
+			"link": "",
 			"git": "https://github.com/chypriote/wp-video",
 			"skills": [
 				"html5",
@@ -531,7 +649,7 @@
 							"description": "Préprocesseur CSS",
 							"link": "http://sass-lang.com/",
 							"shortlink": "sass-lang.com",
-							"level": 3
+							"level": 4
 						}
 					]
 				},
@@ -560,7 +678,7 @@
 							"description": "Applications web dynamiques",
 							"link": "https://aurelia.io/",
 							"shortlink": "aurelia.io",
-							"level": 3
+							"level": 4
 						},
 						{
 							"name": "Vue.js",
@@ -568,6 +686,22 @@
 							"description": "Composants réactifs pour interfaces Web",
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
+							"level": 3
+						},
+						{
+							"name": "Underscore",
+							"image": "underscore.png",
+							"description": "Collection de fonctions JavaScript utilitaires",
+							"link": "http://underscorejs.org/",
+							"shortlink": "underscorejs.org",
+							"level": 3
+						},
+						{
+							"name": "Lodash",
+							"image": "lodash.svg",
+							"description": "Collection de fonctions JavaScript utilitaires",
+							"link": "https://lodash.com/",
+							"shortlink": "lodash.com",
 							"level": 3
 						}
 					]
@@ -631,7 +765,7 @@
 					"name": "Base de données",
 					"values": [
 						{
-							"name": "MySQL",
+							"name": "MySQL/MariaDB",
 							"image": "mysql.svg",
 							"link": "https://www.mysql.com/",
 							"shortlink": "mysql.com",
@@ -725,6 +859,14 @@
 							"description": "Framework PHP",
 							"link": "https://laravel.com/",
 							"shortlink": "laravel.com",
+							"level": 3
+						},
+						{
+							"name": "AdonisJS",
+							"image": "adonis.svg",
+							"description": "Framework pour applications web",
+							"link": "https://adonisjs.com/",
+							"shortlink": "adonisjs.com",
 							"level": 3
 						}
 					]
