@@ -18,6 +18,7 @@
 			},
 			"projects": {
 				"title": "Projets",
+                "subtitle": "Cliquez sur une image pour obtenir plus d'infos",
 				"more": "Voir plus",
 				"github": "Projet sur GitHub",
 				"site": " Voir le site",
@@ -130,8 +131,8 @@
 		{
 			"name": "SmartAngels",
 			"img": "smartangels.jpg",
-			"subtitle": "Nouvelle version du site",
-			"description": "",
+			"subtitle": "Maintenance et nouvelles fonctionnalités",
+			"description": "SmartAngels est une plateforme de crowdfunding qui permet aux investisseurs particuliers et professionnels de financer des startups et PME de croissance, en actions ou en obligations. J'ai commencé ",
 			"role": "",
 			"git": "",
 			"skills": [
@@ -153,9 +154,9 @@
 		},
 		{
 			"name": "DailyAngels",
-			"img": "smartangels.jpg",
-			"subtitle": "Nouvelle version du site",
-			"description": "",
+			"img": "dailyangels.jpg",
+            "subtitle": "Création et réalisation du site",
+			"description": "Développement d'un site permettant de faciliter la rédaction des Daily Mails chez SmartAngels. L'utilisateur a la possibilité de créer un nouveau \"Sprint\" en suivant un template prédéfini, puis d'y ajouter des \"Daily\", correspondant à ",
 			"role": "",
 			"link": "",
 			"git": "https://github.com/chypriote/DailyAngels",
@@ -168,8 +169,8 @@
 			]
 		},
 		{
-			"name": "France of Legends 1",
-			"img": "franceoflegends.jpg",
+			"name": "France of Legends",
+			"img": "teamelo.jpg",
 			"subtitle": "Création et réalisation du site",
 			"description": "",
 			"role": "",
@@ -188,32 +189,13 @@
 			]
 		},
 		{
-			"name": "France of Legends 2",
-			"img": "franceoflegends2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/france-v2",
-			"skills": [
-				"html5",
-				"css3",
-				"symfony",
-				"vuejs",
-				"aurelia",
-				"mysql",
-				"sass",
-				"webpack"
-			]
-		},
-		{
 			"name": "Bookmarker",
 			"img": "bookmarker.jpg",
 			"subtitle": "Création et réalisation du site",
-			"description": "",
+			"description": "Ce site est un projet personnel servant d'annuaire personnel de liens. Je m'en sers pour sauvegarder toutes les librairies, framework ou autre outils liés au développement ",
 			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/DailyAngels",
+			"link": "http://bookmarker.chypriote.com/",
+			"git": "https://github.com/chypriote/bookmarker",
 			"skills": [
 				"html5",
 				"css3",
@@ -225,24 +207,6 @@
 				"semanticui",
 				"less",
 				"gulp"
-			]
-		},
-		{
-			"name": "Bookmarker v2",
-			"img": "bookmarker2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/bookmarker-v3",
-			"skills": [
-				"html5",
-				"css3",
-				"adonis",
-				"nodejs",
-				"aurelia",
-				"sass",
-				"webpack"
 			]
 		},
 		{
@@ -406,6 +370,43 @@
 				"bootstrap"
 			]
 		},
+        {
+          "name": "France of Legends 2",
+          "img": "franceoflegends2.jpg",
+          "subtitle": "Création et réalisation du site",
+          "description": "",
+          "role": "",
+          "link": "",
+          "git": "https://github.com/chypriote/france-v2",
+          "skills": [
+            "html5",
+            "css3",
+            "symfony",
+            "vuejs",
+            "aurelia",
+            "mysql",
+            "sass",
+            "webpack"
+          ]
+        },
+        {
+          "name": "Bookmarker v2",
+          "img": "bookmarker2.jpg",
+          "subtitle": "Création et réalisation du site",
+          "description": "",
+          "role": "",
+          "link": "",
+          "git": "https://github.com/chypriote/bookmarker-v3",
+          "skills": [
+            "html5",
+            "css3",
+            "adonis",
+            "nodejs",
+            "aurelia",
+            "sass",
+            "webpack"
+          ]
+        },
 		{
 			"name": "Observatoire des Territoires",
 			"img": "datar.jpg",
