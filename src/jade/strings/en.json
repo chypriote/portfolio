@@ -134,6 +134,7 @@
 			"subtitle": "Nouvelle version du site",
 			"description": "",
 			"role": "",
+			"link": "http://smartangels.fr/",
 			"git": "",
 			"skills": [
 				"html5",
@@ -154,7 +155,7 @@
 		},
 		{
 			"name": "DailyAngels",
-			"img": "smartangels.jpg",
+			"img": "dailyangels.jpg",
 			"subtitle": "Nouvelle version du site",
 			"description": "",
 			"role": "",
@@ -170,11 +171,11 @@
 		},
 		{
 			"name": "France of Legends",
-			"img": "franceoflegends.jpg",
+			"img": "teamelo.jpg",
 			"subtitle": "Création et réalisation du site",
 			"description": "",
 			"role": "",
-			"link": "",
+			"link": "http://league.chypriote.com/",
 			"git": "https://github.com/chypriote/DailyAngels",
 			"skills": [
 				"html5",
@@ -189,32 +190,13 @@
 			]
 		},
 		{
-			"name": "France of Legends 2",
-			"img": "franceoflegends2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/france-v2",
-			"skills": [
-				"html5",
-				"css3",
-				"symfony",
-				"vuejs",
-				"aurelia",
-				"mysql",
-				"sass",
-				"webpack"
-			]
-		},
-		{
 			"name": "Bookmarker",
 			"img": "bookmarker.jpg",
 			"subtitle": "Création et réalisation du site",
 			"description": "",
 			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/DailyAngels",
+			"link": "http://bookmarker.chypriote.com/",
+			"git": "https://github.com/chypriote/bookmarker",
 			"skills": [
 				"html5",
 				"css3",
@@ -226,24 +208,6 @@
 				"semanticui",
 				"less",
 				"gulp"
-			]
-		},
-		{
-			"name": "Bookmarker v2",
-			"img": "bookmarker2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/bookmarker-v3",
-			"skills": [
-				"html5",
-				"css3",
-				"adonis",
-				"nodejs",
-				"aurelia",
-				"sass",
-				"webpack"
 			]
 		},
 		{
@@ -405,6 +369,43 @@
 				"php",
 				"mysql",
 				"bootstrap"
+			]
+		},
+		{
+			"name": "France of Legends 2",
+			"img": "franceoflegends2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant AureliaJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
+			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec AureliaJS</li><li>Utilisation d'un styleguide personnalisé basé sur Milligram</li><li>Compilation des assets avec Webpack</li></ul><br>La première version de ce site devrait être mise en ligne en 2018.",
+			"link": "",
+			"git": "https://github.com/chypriote/france-v2",
+			"skills": [
+				"html5",
+				"css3",
+				"symfony",
+				"vuejs",
+				"aurelia",
+				"mysql",
+				"sass",
+				"webpack"
+			]
+		},
+		{
+			"name": "Bookmarker v2",
+			"img": "bookmarker2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Deuxième version du site Bookmarker, l'objectif était d'en créer une version plus fluide et en accord avec le Web 2.0. L'application ExpressJS a été remplacée par une API REST construite avec AdonisJS. Le frontend est quand à lui construit en utilisant AureliaJS. Ce projet est encore en cours de réalisation.",
+			"role": "<ul><li>API REST avec AdonisJS</li><li>Application front avec AureliaJS</li><li>Style personnalisé en utilisant SASS</li><li>Compilation des assets via Webpack</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/bookmarker-v3",
+			"skills": [
+				"html5",
+				"css3",
+				"adonis",
+				"nodejs",
+				"aurelia",
+				"sass",
+				"webpack"
 			]
 		},
 		{

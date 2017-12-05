@@ -132,8 +132,9 @@
 			"name": "SmartAngels",
 			"img": "smartangels.jpg",
 			"subtitle": "Maintenance et nouvelles fonctionnalités",
-			"description": "SmartAngels est une plateforme de crowdfunding qui permet aux investisseurs particuliers et professionnels de financer des startups et PME de croissance, en actions ou en obligations. J'ai commencé ",
-			"role": "",
+			"description": "SmartAngels est une plateforme de crowdfunding qui permet aux investisseurs particuliers et professionnels de financer des startups et PME de croissance, en actions ou en obligations. J'y ai commencé en Juillet 2016 pour mon stage de fin d'études. Celui-ci s'étant très bien déroule, j'ai été recruté en Mars 2017 en tant que lead développeur.<br>Le site est construit en utilisant Symfony 2 et Angular JS, nous avons utilisé en parallèle de nombreux outils de test et de monitoring, tels que TravisCI, Behat ou PHPunit.<br>J'ai ainsi pu participer à la mise en place de ces outils et des process associés. En particulier, j'ai tenu un rôle dans le passage du projet sur Docker, et le passage du projet de ES5 à ES6.",
+			"role": "En tant que lead développeur, j'ai été impliqué dans la prise de décisions techniques, par exemple le choix des technologies utilisées sur de nouveaux projets. J'ai aussi eu un rôle de conseil aux autres développeurs, afin de leur permettre de réaliser leurs tâches au quotidien. Enfin, j'ai aussi eu plusieurs missions de management, notamment au sujet de la répartition des tâches entre différents développeurs de mon équipe (2 à 3 développeurs).<br><ul><li>Application dévelopée avec Symfony 2 et AngularJS 1.4</li><li>Mise en place d'un Styleguide interne utilisant SASS</li><li>Automatisation via Grunt</li><li>Tests complets de l'application grâve à Behat, PHPunit et TravisCI</li><li>Linting via PHPCS et ESLint</li></ul>",
+			"link": "http://smartangels.fr/",
 			"git": "",
 			"skills": [
 				"html5",
@@ -155,9 +156,9 @@
 		{
 			"name": "DailyAngels",
 			"img": "dailyangels.jpg",
-            "subtitle": "Création et réalisation du site",
-			"description": "Développement d'un site permettant de faciliter la rédaction des Daily Mails chez SmartAngels. L'utilisateur a la possibilité de créer un nouveau \"Sprint\" en suivant un template prédéfini, puis d'y ajouter des \"Daily\", correspondant à ",
-			"role": "",
+			"subtitle": "Création et réalisation du site",
+			"description": "Développement d'un site permettant de faciliter la rédaction des Daily Mails chez SmartAngels. L'utilisateur a la possibilité de créer un nouveau \"Sprint\" en suivant un template prédéfini, puis d'y ajouter des \"Daily\", en utilisant là encore un template. L'objectif était de proposer un remplacement au process actuel chez SmartAngels, qui consistait à copier-coller un mail tous les matins pour en modifier le contenu et l'envoyer à toute l'entreprise. Le projet n'est pas tout à fait terminé, seul la partie frontend est avancée.",
+			"role": "J'ai réalisé ce projet en quelques jours de travail. Je tenais à refaire un projet en utilisant AureliaJS, et le sujet me semblait adapté. Le site est constitué d'un ensemble de formulaires permettant de générer des graphs. Les plus grandes difficultés auront été la création de formulaires dynamiques, ainsi que la génération à la volée des graphiques associés.<br><ul><li>Création de l'application Frontend avec AureliaJS</li><li>Génération des graphs avec Chart.js</li><li>Réutilisation du styleguide SmartAngels</li></ul>",
 			"link": "",
 			"git": "https://github.com/chypriote/DailyAngels",
 			"skills": [
@@ -172,9 +173,9 @@
 			"name": "France of Legends",
 			"img": "teamelo.jpg",
 			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
+			"description": "France of Legends est une base de données recensant les joueurs francophone de League of Legends. Il permet de classer ceux-ci par rôle, et est mis à jour automatiquement via une intégration à l'API développée par Riot Games. Les joueurs sont aussi associés à une équipe, ce qui permet d'établir rapidement quels sont les joueurs disponibles sur le marché des transferts.",
+			"role": "Ce projet m'a permis de découvrir de nouvelles technologies: il a été réalisé en utilisant Laravel pour le backend, et AureliaJS en utilisant TypeScript pour le frontend. Il est constitué d'une API rest gérant la base de données, et d'une application front entièrement décorélée.<br><ul><li>API REST utilisant Laravel 5</li><li>Application front en AureliaJS et TypeScript<li>Framework Milligram et LESS pour le style</li></ul>",
+			"link": "http://league.chypriote.com/",
 			"git": "https://github.com/chypriote/DailyAngels",
 			"skills": [
 				"html5",
@@ -192,8 +193,8 @@
 			"name": "Bookmarker",
 			"img": "bookmarker.jpg",
 			"subtitle": "Création et réalisation du site",
-			"description": "Ce site est un projet personnel servant d'annuaire personnel de liens. Je m'en sers pour sauvegarder toutes les librairies, framework ou autre outils liés au développement ",
-			"role": "",
+			"description": "Ce site est un projet personnel servant d'annuaire de liens. L'objectif est de proposer une liste complète de liens vers des frameworks et outils liés au développement.",
+			"role": "Premier projet que j'ai réalisé en utilisant NodeJS. L'application fonctionne majoritairement en back grâce au framework ExpressJS en version 4. Le frontend utilise des templates Jade/Pug, ainsi que le framework CSS SemanticUI.<br><ul><li>Application back utilisant NodeJS et ExpressJS</li><li>Templates Jade en frontend</li><li>Style et composants via Semantic UI</li><li>Base de données MongoDB avec Mongoose</li><li>Phase de compilation avec Gulp</li>",
 			"link": "http://bookmarker.chypriote.com/",
 			"git": "https://github.com/chypriote/bookmarker",
 			"skills": [
@@ -370,43 +371,43 @@
 				"bootstrap"
 			]
 		},
-        {
-          "name": "France of Legends 2",
-          "img": "franceoflegends2.jpg",
-          "subtitle": "Création et réalisation du site",
-          "description": "",
-          "role": "",
-          "link": "",
-          "git": "https://github.com/chypriote/france-v2",
-          "skills": [
-            "html5",
-            "css3",
-            "symfony",
-            "vuejs",
-            "aurelia",
-            "mysql",
-            "sass",
-            "webpack"
-          ]
-        },
-        {
-          "name": "Bookmarker v2",
-          "img": "bookmarker2.jpg",
-          "subtitle": "Création et réalisation du site",
-          "description": "",
-          "role": "",
-          "link": "",
-          "git": "https://github.com/chypriote/bookmarker-v3",
-          "skills": [
-            "html5",
-            "css3",
-            "adonis",
-            "nodejs",
-            "aurelia",
-            "sass",
-            "webpack"
-          ]
-        },
+		{
+			"name": "France of Legends 2",
+			"img": "franceoflegends2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant AureliaJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
+			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec AureliaJS</li><li>Utilisation d'un styleguide personnalisé basé sur Milligram</li><li>Compilation des assets avec Webpack</li></ul><br>La première version de ce site devrait être mise en ligne en 2018.",
+			"link": "",
+			"git": "https://github.com/chypriote/france-v2",
+			"skills": [
+				"html5",
+				"css3",
+				"symfony",
+				"vuejs",
+				"aurelia",
+				"mysql",
+				"sass",
+				"webpack"
+			]
+		},
+		{
+			"name": "Bookmarker v2",
+			"img": "bookmarker2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Deuxième version du site Bookmarker, l'objectif était d'en créer une version plus fluide et en accord avec le Web 2.0. L'application ExpressJS a été remplacée par une API REST construite avec AdonisJS. Le frontend est quand à lui construit en utilisant AureliaJS. Ce projet est encore en cours de réalisation.",
+			"role": "<ul><li>API REST avec AdonisJS</li><li>Application front avec AureliaJS</li><li>Style personnalisé en utilisant SASS</li><li>Compilation des assets via Webpack</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/bookmarker-v3",
+			"skills": [
+				"html5",
+				"css3",
+				"adonis",
+				"nodejs",
+				"aurelia",
+				"sass",
+				"webpack"
+			]
+		},
 		{
 			"name": "Observatoire des Territoires",
 			"img": "datar.jpg",
