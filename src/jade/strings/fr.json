@@ -170,6 +170,24 @@
 			]
 		},
 		{
+			"name": "France of Legends 2",
+			"img": "franceoflegends2.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant VueJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
+			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec des composants VueJS</li><li>Utilisation d'un styleguide personnalisé basé sur Shoelace.css</li><li>Compilation des assets avec Webpack</li></ul>",
+			"link": "http://beta.chypriote.com",
+			"git": "https://github.com/chypriote/france-v2",
+			"skills": [
+				"html5",
+				"css3",
+				"symfony",
+				"vuejs",
+				"mysql",
+				"sass",
+				"webpack"
+			]
+		},
+		{
 			"name": "France of Legends",
 			"img": "teamelo.jpg",
 			"subtitle": "Création et réalisation du site",
@@ -246,6 +264,25 @@
 				"browserify",
 				"git",
 				"karma"
+			]
+		},
+		{
+			"name": "National Teams",
+			"img": "nationalteams.jpg",
+			"subtitle": "Conception et Réalisation",
+			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
+			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
+			"link": "http://national.chypriote.com",
+			"git": "https://github.com/chypriote/national-teams",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"jade",
+				"sass",
+				"gulp",
+				"git",
+				"mongodb"
 			]
 		},
 		{
@@ -369,25 +406,6 @@
 				"php",
 				"mysql",
 				"bootstrap"
-			]
-		},
-		{
-			"name": "France of Legends 2",
-			"img": "franceoflegends2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant AureliaJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
-			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec AureliaJS</li><li>Utilisation d'un styleguide personnalisé basé sur Milligram</li><li>Compilation des assets avec Webpack</li></ul><br>La première version de ce site devrait être mise en ligne en 2018.",
-			"link": "",
-			"git": "https://github.com/chypriote/france-v2",
-			"skills": [
-				"html5",
-				"css3",
-				"symfony",
-				"vuejs",
-				"aurelia",
-				"mysql",
-				"sass",
-				"webpack"
 			]
 		},
 		{
