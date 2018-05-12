@@ -76,7 +76,7 @@
 			"title": "SmartAngels",
 			"time": "2016",
 			"subtitle": "Juillet 2016 - Aujourd'hui",
-			"text": "Développement en AngularJS et Symfony 2 pour contribuer aux mises à jour de fonctionalités existantes et à l'élaboration de nouvelles fonctionalités sur la plateforme SmartAngels",
+			"text": "Développement en AngularJS et Symfony 2 pour contribuer aux mises à jour de fonctionalités existantes et à l'élaboration de nouvelles fonctionalités sur la plateforme SmartAngels.\nMigration de Symfony 2 vers 3.4 puis 4, migration de Angular 1.x à Angular 5.",
 			"logo": "smartangels.png"
 		},
 		{
@@ -582,6 +582,14 @@
 							"level": 5
 						},
 						{
+							"name": "Babel",
+							"image": "babel.svg",
+							"description": "Language compilé en JavaScript",
+							"link": "https://babeljs.io//",
+							"shortlink": "babeljs.io",
+							"level": 4
+						},
+						{
 							"name": "CoffeeScript",
 							"image": "coffeescript.svg",
 							"description": "Language compilé en JavaScript",
@@ -746,11 +754,11 @@
 							"level": 3
 						},
 						{
-							"name": "Jade",
-							"image": "jade.svg",
+							"name": "Jade/Pug",
+							"image": "pug.svg",
 							"description": "Moteur de templates HTML",
-							"link": "http://jade-lang.com/",
-							"shortlink": "jade-lang.com",
+							"link": "http://pugjs.org/",
+							"shortlink": "pugjs.org",
 							"level": 4
 						}
 					]
