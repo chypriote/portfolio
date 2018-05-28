@@ -175,13 +175,13 @@
 			"subtitle": "Création et réalisation du site",
 			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant VueJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
 			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec des composants VueJS</li><li>Utilisation d'un styleguide personnalisé basé sur Shoelace.css</li><li>Compilation des assets avec Webpack</li></ul>",
-			"link": "http://beta.chypriote.com",
+			"link": "http://chypriote.com",
 			"git": "https://github.com/chypriote/france-v2",
 			"skills": [
 				"html5",
 				"css3",
 				"symfony",
-				"vuejs",
+				"vue",
 				"mysql",
 				"sass",
 				"webpack"
@@ -193,7 +193,7 @@
 			"subtitle": "Création et réalisation du site",
 			"description": "France of Legends est une base de données recensant les joueurs francophone de League of Legends. Il permet de classer ceux-ci par rôle, et est mis à jour automatiquement via une intégration à l'API développée par Riot Games. Les joueurs sont aussi associés à une équipe, ce qui permet d'établir rapidement quels sont les joueurs disponibles sur le marché des transferts.",
 			"role": "Ce projet m'a permis de découvrir de nouvelles technologies: il a été réalisé en utilisant Laravel pour le backend, et AureliaJS en utilisant TypeScript pour le frontend. Il est constitué d'une API rest gérant la base de données, et d'une application front entièrement décorélée.<br><ul><li>API REST utilisant Laravel 5</li><li>Application front en AureliaJS et TypeScript<li>Framework Milligram et LESS pour le style</li></ul>",
-			"link": "http://league.chypriote.com/",
+			"link": "",
 			"git": "https://github.com/chypriote/DailyAngels",
 			"skills": [
 				"html5",
@@ -213,7 +213,7 @@
 			"subtitle": "Création et réalisation du site",
 			"description": "Ce site est un projet personnel servant d'annuaire de liens. L'objectif est de proposer une liste complète de liens vers des frameworks et outils liés au développement.",
 			"role": "Premier projet que j'ai réalisé en utilisant NodeJS. L'application fonctionne majoritairement en back grâce au framework ExpressJS en version 4. Le frontend utilise des templates Jade/Pug, ainsi que le framework CSS SemanticUI.<br><ul><li>Application back utilisant NodeJS et ExpressJS</li><li>Templates Jade en frontend</li><li>Style et composants via Semantic UI</li><li>Base de données MongoDB avec Mongoose</li><li>Phase de compilation avec Gulp</li>",
-			"link": "http://bookmarker.chypriote.com/",
+			"link": "",
 			"git": "https://github.com/chypriote/bookmarker",
 			"skills": [
 				"html5",
@@ -272,7 +272,7 @@
 			"subtitle": "Conception et Réalisation",
 			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
 			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
-			"link": "http://national.chypriote.com",
+			"link": "http://leagues.chypriote.com",
 			"git": "https://github.com/chypriote/national-teams",
 			"skills": [
 				"html5",
@@ -397,7 +397,7 @@
 			"subtitle": "Réalisation du site",
 			"description": "<em>MyElo</em> est un site personnel, fruit de ma passion pour les statistiques. L'objectif du site était de permettre de garder un historique des rencontres entre les équipes françaises sur League of Legends.<br>Les résultats des matchs sont enregistrés sur le site et permettent de calculer le nombre de points d'une équipe. Ce nombre de point est déterminé par un algorithme basé sur le système Elo, auquel j'ai ajouté plusieurs variables pour prendre en compte des données supplémentaires : rencontre officielle ou non, en ligne ou hors ligne, etc...<br>Le site sert aussi à garder une trace du passage des joueurs dans différentes équipes, ainsi que de leur progression en solo dans le classement officiel du jeu. Pour cela, j'ai utilisé l'API Riot Games, et stocker les données dans une base de données MySQL.<br>Le backend du site utilise PHP, tandis que le design a été réalisé en utilisant <strong>Bootstrap</strong>. L'ensemble du site a été réalisé entièrement \"from-scratch\".",
 			"role": "J'ai travaillé sur MyElo pendant plusieurs mois, ajoutant peu à peu de nouvelles fonctionnalités, et affinant celles déjà en place. Il s'agit du premier site que j'ai construit possédant un frontend communiquant avec une API backend, plutôt que d'effectuer les requêtes directement en base de données. Pour cela, j'ai utilisé la fonction <em>$.ajax</em> de <strong>jQuery</strong>. Ainsi, il serait théoriquement possible très facilement de créer une application Android, iOS ou autre utilisant les mêmes données que le site.<br><ul><li>Création d'une API en backend</li><li>Communication avec l'API Riot via curL</li><li>Mise en place d'un algorithme de type Elo</li><li>Back-office permettant la création d'équipes, de joueurs, ainsi que l'ajout de résultats</li><li>Partie privée permettant de traquer les résultats solo de joueurs en particulier</li>",
-			"link": "https://projects.nicolastem.fr/myelo",
+			"link": "https://myelo2014.chypriote.com",
 			"git": "https://github.com/chypriote/myelo",
 			"skills": [
 				"html5",
@@ -464,7 +464,7 @@
 			"name": "Easy Elo Boost v3",
 			"img": "easyboost.jpg",
 			"subtitle": "Réalisation du site",
-			"link": "https://projects.nicolastem.fr/elo-boost-v3/",
+			"link": "",
 			"description": "Easy Elo Boost est un site proposant des services aux joueurs de League of Legends. Le projet a été mis en place par un groupe d'amis et moi, et je me suis chargé de la réalisation du site web.<br>Les premières versions du site étaient peu évoluées, contenant un simple backend en PHP, servant un site statique en HTML. Cette troisième version m'a permis d'intégrer le framework <strong>Bootstrap</strong>,  de proposer un site en une seule page et d'intégrer une vraie base de données en backend.",
 			"role": "Je me suis chargé de la création et de l'intégration de l'ensemble du design et des fonctionalités. Le design reprend un template Bootstrap \"classique\", en y ajoutant plusieurs plugins spécifiques à nos besoins :<ul><li>Calcul des prix</li><li>Galerie d'images</li><li>Carrousel de texte</li><li>Paiement via Paypal</li></ul>Le projet a maintenant été abandonné et le site n'est plus maintenu à jour.",
 			"git": "",

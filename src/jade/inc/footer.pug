@@ -2,10 +2,9 @@
 	a(href="#home", title="#{static.backToTop}")
 		i.fa.fa-2x.fa-angle-up
 script(src='/assets/js/main.min.js')
+script(src="https://www.googletagmanager.com/gtag/js?id=UA-43723492-3" async)
 script.
-	!function(n,i,c,o,l,a,s){n.GoogleAnalyticsObject=c;n[c]||(n[c]=function(){
-	(n[c].q=n[c].q||[]).push(arguments)});n[c].l=+new Date;a=i.createElement(o);
-	s=i.getElementsByTagName(o)[0];a.src=l;s.parentNode.insertBefore(a,s)}
-	(window,document,'ga','script','//www.google-analytics.com/analytics.js');
-	ga('create', 'UA-43723492-3', 'nicolastem.fr');
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-43723492-3');

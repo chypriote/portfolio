@@ -55,7 +55,11 @@ gulp.task('styles', function(){
 });
 
 gulp.task('scripts', function(){
-	return gulp.src(['src/scripts/jquery.js', 'src/scripts/unveil2.js', 'src/scripts/main.js'])
+	return gulp.src([
+			'node_modules/jquery/dist/jquery.js',
+			'node_modules/unveil2/dist/jquery.unveil2.min.js',
+			'src/scripts/main.js'
+		])
 		.pipe(g.plumber({
 			errorHandler: function (error) {
 				console.log(error.message);

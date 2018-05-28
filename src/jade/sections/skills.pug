@@ -11,7 +11,7 @@ mixin skill(skill)
 				p #{skill.description}
 				.skills-footer
 					if skill.link
-						a.link(href=skill.link title="#{skill.name}" target="_blank") #{skill.shortlink}
+						a.link(href=skill.link title="#{skill.name}" target="_blank" rel="noopener") #{skill.shortlink}
 
 -var str = static.sections.skills
 
