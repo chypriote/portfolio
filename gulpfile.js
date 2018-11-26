@@ -20,7 +20,7 @@ gulp.task('reload', function () {
 });
 
 gulp.task('jade', function(){
-	gulp.src(['src/jade/index.pug'])
+	return gulp.src(['src/jade/index.pug'])
 		.pipe(g.data(function(){
 			return require('./src/jade/strings/fr.json');
 		}))
@@ -30,7 +30,7 @@ gulp.task('jade', function(){
 });
 
 gulp.task('inter', function(){
-	gulp.src(['src/jade/index.pug'])
+	return gulp.src(['src/jade/index.pug'])
 		.pipe(g.data(function(){
 			return require('./src/jade/strings/en.json');
 		}))
@@ -40,7 +40,7 @@ gulp.task('inter', function(){
 });
 
 gulp.task('styles', function(){
-	gulp.src(['src/less/main.less'])
+	return gulp.src(['src/less/main.less'])
 		.pipe(g.plumber({
 			errorHandler: function (error) {
 				console.log(error.message);
@@ -85,27 +85,23 @@ gulp.task('images', function(){
 });
 
 gulp.task('copy', function(){
-	gulp.src('src/fonts/*')
+	return gulp.src('src/fonts/*')
 		.pipe(gulp.dest('public/assets/fonts'))
 		.pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('clean', function() {
-    clean(['public/**/*', '!public']);
+    return clean(['public/**/*', '!public']);
 });
 
-gulp.task('build', function() {
-	runSequence(['styles', 'scripts', 'copy', 'images', 'jade', 'inter']);
-});
+gulp.task('build', gulp.parallel('styles', 'scripts', 'copy', 'images', 'jade', 'inter'));
 
 gulp.task('watch', function(){
-	gulp.watch('src/less/**/*.less', ['styles']);
-	gulp.watch('src/scripts/**/*.js', ['scripts']);
-	gulp.watch('src/images/**/*', ['images']);
-	gulp.watch('src/jade/**/*.pug', ['jade', 'inter']);
-	gulp.watch('src/jade/strings/**/*.json', ['jade', 'inter']);
+	gulp.watch('src/less/**/*.less', gulp.series('styles'));
+	gulp.watch('src/scripts/**/*.js', gulp.series('scripts'));
+	gulp.watch('src/images/**/*', gulp.series('images'));
+	gulp.watch('src/jade/**/*.pug', gulp.series('jade', 'inter'));
+	gulp.watch('src/jade/strings/**/*.json', gulp.series('jade', 'inter'));
 });
 
-gulp.task('default', ['build', 'watch', 'serve'], function(){
-
-});
+gulp.task('default', gulp.series('build', gulp.parallel('watch', 'serve')));
