@@ -75,7 +75,7 @@
 		{
 			"title": "SmartAngels",
 			"time": "2016",
-			"subtitle": "Juillet 2016 - Aujourd'hui",
+			"subtitle": "Juillet 2016 - Novembre 2018",
 			"text": "Développement en AngularJS et Symfony 2 pour contribuer aux mises à jour de fonctionalités existantes et à l'élaboration de nouvelles fonctionalités sur la plateforme SmartAngels.\nMigration de Symfony 2 vers 3.4 puis 4, migration de Angular 1.x à Angular 5.",
 			"logo": "smartangels.png"
 		},
@@ -154,6 +154,25 @@
 			]
 		},
 		{
+			"name": "LoLPros.GG v2",
+			"img": "lolprosgg.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Après avoir annoncé la sortie de LoLProsGG, et son expansion de la France aux autres régions européennes, j'ai commencé à travailler sur une nouvelle version utilisant des technologies plus récentes, afin de continuer à faire évoluer la plateforme. La nouvelle application est complètement décoréllée de l'API, et réalisée entièrement avec Vue.JS. Un panneau d'administration, lui aussi décorellé de l'API a aussi été réalisé avec Vue.JS. L'API a elle été revue, afin d'utiliser ElasticSearch pour faciliter la recherche et l'indexation des statistiques sur les joueurs.",
+			"role": "Création du nouvelle application afin d'améliorer son fonctionnement:<br><ul><li>API REST avec Symfony 3</li><li>Application frontend entièrement en VueJS</li><li>Panel d'administration séparé</li><li>Utilisation d'un styleguide personnalisé basé sur Milligram</li><li>Indexation par ElasticSearch</li></ul><br>Cette nouvelle version sera mise en ligne en 2019.",
+			"link": "http://lolpros.gg",
+			"git": "https://github.com/SpireGG/vue-gg",
+			"skills": [
+				"html5",
+				"css3",
+				"symfony",
+				"vue",
+				"mysql",
+				"postcss",
+				"elasticsearch",
+				"webpack"
+			]
+		},
+		{
 			"name": "DailyAngels",
 			"img": "dailyangels.jpg",
 			"subtitle": "Création et réalisation du site",
@@ -170,13 +189,13 @@
 			]
 		},
 		{
-			"name": "France of Legends 2",
+			"name": "LoLPros.GG",
 			"img": "franceoflegends2.jpg",
 			"subtitle": "Création et réalisation du site",
-			"description": "Ce projet est la deuxième version du site France of Legends, encore en cours de construction. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant VueJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
-			"role": "Création de l'applciation from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec des composants VueJS</li><li>Utilisation d'un styleguide personnalisé basé sur Shoelace.css</li><li>Compilation des assets avec Webpack</li></ul>",
-			"link": "http://chypriote.com",
-			"git": "https://github.com/chypriote/france-v2",
+			"description": "Ce projet est la deuxième version du site France of Legends, devenu LoLPros.GG. Il est consituté d'une API REST utilisant Symfony 3, d'une application front utilisant AureliaJS, ainsi que d'un panel d'administration utilisant VueJS. L'objectif était de se familiariser avec les concepts du Web récent, notamment Redux et l'utilisation de composants en front, tout en proposant une version améliorée du précédent site.",
+			"role": "Création de l'application from-scratch en respectant un maximum de 'good practices' du web.<br><ul><li>API REST avec Symfony 3</li><li>Panel d'administration avec VueJS et Redux (Vuex)</li><li>Application frontend avec AureliaJS</li><li>Utilisation d'un styleguide personnalisé basé sur Milligram</li><li>Compilation des assets avec Webpack</li></ul><br>La première version de ce site devrait être mise en ligne en 2018.",
+			"link": "http://lolpros.gg",
+			"git": "https://github.com/SpireGG/france-v2",
 			"skills": [
 				"html5",
 				"css3",
@@ -185,6 +204,62 @@
 				"mysql",
 				"sass",
 				"webpack"
+			]
+		},
+		{
+			"name": "Summoner Lookup",
+			"img": "findlolpros.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Petit outil développé avec Vue.JS et permettant un utilisateur de retrouver un joueur sur League of Legends en ne connaissant que son nom ou son ID. Le but était de créé un projet réutilisant les composants mis en place pour LoLProsGG: le styleguide et l'API Rest.",
+			"role": "<ul><li>Utilisation de l'API LoLProsGG</li><li>Réalisée avec Vue.JS<li>Utilisation du styleguide LoLProsGG</li></ul>",
+			"link": "https://find.lolpros.gg",
+			"git": "https://github.com/SpireGG/summoner-lookup",
+			"skills": [
+				"html5",
+				"css3",
+				"vue",
+				"postcss",
+				"webpack"
+			]
+		},
+		{
+			"name": "Statify",
+			"img": "statify.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Application utilisant l'API Spotify, et permettant à un utilisateur de consulter ses chansons et artistes les plus écoutés sur Spotify.",
+			"role": "<ul><li>Connection à Spotify en OAuth2</li><li>Stockage des utilisateurs dans une base MongoDB</li><li>Style personnalisé</li></ul>",
+			"link": "http://statify.chypriote.com",
+			"git": "https://github.com/chypriote/statify",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"express",
+				"mongodb",
+				"postcss",
+				"jade",
+				"gulp"
+			]
+		},
+		{
+			"name": "Bookmarker",
+			"img": "bookmarker.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Ce site est un projet personnel servant d'annuaire de liens. L'objectif est de proposer une liste complète de liens vers des frameworks et outils liés au développement.",
+			"role": "Premier projet que j'ai réalisé en utilisant NodeJS. L'application fonctionne majoritairement en back grâce au framework ExpressJS en version 4. Le frontend utilise des templates Jade/Pug, ainsi que le framework CSS SemanticUI.<br><ul><li>Application back utilisant NodeJS et ExpressJS</li><li>Templates Jade en frontend</li><li>Style et composants via Semantic UI</li><li>Base de données MongoDB avec Mongoose</li><li>Phase de compilation avec Gulp</li>",
+			"link": "http://bookmarker.chypriote.com/",
+			"git": "https://github.com/chypriote/bookmarker",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"express",
+				"mongodb",
+				"jquery",
+				"jade",
+				"semanticui",
+				"less",
+				"gulp"
 			]
 		},
 		{
@@ -203,27 +278,6 @@
 				"aurelia",
 				"mysql",
 				"milligram",
-				"less",
-				"gulp"
-			]
-		},
-		{
-			"name": "Bookmarker",
-			"img": "bookmarker.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "Ce site est un projet personnel servant d'annuaire de liens. L'objectif est de proposer une liste complète de liens vers des frameworks et outils liés au développement.",
-			"role": "Premier projet que j'ai réalisé en utilisant NodeJS. L'application fonctionne majoritairement en back grâce au framework ExpressJS en version 4. Le frontend utilise des templates Jade/Pug, ainsi que le framework CSS SemanticUI.<br><ul><li>Application back utilisant NodeJS et ExpressJS</li><li>Templates Jade en frontend</li><li>Style et composants via Semantic UI</li><li>Base de données MongoDB avec Mongoose</li><li>Phase de compilation avec Gulp</li>",
-			"link": "",
-			"git": "https://github.com/chypriote/bookmarker",
-			"skills": [
-				"html5",
-				"css3",
-				"nodejs",
-				"express",
-				"mongodb",
-				"jquery",
-				"jade",
-				"semanticui",
 				"less",
 				"gulp"
 			]
@@ -264,6 +318,22 @@
 				"browserify",
 				"git",
 				"karma"
+			]
+		},
+		{
+			"name": "Concerts",
+			"img": "concerts.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "Petit site sous forme de blog réalisé pour garder un historique des concerts auxquels je suis allé.",
+			"role": "<ul><li>Réalisation avec Jekyll</li><li>Ajout des articles via des templates en Markdown</li><li>Phase de compilation avec Gulp</li>",
+			"link": "http://concerts.chypriote.com/",
+			"git": "https://github.com/chypriote/concerts",
+			"skills": [
+				"html5",
+				"css3",
+				"jekyll",
+				"sass",
+				"gulp"
 			]
 		},
 		{
@@ -664,6 +734,14 @@
 					"name": "Préprocesseurs CSS",
 					"values": [
 						{
+							"name": "PostCSS",
+							"image": "postcss.svg",
+							"description": "Préprocesseur CSS",
+							"link": "https://postcss.org/",
+							"shortlink": "postcss.org",
+							"level": 4
+						},
+						{
 							"name": "less",
 							"image": "less.svg",
 							"description": "Préprocesseur CSS",
@@ -684,6 +762,14 @@
 				{
 					"name": "Frameworks/Librairies JS",
 					"values": [
+						{
+							"name": "Vue.js",
+							"image": "vue.svg",
+							"description": "Composants réactifs pour interfaces Web",
+							"link": "http://vuejs.org/",
+							"shortlink": "vuejs.org",
+							"level": 5
+						},
 						{
 							"name": "AngularJS",
 							"image": "angular.svg",
@@ -707,14 +793,6 @@
 							"link": "https://aurelia.io/",
 							"shortlink": "aurelia.io",
 							"level": 4
-						},
-						{
-							"name": "Vue.js",
-							"image": "vue.svg",
-							"description": "Composants réactifs pour interfaces Web",
-							"link": "http://vuejs.org/",
-							"shortlink": "vuejs.org",
-							"level": 3
 						},
 						{
 							"name": "Underscore",
@@ -860,7 +938,7 @@
 						{
 							"name": "Symfony",
 							"image": "symfony.svg",
-							"description": "Framework PHP",
+							"description": "Framework PHP - version 2, 3 & 4",
 							"link": "https://symfony.com/",
 							"shortlink": "symfony.com",
 							"level": 4
@@ -951,6 +1029,14 @@
 							"link": "https://git-scm.com/",
 							"shortlink": "git-scm.com",
 							"level": 4
+						},
+						{
+							"name": "ElasticSearch",
+							"image": "elasticsearch.svg",
+							"description": "Recherche et analyse de données",
+							"link": "https://www.elastic.co/",
+							"shortlink": "elastic.co",
+							"level": 3
 						},
 						{
 							"name": "Travis-CI",
