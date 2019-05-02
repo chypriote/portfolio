@@ -1055,12 +1055,12 @@
 							"level": 3
 						},
 						{
-							"name": "Vagrant",
-							"image": "vagrant.svg",
-							"description": "Development environments",
-							"link": "https://www.vagrantup.com/",
-							"shortlink": "vagrantup.com",
-							"level": 2
+							"name": "RabbitMQ",
+							"image": "rabbitmq.svg",
+							"description": "Message broker",
+							"link": "https://www.rabbitmq.com/",
+							"shortlink": "rabbitmq.com",
+							"level": 3
 						},
 						{
 							"name": "KarmaJS",
