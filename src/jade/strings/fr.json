@@ -73,6 +73,20 @@
 	],
 	"jobs": [
 		{
+			"title": "LegalPlace",
+			"time": "2019",
+			"subtitle": "Aout 2019 - Décembre 2019",
+			"text": "Développement d'outils internes type Dashboard avec React, NodeJS et Typescript.\nPrise de décisions techniques, répartition et planification des tâches.\nMise à jour de fonctionnalités existantes et maintenances sur la plateforme Legalplace.fr\nMise en place de best-practices. Intégration et déploiement continu.\nLead sur le développement de fonctionnalités à forte valeur ajoutée (solutions de paiement, génération de PDF pré-remplis)",
+			"logo": "legalplace.jpg"
+		},
+		{
+			"title": "aAa Gaming",
+			"time": "2019",
+			"subtitle": "Janvier 2019 - Décembre 2019",
+			"text": "Manager d'une équipe professionnelle sur le jeu League of Legends.\nOrganisation du planning hebdomadaire et du calendrier de l'équipe.\nGestion des déplacements des joueurs et du staff pour participer à des événements dans toute la France.\nContact principal pour les équipes extérieurs et organisateurs d’événements.",
+			"logo": "aaa.jpg"
+		},
+		{
 			"title": "SmartAngels",
 			"time": "2016",
 			"subtitle": "Juillet 2016 - Novembre 2018",
@@ -128,6 +142,27 @@
 		}
 	],
 	"projects": [
+		{
+			"name": "LegalPlace",
+			"img": "legalplace.jpg",
+			"subtitle": "Outils et maintenance",
+			"description": "",
+			"role": "",
+			"link": "http://legalplce.fr/",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"nodejs",
+				"express",
+				"react",
+				"sass",
+				"mysql",
+				"webpack",
+				"docker"
+			]
+		},
 		{
 			"name": "SmartAngels",
 			"img": "smartangels.jpg",
@@ -760,6 +795,35 @@
 					]
 				},
 				{
+					"name": "Moteurs de templates",
+					"values": [
+						{
+							"name": "Twig",
+							"image": "twig.png",
+							"description": "Moteur de templates PHP",
+							"link": "http://twig.sensiolabs.org/",
+							"shortlink": "twig.sensiolabs.org",
+							"level": 4
+						},
+						{
+							"name": "Smarty",
+							"image": "smarty.png",
+							"description": "Moteur de templates PHP",
+							"link": "http://www.smarty.net/",
+							"shortlink": "smarty.net",
+							"level": 3
+						},
+						{
+							"name": "Jade/Pug",
+							"image": "pug.svg",
+							"description": "Moteur de templates HTML",
+							"link": "http://pugjs.org/",
+							"shortlink": "pugjs.org",
+							"level": 4
+						}
+					]
+				},
+				{
 					"name": "Frameworks/Librairies JS",
 					"values": [
 						{
@@ -769,6 +833,14 @@
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
 							"level": 5
+						},
+						{
+							"name": "React",
+							"image": "React.svg",
+							"description": "Composants réactifs pour interfaces Web",
+							"link": "https://reactjs.org/",
+							"shortlink": "reactjs.org",
+							"level": 3
 						},
 						{
 							"name": "AngularJS",
@@ -809,35 +881,6 @@
 							"link": "https://lodash.com/",
 							"shortlink": "lodash.com",
 							"level": 3
-						}
-					]
-				},
-				{
-					"name": "Moteurs de templates",
-					"values": [
-						{
-							"name": "Twig",
-							"image": "twig.png",
-							"description": "Moteur de templates PHP",
-							"link": "http://twig.sensiolabs.org/",
-							"shortlink": "twig.sensiolabs.org",
-							"level": 4
-						},
-						{
-							"name": "Smarty",
-							"image": "smarty.png",
-							"description": "Moteur de templates PHP",
-							"link": "http://www.smarty.net/",
-							"shortlink": "smarty.net",
-							"level": 3
-						},
-						{
-							"name": "Jade/Pug",
-							"image": "pug.svg",
-							"description": "Moteur de templates HTML",
-							"link": "http://pugjs.org/",
-							"shortlink": "pugjs.org",
-							"level": 4
 						}
 					]
 				}

@@ -73,6 +73,20 @@
 	],
 	"jobs": [
 		{
+			"title": "LegalPlace",
+			"time": "2019",
+			"subtitle": "August 2019 - December 2019",
+			"text": "Development of internal dashboards and tools, using React, NodeJS and Typescript.\nResponsible for technical decisions, planification and repartition of tasks.\nMaintenance, updates and development of new functionalities on the Legalplace.fr website\nIntegration of best-practices such as CI and CD.\nLeadership on high plus-value features (payment solutions, generation of automatically filled PDF documents)",
+			"logo": "legalplace.jpg"
+		},
+		{
+			"title": "aAa Gaming",
+			"time": "2019",
+			"subtitle": "January 2019 - December 2019",
+			"text": "Manager for a professional League of Legends team.\nIn charge of the weekly planning and calendar for the team.\nResponsible for organizing travels and accommodations for events all over France.\nMain point of contact for tournament officials, internal departments and other teams.",
+			"logo": "aaa.jpg"
+		},
+		{
 			"title": "SmartAngels",
 			"time": "2016",
 			"subtitle": "July 2016 - November 2018",
@@ -128,6 +142,27 @@
 		}
 	],
 	"projects": [
+		{
+			"name": "LegalPlace",
+			"img": "legalplace.jpg",
+			"subtitle": "Tools and updates",
+			"description": "",
+			"role": "",
+			"link": "http://legalplce.fr/",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"nodejs",
+				"express",
+				"react",
+				"sass",
+				"mysql",
+				"webpack",
+				"docker"
+			]
+		},
 		{
 			"name": "SmartAngels",
 			"img": "smartangels.jpg",
@@ -760,6 +795,35 @@
 					]
 				},
 				{
+					"name": "Templating engines",
+					"values": [
+						{
+							"name": "Twig",
+							"image": "twig.png",
+							"description": "PHP Templating engines",
+							"link": "http://twig.sensiolabs.org/",
+							"shortlink": "twig.sensiolabs.org",
+							"level": 4
+						},
+						{
+							"name": "Smarty",
+							"image": "smarty.png",
+							"description": "PHP Templating engines",
+							"link": "http://www.smarty.net/",
+							"shortlink": "smarty.net",
+							"level": 3
+						},
+						{
+							"name": "Jade/Pug",
+							"image": "pug.svg",
+							"description": "HTML Templating engines",
+							"link": "http://pugjs.org/",
+							"shortlink": "pugjs.org",
+							"level": 4
+						}
+					]
+				},
+				{
 					"name": "JS Frameworks/Libraries",
 					"values": [
 						{
@@ -769,6 +833,14 @@
 							"link": "http://vuejs.org/",
 							"shortlink": "vuejs.org",
 							"level": 5
+						},
+						{
+							"name": "React",
+							"image": "React.svg",
+							"description": "Composable MVVM for building interactive interfaces",
+							"link": "https://reactjs.org/",
+							"shortlink": "reactjs.org",
+							"level": 3
 						},
 						{
 							"name": "AngularJS",
@@ -809,35 +881,6 @@
 							"link": "https://lodash.com/",
 							"shortlink": "lodash.com",
 							"level": 3
-						}
-					]
-				},
-				{
-					"name": "Templating engines",
-					"values": [
-						{
-							"name": "Twig",
-							"image": "twig.png",
-							"description": "PHP Templating engines",
-							"link": "http://twig.sensiolabs.org/",
-							"shortlink": "twig.sensiolabs.org",
-							"level": 4
-						},
-						{
-							"name": "Smarty",
-							"image": "smarty.png",
-							"description": "PHP Templating engines",
-							"link": "http://www.smarty.net/",
-							"shortlink": "smarty.net",
-							"level": 3
-						},
-						{
-							"name": "Jade/Pug",
-							"image": "pug.svg",
-							"description": "HTML Templating engines",
-							"link": "http://pugjs.org/",
-							"shortlink": "pugjs.org",
-							"level": 4
 						}
 					]
 				}
