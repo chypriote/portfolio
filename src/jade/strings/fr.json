@@ -377,7 +377,7 @@
 			"subtitle": "Conception et Réalisation",
 			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
 			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
-			"link": "http://leagues.chypriote.com",
+			"link": "",
 			"git": "https://github.com/chypriote/national-teams",
 			"skills": [
 				"html5",
@@ -431,7 +431,7 @@
 			"subtitle": "Intégration",
 			"description": "<em>A venir</em>.",
 			"role": "Mission freelance pour Snapshift.<ul><li>Intégration from-scratch</li><li>Animations personnalisés</li></ul>",
-			"link": "https://www.snapshift.co",
+			"link": "",
 			"git": "https://github.com/chypriote/snapshift",
 			"skills": [
 				"html5",
@@ -476,23 +476,6 @@
 				"mysql",
 				"wordpress",
 				"jquery",
-				"bootstrap"
-			]
-		},
-		{
-			"name": "PonyShop",
-			"img": "ponyshop.jpg",
-			"subtitle": "Réalisation du site",
-			"description": "Dans le cadre du module Java à Epitech, il nous a été demandé de réaliser un site web servant à vendre un produit fictif. J'ai décidé de créer une boutique permettant l'achat de poneys, de toutes les formes et de toutes les couleurs.<br>Le site utilise la technologie <strong>JavaServer Pages</strong>, un serveur <strong>Tomcat</strong>, et communique avec une base de données <strong>SQLite</strong>.<br>En plus des fonctionnalités requises, j'ai aussi ajouté des fonctionnalités personnalisées: gestion du panier, filtrage par catégories, système de news. Le design a quant à lui été réalisé à l'aide d'un template <strong>Bootstrap</strong>.Utilisation de servlets, DAO factories, stockage SQLite.",
-			"role": "Ce projet m'a permis de me familiariser avec les technologies <strong>Java 2 Platform, Entreprise Edition</strong>, ainsi que de mettre en application plusieurs concepts de l'architecture MVC pour le web.<ul><li>Servlets Java</li><li>Data Access Objects factories</li></ul>",
-			"link": "",
-			"git": "https://github.com/chypriote/PonyShop",
-			"skills": [
-				"html5",
-				"css3",
-				"jquery",
-				"java",
-				"mysql",
 				"bootstrap"
 			]
 		},
