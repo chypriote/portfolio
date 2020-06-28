@@ -73,6 +73,13 @@
 	],
 	"jobs": [
 		{
+			"title": "Carizy",
+			"time": "2020",
+			"subtitle": "February 2020 - Today",
+			"text": "Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\nDevelopment of new functionalities and maintenance on the Renault Occasion website.\nIntegration of new third-party API and WebServices.",
+			"logo": "carizy.png"
+		},
+		{
 			"title": "LegalPlace",
 			"time": "2019",
 			"subtitle": "August 2019 - December 2019",
@@ -116,29 +123,6 @@
 			"text": "Developed an intranet website using PHP, in order to speed up the release and update of software applications, and allow logging.",
 			"icon": "fa-keyboard-o",
 			"logo": "psa.png"
-		},
-		{
-			"title": "F4",
-			"time": "2013",
-			"subtitle": "February 2013",
-			"text": "Set up a database for the F4-Map website.",
-			"logo": "f4.png"
-		},
-		{
-			"title": "PSA Peugeot Citroën",
-			"time": "2012",
-			"subtitle": "July 2012",
-			"logo": "psa.png",
-			"text": "Factory worker on the C3/DS3 assembly line.",
-			"icon": "fa-car"
-		},
-		{
-			"title": "SNCF",
-			"time": "2011",
-			"subtitle": "July 2011",
-			"logo": "sncf.png",
-			"text": "Maintenance and repair of pantographs on high speed trains.",
-			"icon": "fa-train"
 		}
 	],
 	"projects": [
@@ -238,22 +222,6 @@
 				"vue",
 				"mysql",
 				"sass",
-				"webpack"
-			]
-		},
-		{
-			"name": "Summoner Lookup",
-			"img": "findlolpros.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "Petit outil développé avec Vue.JS et permettant un utilisateur de retrouver un joueur sur League of Legends en ne connaissant que son nom ou son ID. Le but était de créé un projet réutilisant les composants mis en place pour LoLProsGG: le styleguide et l'API Rest.",
-			"role": "<ul><li>Utilisation de l'API LoLProsGG</li><li>Réalisée avec Vue.JS<li>Utilisation du styleguide LoLProsGG</li></ul>",
-			"link": "https://find.lolpros.gg",
-			"git": "https://github.com/SpireGG/summoner-lookup",
-			"skills": [
-				"html5",
-				"css3",
-				"vue",
-				"postcss",
 				"webpack"
 			]
 		},
@@ -497,24 +465,6 @@
 			]
 		},
 		{
-			"name": "Bookmarker v2",
-			"img": "bookmarker2.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "Deuxième version du site Bookmarker, l'objectif était d'en créer une version plus fluide et en accord avec le Web 2.0. L'application ExpressJS a été remplacée par une API REST construite avec AdonisJS. Le frontend est quand à lui construit en utilisant AureliaJS. Ce projet est encore en cours de réalisation.",
-			"role": "<ul><li>API REST avec AdonisJS</li><li>Application front avec AureliaJS</li><li>Style personnalisé en utilisant SASS</li><li>Compilation des assets via Webpack</li></ul>",
-			"link": "",
-			"git": "https://github.com/chypriote/bookmarker-v3",
-			"skills": [
-				"html5",
-				"css3",
-				"adonis",
-				"nodejs",
-				"aurelia",
-				"sass",
-				"webpack"
-			]
-		},
-		{
 			"name": "Observatoire des Territoires",
 			"img": "datar.jpg",
 			"subtitle": "Maintenance et évolution",
@@ -532,23 +482,6 @@
 			]
 		},
 		{
-			"name": "MiniLink",
-			"img": "minilink.jpg",
-			"subtitle": "Création",
-			"description": "Développement d'une application de raccourcissement d'url, en utilisant NodeJS et MongoDB.",
-			"role": "<ul><li>Backend NodeJS/ExpressJS</li><li>Frontend Milligram</li><li>Base de données MongoDB</li><li>Linting avec XO</li></ul>",
-			"link": "",
-			"git": "https://github.com/chypriote/url-shortener",
-			"skills": [
-				"html5",
-				"css3",
-				"nodejs",
-				"express",
-				"mongodb",
-				"milligram"
-			]
-		},
-		{
 			"name": "Easy Elo Boost v3",
 			"img": "easyboost.jpg",
 			"subtitle": "Réalisation du site",
@@ -563,19 +496,6 @@
 				"bootstrap",
 				"jquery",
 				"mysql"
-			]
-		},
-		{
-			"name": "EpiAndroid",
-			"img": "epiandroid.jpg",
-			"subtitle": "Application android",
-			"description": "EpiAndroid est une application <strong>Android</strong> développée dans le cadre du module Java d'Epitech. En groupe de trois, l'objectif était de communiquer avec l'API Epitech, afin de pouvoir récupérer les informations de l'intranet étudiant : informations sur un étudiant, modules et cours auxquels celui-ci est inscrit, affichage des notes, enregistrement à des modules.",
-			"role": "Sur ce projet, mon rêle a été de développer un service permettant d'effectuer les requêtes à l'API Epitech et de les retourner dans un format utilisable par le reste de l'application. J'ai pour cela utilisé le package <em>java.net</em>, et parser les retours avec le package Gson.<br>J'ai ensuite créé différentes classes pour chaque Objet utilisé par l'application, qui sont transmises en retour des requêtes.",
-			"link": "",
-			"git": "https://github.com/chypriote/EpiAndroid",
-			"skills": [
-				"java",
-				"android"
 			]
 		},
 		{
@@ -615,35 +535,6 @@
 	],
 	"skills": [
 		{
-			"name": "Programmation languages",
-			"values": [
-				{
-					"name": "C",
-					"image": "coriginal.svg",
-					"description": "",
-					"level": 4
-				},
-				{
-					"name": "C++",
-					"image": "cplusplus.svg",
-					"description": "",
-					"level": 3
-				},
-				{
-					"name": "Java",
-					"image": "java.svg",
-					"description": "",
-					"level": 3
-				},
-				{
-					"name": "C#",
-					"image": "csharp.svg",
-					"description": "",
-					"level": 1
-				}
-			]
-		},
-		{
 			"name": "Web - Front-end",
 			"subs": [
 				{
@@ -678,72 +569,11 @@
 							"level": 4
 						},
 						{
-							"name": "CoffeeScript",
-							"image": "coffeescript.svg",
-							"description": "Language compiled to JavaScript",
-							"link": "http://coffeescript.org/",
-							"shortlink": "coffeescript.org",
-							"level": 2
-						},
-						{
 							"name": "TypeScript",
 							"image": "typescript.svg",
 							"description": "Javascript superset",
 							"link": "http://www.typescriptlang.org/",
 							"shortlink": "typescriptlang.org",
-							"level": 3
-						}
-					]
-				},
-				{
-					"name": "CSS Frameworks",
-					"values": [
-						{
-							"name": "Bootstrap",
-							"image": "bootstrap.svg",
-							"description": "Complete responsive CSS framework",
-							"link": "http://getbootstrap.com/",
-							"shortlink": "getbootstrap.com",
-							"level": 5
-						},
-						{
-							"name": "Foundation",
-							"image": "foundation.svg",
-							"description": "Complete responsive CSS framework",
-							"link": "http://foundation.zurb.com/",
-							"shortlink": "foundation.zurb.com",
-							"level": 4
-						},
-						{
-							"name": "Semantic UI",
-							"image": "semanticui.svg",
-							"description": "Semantic responsive CSS framework",
-							"link": "http://semantic-ui.com/",
-							"shortlink": "semantic-ui.com",
-							"level": 3
-						},
-						{
-							"//name": "Bulma",
-							"//image": "bulma.png",
-							"//description": "Framework CSS basé sur Flexbox",
-							"//link": "http://bulma.io/",
-							"//shortlink": "bulma.io",
-							"//level": 3
-						},
-						{
-							"name": "Blaze",
-							"image": "blazecss.png",
-							"description": "Modular CSS Framework",
-							"link": "http://blazecss.com/",
-							"shortlink": "blazecss.com",
-							"level": 2
-						},
-						{
-							"name": "Milligram",
-							"image": "milligram.svg",
-							"description": "Minimalist CSS Framework",
-							"link": "http://milligram.github.io/",
-							"shortlink": "milligram.gh.io",
 							"level": 3
 						}
 					]
@@ -789,14 +619,6 @@
 							"level": 4
 						},
 						{
-							"name": "Smarty",
-							"image": "smarty.png",
-							"description": "PHP Templating engines",
-							"link": "http://www.smarty.net/",
-							"shortlink": "smarty.net",
-							"level": 3
-						},
-						{
 							"name": "Jade/Pug",
 							"image": "pug.svg",
 							"description": "HTML Templating engines",
@@ -840,30 +662,6 @@
 							"link": "http://jquery.com/",
 							"shortlink": "jquery.com",
 							"level": 5
-						},
-						{
-							"name": "Aurelia",
-							"image": "aurelia.svg",
-							"description": "Dynamic web applications",
-							"link": "https://aurelia.io/",
-							"shortlink": "aurelia.io",
-							"level": 3
-						},
-						{
-							"name": "Underscore",
-							"image": "underscore.png",
-							"description": "A JavaScript utility library",
-							"link": "http://underscorejs.org/",
-							"shortlink": "underscorejs.org",
-							"level": 3
-						},
-						{
-							"name": "Lodash",
-							"image": "lodash.svg",
-							"description": "A JavaScript utility library",
-							"link": "https://lodash.com/",
-							"shortlink": "lodash.com",
-							"level": 3
 						}
 					]
 				}
@@ -978,22 +776,6 @@
 							"level": 3
 						},
 						{
-							"name": "Slim",
-							"image": "slimphp.png",
-							"description": "PHP micro framework",
-							"link": "http://www.slimframework.com/",
-							"shortlink": "slimframework.com",
-							"level": 3
-						},
-						{
-							"name": "Laravel",
-							"image": "laravel.svg",
-							"description": "PHP Framework",
-							"link": "https://laravel.com/",
-							"shortlink": "laravel.com",
-							"level": 3
-						},
-						{
 							"name": "AdonisJS",
 							"image": "adonis.svg",
 							"description": "Framework for web applications",
@@ -1008,43 +790,6 @@
 		{
 			"name": "Tools",
 			"subs": [
-				{
-					"name": "Task-runners/Bundlers",
-					"values": [
-						{
-							"name": "Gulp",
-							"image": "gulp.svg",
-							"description": "Task runner",
-							"link": "http://gulpjs.com/",
-							"shortlink": "gulpjs.com",
-							"level": 4
-						},
-						{
-							"name": "Browserify",
-							"image": "browserify.svg",
-							"description": "JS modules and dependencies bundler",
-							"link": "http://browserify.org/",
-							"shortlink": "browserify.org",
-							"level": 3
-						},
-						{
-							"name": "Grunt",
-							"image": "grunt.svg",
-							"description": "Task runner",
-							"link": "http://gruntjs.com/",
-							"shortlink": "gruntjs.com",
-							"level": 3
-						},
-						{
-							"name": "Webpack",
-							"image": "webpack.svg",
-							"description": "JS modules and dependencies bundler",
-							"link": "https://webpack.github.io/",
-							"shortlink": "webpack.gh.io",
-							"level": 3
-						}
-					]
-				},
 				{
 					"name": "Others",
 					"values": [
