@@ -18,7 +18,7 @@
 			},
 			"projects": {
 				"title": "Projets",
-                "subtitle": "Cliquez sur une image pour obtenir plus d'infos",
+		                "subtitle": "Cliquez sur une image pour obtenir plus d'infos",
 				"more": "Voir plus",
 				"github": "Projet sur GitHub",
 				"site": " Voir le site",
@@ -641,7 +641,7 @@
 						},
 						{
 							"name": "React",
-							"image": "React.svg",
+							"image": "react.svg",
 							"description": "Composants réactifs pour interfaces Web",
 							"link": "https://reactjs.org/",
 							"shortlink": "reactjs.org",

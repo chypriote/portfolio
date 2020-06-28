@@ -641,7 +641,7 @@
 						},
 						{
 							"name": "React",
-							"image": "React.svg",
+							"image": "react.svg",
 							"description": "Composable MVVM for building interactive interfaces",
 							"link": "https://reactjs.org/",
 							"shortlink": "reactjs.org",
