@@ -127,20 +127,40 @@
 	],
 	"projects": [
 		{
+			"name": "Carizy",
+			"img": "carizy.jpg",
+			"subtitle": "Development and maintenance",
+			"description": "Carizy ",
+			"role": "",
+			"link": "http://carizy.fr/",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"symfony",
+				"graphql",
+				"vue",
+				"nuxt",
+				"mysql",
+				"docker"
+			]
+		},
+		{
 			"name": "LegalPlace",
 			"img": "legalplace.jpg",
 			"subtitle": "Tools and updates",
 			"description": "",
 			"role": "",
-			"link": "http://legalplce.fr/",
+			"link": "http://legalplace.fr/",
 			"git": "",
 			"skills": [
 				"html5",
 				"css3",
 				"nodejs",
-				"nodejs",
 				"express",
 				"react",
+				"typescript",
 				"sass",
 				"mysql",
 				"webpack",
@@ -266,26 +286,6 @@
 			]
 		},
 		{
-			"name": "France of Legends",
-			"img": "teamelo.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "",
-			"role": "",
-			"link": "",
-			"git": "https://github.com/chypriote/DailyAngels",
-			"skills": [
-				"html5",
-				"css3",
-				"laravel",
-				"typescript",
-				"aurelia",
-				"mysql",
-				"milligram",
-				"less",
-				"gulp"
-			]
-		},
-		{
 			"name": "Les Talens Lyriques",
 			"img": "ltl.jpg",
 			"subtitle": "Nouvelle version du site",
@@ -340,25 +340,6 @@
 			]
 		},
 		{
-			"name": "National Teams",
-			"img": "nationalteams.jpg",
-			"subtitle": "Conception et Réalisation",
-			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
-			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
-			"link": "http://leagues.chypriote.com",
-			"git": "https://github.com/chypriote/national-teams",
-			"skills": [
-				"html5",
-				"css3",
-				"nodejs",
-				"jade",
-				"sass",
-				"gulp",
-				"git",
-				"mongodb"
-			]
-		},
-		{
 			"name": "Boutique de la Comédie Française",
 			"img": "comedie-francaise.jpg",
 			"subtitle": "Maintenance et évolution",
@@ -409,6 +390,45 @@
 				"jade",
 				"jquery",
 				"git"
+			]
+		},
+		{
+			"name": "France of Legends",
+			"img": "teamelo.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "",
+			"role": "",
+			"link": "",
+			"git": "https://github.com/chypriote/DailyAngels",
+			"skills": [
+				"html5",
+				"css3",
+				"laravel",
+				"typescript",
+				"aurelia",
+				"mysql",
+				"milligram",
+				"less",
+				"gulp"
+			]
+		},
+		{
+			"name": "National Teams",
+			"img": "nationalteams.jpg",
+			"subtitle": "Conception et Réalisation",
+			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
+			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
+			"link": "http://leagues.chypriote.com",
+			"git": "https://github.com/chypriote/national-teams",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"jade",
+				"sass",
+				"gulp",
+				"git",
+				"mongodb"
 			]
 		},
 		{

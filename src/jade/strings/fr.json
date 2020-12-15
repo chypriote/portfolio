@@ -127,20 +127,40 @@
 	],
 	"projects": [
 		{
+			"name": "Carizy",
+			"img": "carizy.jpg",
+			"subtitle": "Dévelopement et maintenance",
+			"description": "Carizy ",
+			"role": "",
+			"link": "http://carizy.fr/",
+			"git": "",
+			"skills": [
+				"html5",
+				"css3",
+				"php",
+				"symfony",
+				"graphql",
+				"vue",
+				"nuxt",
+				"mysql",
+				"docker"
+			]
+		},
+		{
 			"name": "LegalPlace",
 			"img": "legalplace.jpg",
 			"subtitle": "Outils et maintenance",
-			"description": "",
-			"role": "",
-			"link": "http://legalplce.fr/",
+			"description": "LegalPlace est une solution permettant de simplifier et digitaliser les démarches juridiques. De la création d'entreprise au renouvellement de carte grise en passant par la comptabilité.",
+			"role": "Lead developer sur des outils internes type CRM développés en React et NodeJS avec Typescript. Implémentation d'une solution de paiement en 3 fois sur des parcours à forte valeur ajoutée. Développement d'une solution de génération de PDF basée sur des FaaS (Lambda).",
+			"link": "http://legalplace.fr/",
 			"git": "",
 			"skills": [
 				"html5",
 				"css3",
 				"nodejs",
-				"nodejs",
 				"express",
 				"react",
+				"typescript",
 				"sass",
 				"mysql",
 				"webpack",
@@ -231,7 +251,7 @@
 			"subtitle": "Création et réalisation du site",
 			"description": "Application utilisant l'API Spotify, et permettant à un utilisateur de consulter ses chansons et artistes les plus écoutés sur Spotify.",
 			"role": "<ul><li>Connection à Spotify en OAuth2</li><li>Stockage des utilisateurs dans une base MongoDB</li><li>Style personnalisé</li></ul>",
-			"link": "http://statify.chypriote.com",
+			"link": "",
 			"git": "https://github.com/chypriote/statify",
 			"skills": [
 				"html5",
@@ -261,26 +281,6 @@
 				"jquery",
 				"jade",
 				"semanticui",
-				"less",
-				"gulp"
-			]
-		},
-		{
-			"name": "France of Legends",
-			"img": "teamelo.jpg",
-			"subtitle": "Création et réalisation du site",
-			"description": "France of Legends est une base de données recensant les joueurs francophone de League of Legends. Il permet de classer ceux-ci par rôle, et est mis à jour automatiquement via une intégration à l'API développée par Riot Games. Les joueurs sont aussi associés à une équipe, ce qui permet d'établir rapidement quels sont les joueurs disponibles sur le marché des transferts.",
-			"role": "Ce projet m'a permis de découvrir de nouvelles technologies: il a été réalisé en utilisant Laravel pour le backend, et AureliaJS en utilisant TypeScript pour le frontend. Il est constitué d'une API rest gérant la base de données, et d'une application front entièrement décorélée.<br><ul><li>API REST utilisant Laravel 5</li><li>Application front en AureliaJS et TypeScript<li>Framework Milligram et LESS pour le style</li></ul>",
-			"link": "",
-			"git": "https://github.com/chypriote/DailyAngels",
-			"skills": [
-				"html5",
-				"css3",
-				"laravel",
-				"typescript",
-				"aurelia",
-				"mysql",
-				"milligram",
 				"less",
 				"gulp"
 			]
@@ -337,25 +337,6 @@
 				"jekyll",
 				"sass",
 				"gulp"
-			]
-		},
-		{
-			"name": "National Teams",
-			"img": "nationalteams.jpg",
-			"subtitle": "Conception et Réalisation",
-			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
-			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
-			"link": "",
-			"git": "https://github.com/chypriote/national-teams",
-			"skills": [
-				"html5",
-				"css3",
-				"nodejs",
-				"jade",
-				"sass",
-				"gulp",
-				"git",
-				"mongodb"
 			]
 		},
 		{
@@ -426,6 +407,45 @@
 				"php",
 				"mysql",
 				"bootstrap"
+			]
+		},
+		{
+			"name": "France of Legends",
+			"img": "teamelo.jpg",
+			"subtitle": "Création et réalisation du site",
+			"description": "France of Legends est une base de données recensant les joueurs francophone de League of Legends. Il permet de classer ceux-ci par rôle, et est mis à jour automatiquement via une intégration à l'API développée par Riot Games. Les joueurs sont aussi associés à une équipe, ce qui permet d'établir rapidement quels sont les joueurs disponibles sur le marché des transferts.",
+			"role": "Ce projet m'a permis de découvrir de nouvelles technologies: il a été réalisé en utilisant Laravel pour le backend, et AureliaJS en utilisant TypeScript pour le frontend. Il est constitué d'une API rest gérant la base de données, et d'une application front entièrement décorélée.<br><ul><li>API REST utilisant Laravel 5</li><li>Application front en AureliaJS et TypeScript<li>Framework Milligram et LESS pour le style</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/DailyAngels",
+			"skills": [
+				"html5",
+				"css3",
+				"laravel",
+				"typescript",
+				"aurelia",
+				"mysql",
+				"milligram",
+				"less",
+				"gulp"
+			]
+		},
+		{
+			"name": "National Teams",
+			"img": "nationalteams.jpg",
+			"subtitle": "Conception et Réalisation",
+			"description": "Petit projet de création d'un site pour recenser les équipes nationales sur League of Legends. Application CRUD réalisée en un week end, utilisant NodeJS, Express et MongoDB. L'objectif de ce projet était de passer le plus rapidement du dev à la production, tout en créant un outil réutilisable.",
+			"role": "<li>Backend NodeJS avec ExpressJS</li><li>Bootstrap et SASS pour le front</li><li>Connexion via Twitter</li></ul>",
+			"link": "",
+			"git": "https://github.com/chypriote/national-teams",
+			"skills": [
+				"html5",
+				"css3",
+				"nodejs",
+				"jade",
+				"sass",
+				"gulp",
+				"git",
+				"mongodb"
 			]
 		},
 		{
