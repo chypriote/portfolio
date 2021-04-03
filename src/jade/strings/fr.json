@@ -1,3 +1,9 @@
+Développement sur le CRM et CMS Experience Hotel, solution de gestion de l'e-reputation pour les hotels.
+Utilisation des technologies Laravel, Vue.js, Inertia.js
+Migration de fonctionnalités legacy vers une nouvelle architecture moderne
+Développement de nouvelles fonctionnalités de gestion d'accès pour les utilisateurs
+Connection et récupération de données en provenance d'API externe et Property Management Systems
+
 {
 	"static": {
 		"title": "Nicolas Temenides",
