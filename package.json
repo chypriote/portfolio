@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/chypriote/portfolio#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27",
     "del": "^6.0",
     "gulp": "^4.0",
     "gulp-autoprefixer": "^7.0",
