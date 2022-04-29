@@ -73,9 +73,16 @@
 	],
 	"jobs": [
 		{
+			"title": "AssoConnect",
+			"time": "2021",
+			"subtitle": "January 2021 - Today",
+			"text": "Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\nDevelopment of new functionalities and maintenance on the Renault Occasion website.\nIntegration of new third-party API and WebServices.",
+			"logo": "assoconnect.png"
+		},
+		{
 			"title": "Carizy",
 			"time": "2020",
-			"subtitle": "February 2020 - Today",
+			"subtitle": "February 2020 - September 2020",
 			"text": "Development of internal tools and client funnels, using VueJs, NuxtJS and Symfony.\nDevelopment of new functionalities and maintenance on the Renault Occasion website.\nIntegration of new third-party API and WebServices.",
 			"logo": "carizy.png"
 		},

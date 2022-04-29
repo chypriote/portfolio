@@ -63,4 +63,4 @@ h2 #{str.title}
 								else
 									i.fa(class= job.icon)
 						.job-subtitle #{job.subtitle}
-						.job-desc #{job.text}
+						.job-desc !{job.text.replace(/\n/g, '<br/>')}

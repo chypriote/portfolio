@@ -73,9 +73,16 @@
 	],
 	"jobs": [
 		{
+			"title": "AssoConnect",
+			"time": "2021",
+			"subtitle": "Janvier 2021 - Aujourd'hui",
+			"text": "Développeur Backend sur Symfony au sein de la squad Comptabilité.\nMise en place d'un nouveau système de paiement (tips).\nAdaptation de l'application de comptabilité pour les Etats-Unis.",
+			"logo": "assoconnect.png"
+		},
+		{
 			"title": "Carizy",
 			"time": "2020",
-			"subtitle": "Février 2020 - Aujourd'hui",
+			"subtitle": "Février 2020 - Septembre 2020",
 			"text": "Développement de nouveaux parcours client avec Nuxt.js et Vue.js sur la plateforme Carizy.\nMises à jour et maintenance sur la plateforme Renault Entre Particuliers.\nDéveloppement de nouvelles fonctionnalités sur les outils backend Symfony de Carizy.",
 			"logo": "carizy.png"
 		},
