@@ -73,9 +73,23 @@
 	],
 	"jobs": [
 		{
+			"title": "NRJ",
+			"time": "2023",
+			"subtitle": "Septembre 2023 - Aujourd'hui",
+			"text": "Développeur FullStack sur Symfony et React.js.\nMaintenance et améliorations sur les sites des radios NRJ, CherieFM, Nostalgie et Rires & Chansons.\nTravail de fond sur les problématiques de cache et de SEO.",
+			"logo": "nrj.png"
+		},
+		{
+			"title": "L'Etudiant",
+			"time": "2022",
+			"subtitle": "Septembre 2022 - Aout 2023",
+			"text": "Développeur FullStack sur Symfony et Vue.js.\nRefonte des Tests, Quiz et Jeux Concours.",
+			"logo": "letudiant.png"
+		},
+		{
 			"title": "AssoConnect",
 			"time": "2021",
-			"subtitle": "Janvier 2021 - Aujourd'hui",
+			"subtitle": "Janvier 2021 - Juillet 2022",
 			"text": "Développeur Backend sur Symfony au sein de la squad Comptabilité.\nMise en place d'un nouveau système de paiement (tips).\nAdaptation de l'application de comptabilité pour les Etats-Unis.",
 			"logo": "assoconnect.png"
 		},
